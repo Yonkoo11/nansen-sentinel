@@ -11,7 +11,44 @@
       "net_usd": -20082659,
       "long_traders": 1,
       "short_traders": 4,
-      "bias": "SHORT"
+      "bias": "SHORT",
+      "top_trades": [
+        {
+          "label": "\ud83e\udd13 \ud83d\udc64 58bro [0x418aa6]",
+          "side": "Short",
+          "action": "Reduce",
+          "value_usd": 2847907,
+          "timestamp": "2026-04-01T20:04:01"
+        },
+        {
+          "label": "\ud83e\udd13 \ud83d\udc64 58bro [0x418aa6]",
+          "side": "Short",
+          "action": "Reduce",
+          "value_usd": 1457551,
+          "timestamp": "2026-04-01T20:04:01"
+        },
+        {
+          "label": "\ud83e\udd13 Smart HL Perps Trader [0x06cecf]",
+          "side": "Short",
+          "action": "Reduce",
+          "value_usd": 1299790,
+          "timestamp": "2026-04-01T17:41:58"
+        },
+        {
+          "label": "\ud83e\udd13 Smart HL Perps Trader [0x35d115]",
+          "side": "Short",
+          "action": "Close",
+          "value_usd": 1208152,
+          "timestamp": "2026-04-01T21:03:29"
+        },
+        {
+          "label": "\ud83e\udd13 Smart HL Perps Trader [0x35d115]",
+          "side": "Short",
+          "action": "Reduce",
+          "value_usd": 1205513,
+          "timestamp": "2026-04-01T20:52:58"
+        }
+      ]
     },
     {
       "symbol": "xyz:BRENTOIL",
@@ -22,7 +59,44 @@
       "net_usd": 16436422,
       "long_traders": 2,
       "short_traders": 0,
-      "bias": "LONG"
+      "bias": "LONG",
+      "top_trades": [
+        {
+          "label": "\ud83e\udd13 Smart HL Perps Trader [0xcc1595]",
+          "side": "Long",
+          "action": "Reduce",
+          "value_usd": 1641188,
+          "timestamp": "2026-04-03T15:05:17"
+        },
+        {
+          "label": "\ud83e\udd13 Smart HL Perps Trader [0xcc1595]",
+          "side": "Long",
+          "action": "Add",
+          "value_usd": 1291666,
+          "timestamp": "2026-03-31T02:13:31"
+        },
+        {
+          "label": "\ud83e\udd13 Smart HL Perps Trader [0xcc1595]",
+          "side": "Long",
+          "action": "Reduce",
+          "value_usd": 1195016,
+          "timestamp": "2026-03-31T01:41:15"
+        },
+        {
+          "label": "\ud83e\udd13 Smart HL Perps Trader [0xcc1595]",
+          "side": "Long",
+          "action": "Open",
+          "value_usd": 804509,
+          "timestamp": "2026-03-31T02:12:08"
+        },
+        {
+          "label": "\ud83e\udd13 Smart HL Perps Trader [0x8bae35]",
+          "side": "Long",
+          "action": "Open",
+          "value_usd": 802179,
+          "timestamp": "2026-04-02T01:18:03"
+        }
+      ]
     },
     {
       "symbol": "ETH",
@@ -33,7 +107,44 @@
       "net_usd": -11156874,
       "long_traders": 2,
       "short_traders": 2,
-      "bias": "SHORT"
+      "bias": "SHORT",
+      "top_trades": [
+        {
+          "label": "\ud83e\udd13 Smart HL Perps Trader [0xcc1595]",
+          "side": "Short",
+          "action": "Add",
+          "value_usd": 1285353,
+          "timestamp": "2026-03-31T15:42:01"
+        },
+        {
+          "label": "\ud83e\udd13 Smart HL Perps Trader [0xcc1595]",
+          "side": "Short",
+          "action": "Add",
+          "value_usd": 861988,
+          "timestamp": "2026-04-05T17:54:52"
+        },
+        {
+          "label": "\ud83e\udd13 Smart HL Perps Trader [0xcc1595]",
+          "side": "Short",
+          "action": "Reduce",
+          "value_usd": 673128,
+          "timestamp": "2026-04-06T07:55:10"
+        },
+        {
+          "label": "\ud83e\udd13 Smart HL Perps Trader [0x35d115]",
+          "side": "Short",
+          "action": "Reduce",
+          "value_usd": 664454,
+          "timestamp": "2026-04-01T20:52:58"
+        },
+        {
+          "label": "\ud83e\udd13 Smart HL Perps Trader [0x35d115]",
+          "side": "Short",
+          "action": "Reduce",
+          "value_usd": 664365,
+          "timestamp": "2026-04-01T21:00:46"
+        }
+      ]
     },
     {
       "symbol": "xyz:CL",
@@ -44,7 +155,44 @@
       "net_usd": -6178985,
       "long_traders": 2,
       "short_traders": 3,
-      "bias": "SHORT"
+      "bias": "SHORT",
+      "top_trades": [
+        {
+          "label": "\ud83e\udd13 Smart HL Perps Trader [0xa92fb6]",
+          "side": "Short",
+          "action": "Close",
+          "value_usd": 1584450,
+          "timestamp": "2026-04-05T22:10:15"
+        },
+        {
+          "label": "\ud83e\udd13 Smart HL Perps Trader [0x71dfc0]",
+          "side": "Short",
+          "action": "Open",
+          "value_usd": 1086582,
+          "timestamp": "2026-04-06T10:24:24"
+        },
+        {
+          "label": "\ud83e\udd13 Smart HL Perps Trader [0x71dfc0]",
+          "side": "Short",
+          "action": "Open",
+          "value_usd": 742351,
+          "timestamp": "2026-04-06T10:22:58"
+        },
+        {
+          "label": "\ud83e\udd13 Smart HL Perps Trader [0xcc1595]",
+          "side": "Long",
+          "action": "Add",
+          "value_usd": 690407,
+          "timestamp": "2026-04-06T04:13:35"
+        },
+        {
+          "label": "\ud83e\udd13 Smart HL Perps Trader [0x71dfc0]",
+          "side": "Long",
+          "action": "Open",
+          "value_usd": 555717,
+          "timestamp": "2026-04-06T03:26:41"
+        }
+      ]
     },
     {
       "symbol": "cash:NVDA",
@@ -55,7 +203,23 @@
       "net_usd": -3236648,
       "long_traders": 0,
       "short_traders": 1,
-      "bias": "SHORT"
+      "bias": "SHORT",
+      "top_trades": [
+        {
+          "label": "\ud83e\udd13 Smart HL Perps Trader [0x8bae35]",
+          "side": "Short",
+          "action": "Close",
+          "value_usd": 1635439,
+          "timestamp": "2026-04-02T14:57:44"
+        },
+        {
+          "label": "\ud83e\udd13 Smart HL Perps Trader [0x8bae35]",
+          "side": "Short",
+          "action": "Open",
+          "value_usd": 1601210,
+          "timestamp": "2026-04-02T01:44:40"
+        }
+      ]
     },
     {
       "symbol": "XPL",
@@ -66,7 +230,44 @@
       "net_usd": 2774099,
       "long_traders": 1,
       "short_traders": 1,
-      "bias": "LONG"
+      "bias": "LONG",
+      "top_trades": [
+        {
+          "label": "\ud83e\udd13 Smart HL Perps Trader [0x015354]",
+          "side": "Long",
+          "action": "Reduce",
+          "value_usd": 912953,
+          "timestamp": "2026-04-02T21:10:33"
+        },
+        {
+          "label": "\ud83e\udd13 Smart HL Perps Trader [0x015354]",
+          "side": "Long",
+          "action": "Reduce",
+          "value_usd": 901850,
+          "timestamp": "2026-04-02T21:10:38"
+        },
+        {
+          "label": "\ud83e\udd13 Smart HL Perps Trader [0x015354]",
+          "side": "Long",
+          "action": "Reduce",
+          "value_usd": 872803,
+          "timestamp": "2026-04-02T21:10:41"
+        },
+        {
+          "label": "\ud83e\udd13 Smart HL Perps Trader [0x015354]",
+          "side": "Long",
+          "action": "Reduce",
+          "value_usd": 737602,
+          "timestamp": "2026-04-02T21:10:45"
+        },
+        {
+          "label": "\ud83e\udd13 Smart HL Perps Trader [0x577586]",
+          "side": "Short",
+          "action": "Close",
+          "value_usd": 651108,
+          "timestamp": "2026-04-02T21:10:58"
+        }
+      ]
     },
     {
       "symbol": "cash:INTC",
@@ -77,7 +278,16 @@
       "net_usd": 1700000,
       "long_traders": 1,
       "short_traders": 0,
-      "bias": "LONG"
+      "bias": "LONG",
+      "top_trades": [
+        {
+          "label": "\ud83e\udd13 Smart HL Perps Trader [0x8bae35]",
+          "side": "Long",
+          "action": "Reduce",
+          "value_usd": 1700000,
+          "timestamp": "2026-04-05T12:44:46"
+        }
+      ]
     },
     {
       "symbol": "cash:AMZN",
@@ -88,7 +298,23 @@
       "net_usd": 1215088,
       "long_traders": 1,
       "short_traders": 0,
-      "bias": "LONG"
+      "bias": "LONG",
+      "top_trades": [
+        {
+          "label": "\ud83e\udd13 Smart HL Perps Trader [0x8bae35]",
+          "side": "Long",
+          "action": "Open",
+          "value_usd": 614819,
+          "timestamp": "2026-03-31T16:22:09"
+        },
+        {
+          "label": "\ud83e\udd13 Smart HL Perps Trader [0x8bae35]",
+          "side": "Long",
+          "action": "Reduce",
+          "value_usd": 600268,
+          "timestamp": "2026-04-02T04:26:19"
+        }
+      ]
     },
     {
       "symbol": "xyz:SP500",
@@ -99,7 +325,16 @@
       "net_usd": -983550,
       "long_traders": 0,
       "short_traders": 1,
-      "bias": "SHORT"
+      "bias": "SHORT",
+      "top_trades": [
+        {
+          "label": "\ud83e\udd13 Smart HL Perps Trader [0x720c93]",
+          "side": "Short",
+          "action": "Open",
+          "value_usd": 983550,
+          "timestamp": "2026-04-02T14:35:18"
+        }
+      ]
     },
     {
       "symbol": "cash:USA500",
@@ -110,7 +345,44 @@
       "net_usd": 529117,
       "long_traders": 1,
       "short_traders": 1,
-      "bias": "LONG"
+      "bias": "LONG",
+      "top_trades": [
+        {
+          "label": "\ud83e\udd13 Smart HL Perps Trader [0x8bae35]",
+          "side": "Long",
+          "action": "Open",
+          "value_usd": 3026684,
+          "timestamp": "2026-04-02T14:36:35"
+        },
+        {
+          "label": "\ud83e\udd13 Smart HL Perps Trader [0x8bae35]",
+          "side": "Short",
+          "action": "Open",
+          "value_usd": 3000569,
+          "timestamp": "2026-04-02T01:19:25"
+        },
+        {
+          "label": "\ud83e\udd13 Smart HL Perps Trader [0x8bae35]",
+          "side": "Short",
+          "action": "Reduce",
+          "value_usd": 2432388,
+          "timestamp": "2026-04-02T13:58:39"
+        },
+        {
+          "label": "\ud83e\udd13 Smart HL Perps Trader [0x8bae35]",
+          "side": "Long",
+          "action": "Reduce",
+          "value_usd": 1988724,
+          "timestamp": "2026-04-03T02:53:17"
+        },
+        {
+          "label": "\ud83e\udd13 Smart HL Perps Trader [0x8bae35]",
+          "side": "Long",
+          "action": "Reduce",
+          "value_usd": 946666,
+          "timestamp": "2026-04-03T13:07:20"
+        }
+      ]
     },
     {
       "symbol": "ZEC",
@@ -121,7 +393,44 @@
       "net_usd": 446087,
       "long_traders": 1,
       "short_traders": 0,
-      "bias": "LONG"
+      "bias": "LONG",
+      "top_trades": [
+        {
+          "label": "\ud83e\udd13 Smart HL Perps Trader [0x0f7707]",
+          "side": "Long",
+          "action": "Reduce",
+          "value_usd": 446087,
+          "timestamp": "2026-04-02T02:04:16"
+        },
+        {
+          "label": "\ud83e\udd13 Smart HL Perps Trader [0x36076e]",
+          "side": "Short",
+          "action": "Open",
+          "value_usd": 2914,
+          "timestamp": "2026-04-06T10:10:20"
+        },
+        {
+          "label": "\ud83e\udd13 Smart HL Perps Trader [0x36076e]",
+          "side": "Short",
+          "action": "Open",
+          "value_usd": 924,
+          "timestamp": "2026-04-06T10:10:20"
+        },
+        {
+          "label": "\ud83e\udd13 Smart HL Perps Trader [0x36076e]",
+          "side": "Short",
+          "action": "Open",
+          "value_usd": 849,
+          "timestamp": "2026-04-06T10:10:21"
+        },
+        {
+          "label": "\ud83e\udd13 Smart HL Perps Trader [0x36076e]",
+          "side": "Short",
+          "action": "Open",
+          "value_usd": 682,
+          "timestamp": "2026-04-06T10:10:20"
+        }
+      ]
     },
     {
       "symbol": "HYPE",
@@ -132,7 +441,44 @@
       "net_usd": -2402,
       "long_traders": 1,
       "short_traders": 1,
-      "bias": "SHORT"
+      "bias": "SHORT",
+      "top_trades": [
+        {
+          "label": "\ud83e\udd13 Smart HL Perps Trader [0xfd9760]",
+          "side": "Short",
+          "action": "Close",
+          "value_usd": 492626,
+          "timestamp": "2026-03-31T10:16:00"
+        },
+        {
+          "label": "\ud83e\udd13 Smart HL Perps Trader [0x720c93]",
+          "side": "Long",
+          "action": "Open",
+          "value_usd": 490224,
+          "timestamp": "2026-04-02T04:50:31"
+        },
+        {
+          "label": "\ud83e\udd13 Smart HL Perps Trader [0x2fdf33]",
+          "side": "Long",
+          "action": "Open",
+          "value_usd": 374,
+          "timestamp": "2026-04-06T10:05:39"
+        },
+        {
+          "label": "\ud83e\udd13 Smart HL Perps Trader [0x2fdf33]",
+          "side": "Long",
+          "action": "Open",
+          "value_usd": 374,
+          "timestamp": "2026-04-06T10:05:33"
+        },
+        {
+          "label": "\ud83e\udd13 Smart HL Perps Trader [0x2fdf33]",
+          "side": "Long",
+          "action": "Open",
+          "value_usd": 187,
+          "timestamp": "2026-04-06T10:11:20"
+        }
+      ]
     }
   ],
   "alerts": [
@@ -530,28 +876,28 @@
     ],
     "holders": [
       {
-        "label": "​​DRIFT Custody Vaults [9Wiiyvy8]",
+        "label": "\u200b\u200bDRIFT Custody Vaults [9Wiiyvy8]",
         "tokens": 238724773.000009,
         "ownership_pct": 23.87149568576264,
         "change_7d": -30000100,
         "is_exchange": false
       },
       {
-        "label": "🏦 Upbit: Internal Wallet [FH9iLV5Z]",
+        "label": "\ud83c\udfe6 Upbit: Internal Wallet [FH9iLV5Z]",
         "tokens": 142123304.104063,
         "ownership_pct": 14.211746012494245,
         "change_7d": 470576.510631,
         "is_exchange": true
       },
       {
-        "label": "​​Drift [7LCwgH3T]",
+        "label": "\u200b\u200bDrift [7LCwgH3T]",
         "tokens": 39846001,
         "ownership_pct": 3.984436256920675,
         "change_7d": 0,
         "is_exchange": false
       },
       {
-        "label": "​​🏦 Bybit: Hot Wallet [5LZkATrL]",
+        "label": "\u200b\u200b\ud83c\udfe6 Bybit: Hot Wallet [5LZkATrL]",
         "tokens": 37702933.068176,
         "ownership_pct": 3.7701382758358597,
         "change_7d": 28127605.684027,
@@ -565,28 +911,28 @@
         "is_exchange": false
       },
       {
-        "label": "🏦 Drift Protocol: JCNCMF [JCNCMFXo]",
+        "label": "\ud83c\udfe6 Drift Protocol: JCNCMF [JCNCMFXo]",
         "tokens": 27847150.411398,
         "ownership_pct": 2.7846005362269026,
         "change_7d": -4201293.322002,
         "is_exchange": false
       },
       {
-        "label": "🏦 Coinbase: Deposit [EPpctwZp]",
+        "label": "\ud83c\udfe6 Coinbase: Deposit [EPpctwZp]",
         "tokens": 25846871.809551,
         "ownership_pct": 2.5845809010032377,
         "change_7d": -718661.603553,
         "is_exchange": true
       },
       {
-        "label": "​​Wintermute Market Making: High Balance [44P5Ct5J]",
+        "label": "\u200b\u200bWintermute Market Making: High Balance [44P5Ct5J]",
         "tokens": 25203638.396547,
         "ownership_pct": 2.520260204619278,
         "change_7d": 24982443.146954,
         "is_exchange": false
       },
       {
-        "label": "​​JITOSOL Custody Vaults [DemTRm4s]",
+        "label": "\u200b\u200bJITOSOL Custody Vaults [DemTRm4s]",
         "tokens": 22257547.9,
         "ownership_pct": 2.225663269016849,
         "change_7d": 0,
@@ -608,31 +954,31 @@
         "net_usd": 208202.35080625303
       },
       {
-        "label": "​​Trading Bot [7ebCZ3KJ]",
+        "label": "\u200b\u200bTrading Bot [7ebCZ3KJ]",
         "bought_usd": 199963.51508708857,
         "sold_usd": 37963.43164119184,
         "net_usd": 162000.08344589674
       },
       {
-        "label": "​​Wintermute: SOL Millionaire [BMnT51N4]",
+        "label": "\u200b\u200bWintermute: SOL Millionaire [BMnT51N4]",
         "bought_usd": 352817.69878513453,
         "sold_usd": 155548.83664383486,
         "net_usd": 197268.86214129967
       },
       {
-        "label": "​​Trading Bot [GCvHhEUY]",
+        "label": "\u200b\u200bTrading Bot [GCvHhEUY]",
         "bought_usd": 195686.0351549626,
         "sold_usd": 26022.192121648768,
         "net_usd": 169663.8430333138
       },
       {
-        "label": "​​Trading Bot [6b8wNt5C]",
+        "label": "\u200b\u200bTrading Bot [6b8wNt5C]",
         "bought_usd": 29878.667137610337,
         "sold_usd": 0,
         "net_usd": 29878.667137610337
       },
       {
-        "label": "​​Trading Bot [9Ycg7vSk]",
+        "label": "\u200b\u200bTrading Bot [9Ycg7vSk]",
         "bought_usd": 21300.831063547063,
         "sold_usd": 0,
         "net_usd": 21300.831063547063
