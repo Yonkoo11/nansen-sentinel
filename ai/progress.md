@@ -1,10 +1,22 @@
 # Progress - Nansen Sentinel
 
 ## Current Status
-ALL PHASES COMPLETE. Deployed to GitHub Pages.
+ALL PHASES COMPLETE. Final design deployed.
 Dashboard: https://yonkoo11.github.io/nansen-sentinel/
 Repo: https://github.com/Yonkoo11/nansen-sentinel
-Remaining: X post for submission (user must post manually).
+
+### Design Audit (April 6)
+- Visually reviewed Coinglass heatmap, Hyperliquid trading terminal, Nansen's own app
+- Switched accent from generic blue (#3b82f6) to Nansen brand teal (#22AB94)
+- This matches both Nansen's and Hyperliquid's brand identity
+- Verified warm dark background extends full page (no white bleed)
+- All badges 12px minimum, all body text 14px+
+
+### Remaining before April 12:
+1. Refresh dashboard data closer to submission (fresher SM positions)
+2. Write X post (user posts manually): @nansen_ai #NansenCLI + QT announcement
+3. Optional: /demo-video for extra impact
+4. Optional: refresh data day-of for most current SM sentiment
 
 ## What's Done
 - [x] Project directory created with ai/, scripts/, data/raw, data/processed, .ralph/
