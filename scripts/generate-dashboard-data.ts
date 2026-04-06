@@ -78,7 +78,7 @@ function main() {
   console.log("[2/6] SM Netflow Dumps");
   const allSignals: Signal[] = [];
 
-  for (const chain of ["solana", "ethereum"]) {
+  for (const chain of ["solana", "ethereum", "base"]) {
     const netflows = getSmartMoneyNetflow(chain, 30, "net_flow_24h_usd:asc");
     const signals = extractNetflowSignals(netflows);
     allSignals.push(...signals);
@@ -168,7 +168,7 @@ function main() {
     alerts,
     drift_case_study: driftCaseStudy,
     metadata: {
-      chains_scanned: ["solana", "ethereum"],
+      chains_scanned: ["solana", "ethereum", "base"],
       total_signals: allSignals.length,
       false_positive_baseline: {
         solana: "0/50 tokens triggered (0%)",

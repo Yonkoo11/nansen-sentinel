@@ -1,13 +1,13 @@
 [
   {
     "symbol": "BTC",
-    "longs": 2,
-    "shorts": 17,
-    "long_usd": 1514219,
-    "short_usd": 20201094,
-    "net_usd": -18686875,
-    "long_traders": 2,
-    "short_traders": 3,
+    "longs": 1,
+    "shorts": 18,
+    "long_usd": 816327,
+    "short_usd": 20898986,
+    "net_usd": -20082659,
+    "long_traders": 1,
+    "short_traders": 4,
     "bias": "SHORT"
   },
   {

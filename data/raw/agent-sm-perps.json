@@ -1,0 +1,1 @@
+{"success":false,"error":"Not logged in. Run: nansen login","code":"UNAUTHORIZED","status":401,"details":{"detail":"No API key configured"}}
