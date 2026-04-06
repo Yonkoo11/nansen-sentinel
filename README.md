@@ -65,7 +65,7 @@ dashboard/              -- Svelte + Vite
 | `research token screener` | Market-wide token screening | 2+ |
 | `research token dex-trades` | Per-token DEX trade history | 2+ |
 
-**Total: 44+ raw API responses** saved in `data/raw/`.
+**Total: 56+ raw API responses** saved in `data/raw/`. Chains scanned: Solana, Ethereum, Base.
 
 ## Scoring
 
@@ -112,6 +112,21 @@ cd dashboard && npm install && npm run dev
 - nansen-cli v1.26.0 (x402 micropayments on Base)
 - GitHub Pages (hosting)
 - No external charting libraries. Pure SVG + CSS.
+
+## Trading Skill Integration
+
+Sentinel's signals pair naturally with the [Nansen Trading Skill](https://clawhub.ai/nansen-devops/nansen-trading). When the scoring engine flags a HIGH or CRITICAL alert, the trading skill can execute a hedge:
+
+```bash
+# Sentinel detects: SM heavily shorting BTC ($18.7M net short)
+# Trading skill response: hedge long exposure
+nansen trade quote --chain solana --from SOL --to USDC --amount 10 --amount-unit token
+nansen trade execute
+```
+
+The signals Sentinel surfaces (SM net shorts, netflow dumps, exchange inflows) are the decision layer. The trading skill is the execution layer. Together they form a complete intelligence-to-action pipeline.
+
+Currently Sentinel operates as the intelligence layer only. Automated execution requires position sizing, stop-loss logic, and false-positive filtering that aren't in scope for this challenge.
 
 ## What This Is Not
 
