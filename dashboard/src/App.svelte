@@ -73,7 +73,8 @@
 
   onMount(async () => {
     try {
-      const res = await fetch('/data/dashboard.json');
+      const base = import.meta.env.BASE_URL;
+      const res = await fetch(`${base}data/dashboard.json`);
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       data = await res.json();
     } catch (e: any) {
