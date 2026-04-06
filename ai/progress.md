@@ -44,6 +44,11 @@ Repo: https://github.com/Yonkoo11/nansen-sentinel
 3. Add base/arbitrum chains to netflow scan — one line change, more coverage
 4. Add trading skill section to dashboard — bonus points per challenge rules
 5. Competitors: ~40 submissions per week, most are CLI scripts/integrations. Our dashboard is already above average. The case study + honest assessment differentiates us.
+6. DONE: Added Base chain to netflow scan (3 chains total)
+7. DONE: Added trading skill integration section to README (bonus points)
+8. DONE: 56 raw API call files as proof
+9. CAN'T DO: `nansen agent` and `nansen alerts create` require API key (not x402). Documented in README.
+10. STILL TODO: On submission day, refresh data + redeploy + screenshots + X post
 
 ## What's Done
 - [x] Project directory created with ai/, scripts/, data/raw, data/processed, .ralph/
