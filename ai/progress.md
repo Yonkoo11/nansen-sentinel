@@ -4,12 +4,25 @@
 Phase 1: API Validation - BLOCKED (wallet needs USDC funding)
 
 ## What's Done
-- [x] Project directory created
+- [x] Project directory created with ai/, scripts/, data/raw, data/processed, .ralph/
 - [x] nansen-cli v1.26.0 installed globally
 - [x] Nansen wallet created (x402 micropayments)
-- [x] CLAUDE.md, memory.md, progress.md written
+- [x] CLAUDE.md with vibecoder block + Phase 1 Gate
+- [x] ai/memory.md with architecture, competitive landscape, risks
 - [x] .claudeignore copied from template
-- [x] CLI schema verified - all needed endpoints exist
+- [x] .ralph/@fix_plan.md with 7 overnight build tasks
+- [x] package.json + tsconfig.json + npm install done
+- [x] Git repo initialized (main branch)
+- [x] Calendar event: April 12 deadline with 3-day alarm
+- [x] Reminder: April 9 at 9am (3 days before)
+- [x] BountyBoard updated and published
+- [x] PROJECTS.md updated
+- [x] CLI schema verified - all needed endpoints exist:
+  - research smart-money perp-trades (Hyperliquid labeled trades)
+  - research smart-money dex-trades (labeled DEX swaps)
+  - research smart-money netflow (aggregated token flows)
+  - research token information/screener
+  - research profiler balance/pnl/perp-positions
 
 ## What's Next
 1. Fund wallet with $5-10 USDC (Base or Solana)

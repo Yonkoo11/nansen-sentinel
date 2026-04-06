@@ -1,0 +1,16 @@
+{
+  "name": "nansen-sentinel",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Smart money exploit early warning system powered by Nansen CLI",
+  "scripts": {
+    "collect": "tsx scripts/collect.ts",
+    "score": "tsx scripts/score.ts",
+    "backtest": "tsx scripts/backtest.ts",
+    "report": "tsx scripts/report.ts"
+  },
+  "dependencies": {
+    "typescript": "^5.7.0",
+    "tsx": "^4.19.0"
+  }
+}
