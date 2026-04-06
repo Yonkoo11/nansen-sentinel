@@ -38,6 +38,13 @@ Repo: https://github.com/Yonkoo11/nansen-sentinel
 
   Then QT the announcement thread.
 
+### High-Impact Additions (do before submission):
+1. Use `nansen agent` command to query about SM sentiment — shows deeper CLI usage
+2. Use `nansen alerts create` to create a real SM monitoring alert — shows production thinking
+3. Add base/arbitrum chains to netflow scan — one line change, more coverage
+4. Add trading skill section to dashboard — bonus points per challenge rules
+5. Competitors: ~40 submissions per week, most are CLI scripts/integrations. Our dashboard is already above average. The case study + honest assessment differentiates us.
+
 ## What's Done
 - [x] Project directory created with ai/, scripts/, data/raw, data/processed, .ralph/
 - [x] nansen-cli v1.26.0 installed globally
