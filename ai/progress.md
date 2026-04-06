@@ -1,9 +1,21 @@
 # Progress - Nansen Sentinel
 
 ## Current Status
-ALL PHASES COMPLETE. Final design deployed.
+SUBMISSION READY. Demo video + interactive dashboard deployed.
 Dashboard: https://yonkoo11.github.io/nansen-sentinel/
 Repo: https://github.com/Yonkoo11/nansen-sentinel
+Demo Video: video/nansen-sentinel-demo.mp4 (83s, 5.3MB)
+
+### What Changed (Plain English)
+- Perp rows are now clickable. Click any trading position to see who's behind it: labeled wallet names, individual trade sizes, side (long/short), and action (open/close/reduce). BTC shows 4 traders making 18 short trades worth $20.9M.
+- Demo video created: 83 seconds, 6 segments, Brian voiceover with ambient music. Shows the dashboard live, explains the scoring engine, walks through the Drift case study, and ends with the honest assessment.
+
+### Remaining for Submission Day (April 12):
+1. Refresh data: `npx tsx scripts/generate-dashboard-data.ts` then rebuild + redeploy
+2. Re-enrich dashboard JSON with trade details (run the Python enrichment script)
+3. Take 4 screenshots for X post
+4. Post on X: @nansen_ai #NansenCLI + QT announcement + video + GitHub link
+5. Optional: re-record demo video with fresh data
 
 ### Design Audit (April 6) - THREE ROUNDS COMPLETED
 Round 1: Switched accent to Nansen brand teal (#22AB94). Fixed white bg bleed.
