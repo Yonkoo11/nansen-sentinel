@@ -51,5 +51,39 @@ Scoring: All 3 = CRITICAL | 1+2 = HIGH | 1+3 = MEDIUM | Single = LOW
 - ~/Projects/degen-claw/scripts/types.ts - Type definitions
 - ~/System/research-pipeline/data/exploit_alerts.json - 3,276 historical exploit alerts
 
+## API Validation Results (April 6, 2026)
+
+**Phase 1 Gate: PASS with adjustment**
+
+### What works great:
+- `smart-money perp-trades`: Real-time labeled HL trades. 50 trades in 10 min. Actions: Open/Close/Add/Reduce. Side: Long/Short.
+- `smart-money dex-trades` (Solana): 30 trades in 4 hours. Individual sells with labels.
+- `smart-money netflow`: Aggregated net flows per token with 1h/24h/7d/30d windows. Shows dumps clearly.
+- `token info/flows/holders/who-bought-sold`: Rich data per token. DRIFT case study shows 43% price crash, 30M custody outflow, exchange inflows.
+
+### What's weaker than expected:
+- `smart-money dex-trades` (Ethereum): Very sparse (2 trades in recent window)
+- `smart-money dex-trades` (Base): Zero trades
+- Same-token perp+DEX correlation: Perp traders trade different tokens (TAO, ZEC, DASH on HL) than Solana DEX sellers (memecoins). Cross-ecosystem overlap is thin.
+
+### Adjusted Architecture:
+Instead of narrow "same token sell+short" correlation, use 4 independent signals:
+1. **SM Netflow Dump**: Token with heavily negative SM netflow (24h or 7d) = selling pressure
+2. **SM Perp Shorts**: Labeled wallets opening shorts on Hyperliquid = bearish conviction
+3. **Token Anomaly**: Price drop + volume spike vs averages
+4. **Exchange Inflow Spike**: Holders data showing tokens moving to exchange wallets
+
+Score: Multiple signals on same token or sector = higher confidence.
+
+### Drift Case Study Data:
+- Price: $0.070 (Apr 1) -> $0.039 (Apr 4) = -43%
+- Custody vaults: -30M tokens in 7 days
+- Bybit hot wallet: +28.1M tokens in 7 days (people depositing to sell)
+- Wintermute: +28M tokens (market making both sides)
+- Massive outflow on Apr 3: -72.8M tokens vs +59.4M inflows
+
 ## Decisions
-- (none yet - Phase 1 pending)
+- Phase 1 gate passed - data is there, story is strong
+- Broadened correlation from "same token" to "multi-signal scoring" based on real data patterns
+- Drift case study is the centerpiece (strongest data)
+- Will collect data for 3-5 additional tokens with recent crashes for broader validation

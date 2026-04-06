@@ -1,0 +1,24 @@
+{
+  "success": true,
+  "data": {
+    "error": "Unknown subcommand: information",
+    "available": [
+      "indicators",
+      "ohlcv",
+      "info",
+      "screener",
+      "holders",
+      "flows",
+      "dex-trades",
+      "pnl",
+      "who-bought-sold",
+      "flow-intelligence",
+      "transfers",
+      "jup-dca",
+      "perp-trades",
+      "perp-positions",
+      "perp-pnl-leaderboard",
+      "help"
+    ]
+  }
+}

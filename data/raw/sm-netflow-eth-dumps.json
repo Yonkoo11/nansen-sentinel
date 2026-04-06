@@ -1,0 +1,92 @@
+[x402] Paid via local wallet default (eip155:8453)
+{
+  "success": true,
+  "data": {
+    "data": [
+      {
+        "token_address": "0x7448c7456a97769f6cd04f1e83a4a23ccdc46abd",
+        "token_symbol": "MAV",
+        "net_flow_1h_usd": 0,
+        "net_flow_24h_usd": -17319.589684472692,
+        "net_flow_7d_usd": -17319.589684472692,
+        "net_flow_30d_usd": -17319.589684472692,
+        "chain": "ethereum",
+        "token_sectors": [
+          "Scaling & Connectivity",
+          "Decentralised Exchanges"
+        ],
+        "trader_count": 1,
+        "token_age_days": 1028,
+        "market_cap_usd": 12875137
+      },
+      {
+        "token_address": "0x1b379a79c91a540b2bcd612b4d713f31de1b80cc",
+        "token_symbol": "NAORIS",
+        "net_flow_1h_usd": 0,
+        "net_flow_24h_usd": 0,
+        "net_flow_7d_usd": 0,
+        "net_flow_30d_usd": -56450.064958679126,
+        "chain": "ethereum",
+        "token_sectors": [
+          "Artificial Intelligence"
+        ],
+        "trader_count": 1,
+        "token_age_days": 264,
+        "market_cap_usd": 36715985
+      },
+      {
+        "token_address": "0xaea46a60368a7bd060eec7df8cba43b7ef41ad85",
+        "token_symbol": "FET",
+        "net_flow_1h_usd": 0,
+        "net_flow_24h_usd": 0,
+        "net_flow_7d_usd": 0,
+        "net_flow_30d_usd": -17678.467903838336,
+        "chain": "ethereum",
+        "token_sectors": [
+          "Artificial Intelligence",
+          "AI Agents"
+        ],
+        "trader_count": 1,
+        "token_age_days": 2009,
+        "market_cap_usd": 541178309
+      },
+      {
+        "token_address": "0xcb1592591996765ec0efc1f92599a19767ee5ffa",
+        "token_symbol": "BIO",
+        "net_flow_1h_usd": 0,
+        "net_flow_24h_usd": 0,
+        "net_flow_7d_usd": -24308.96222783828,
+        "net_flow_30d_usd": -62635.33381171311,
+        "chain": "ethereum",
+        "token_sectors": [
+          "DeSci"
+        ],
+        "trader_count": 1,
+        "token_age_days": 689,
+        "market_cap_usd": 31663339
+      },
+      {
+        "token_address": "0x3845badade8e6dff049820680d1f14bd3903a5d0",
+        "token_symbol": "SAND",
+        "net_flow_1h_usd": 0,
+        "net_flow_24h_usd": 0,
+        "net_flow_7d_usd": 0,
+        "net_flow_30d_usd": -221605.66775746734,
+        "chain": "ethereum",
+        "token_sectors": [
+          "GameFi",
+          "Metaverse",
+          "NFTs"
+        ],
+        "trader_count": 1,
+        "token_age_days": 2351,
+        "market_cap_usd": 208448778
+      }
+    ],
+    "pagination": {
+      "page": 1,
+      "per_page": 5,
+      "is_last_page": false
+    }
+  }
+}

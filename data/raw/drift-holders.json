@@ -1,0 +1,134 @@
+[x402] Paid via local wallet default (eip155:8453)
+{
+  "success": true,
+  "data": {
+    "data": [
+      {
+        "address": "9Wiiyvy8zzbZmJwxevi5CHZKs2VSZW7fvJJjrixviLA6",
+        "address_label": "​​DRIFT Custody Vaults [9Wiiyvy8]",
+        "token_amount": 238724773.000009,
+        "total_outflow": 38809148,
+        "total_inflow": 277533921.000009,
+        "balance_change_24h": 0,
+        "balance_change_7d": -30000100,
+        "balance_change_30d": -30000100,
+        "ownership_percentage": 0.23871495643962704,
+        "value_usd": 9426380.401625969
+      },
+      {
+        "address": "FH9iLV5Z8EUEDMnW6CzUPkpDhWJCsHqJ5N4W23njNsUo",
+        "address_label": "🏦 Upbit: Internal Wallet [FH9iLV5Z]",
+        "token_amount": 142123304.104063,
+        "total_outflow": 380940000,
+        "total_inflow": 523063304.104063,
+        "balance_change_24h": 0,
+        "balance_change_7d": 470576.510631,
+        "balance_change_30d": 8436077.836452,
+        "ownership_percentage": 0.14211745987608915,
+        "value_usd": 5611936.757065496
+      },
+      {
+        "address": "7LCwgH3TtA7v9jvPoU3zHhRUCgd2XNCdAwQSjBPDzFQ6",
+        "address_label": "​​Drift [7LCwgH3T]",
+        "token_amount": 39846001,
+        "total_outflow": 257099,
+        "total_inflow": 40103100,
+        "balance_change_24h": 0,
+        "balance_change_7d": 0,
+        "balance_change_30d": 0,
+        "ownership_percentage": 0.0398443624994377,
+        "value_usd": 1573374.8876977866
+      },
+      {
+        "address": "5LZkATrLwHYCQj2YuVbjjgsDZzBk6YfL4pFQRJmtboT2",
+        "address_label": "​​🏦 Bybit: Hot Wallet [5LZkATrL]",
+        "token_amount": 37702933.068176,
+        "total_outflow": 636318075.564736,
+        "total_inflow": 674021008.632912,
+        "balance_change_24h": -3194349.5,
+        "balance_change_7d": 28127605.684027,
+        "balance_change_30d": 23509801.322877,
+        "ownership_percentage": 0.03770138269234198,
+        "value_usd": 1488752.8633555619
+      },
+      {
+        "address": "Am8MAEorCMAKxphqjAz3Ff59NEwPm4W2eS3DQLi2B4hg",
+        "address_label": "SOL Millionaire [Am8MAEor]",
+        "token_amount": 33101563.723315,
+        "total_outflow": 18870710.1862,
+        "total_inflow": 51972273.909515,
+        "balance_change_24h": 1264225.259892,
+        "balance_change_7d": 31677277.140881,
+        "balance_change_30d": 31605383.132522,
+        "ownership_percentage": 0.03310020255959938,
+        "value_usd": 1307061.381286214
+      },
+      {
+        "address": "44P5Ct5JkPz76Rs2K6juC65zXMpFRDrHatxcASJ4Dyra",
+        "address_label": "​​Wintermute Market Making: High Balance [44P5Ct5J]",
+        "token_amount": 28276576.396547,
+        "total_outflow": 74563315.824468,
+        "total_inflow": 102839892.221015,
+        "balance_change_24h": 1142075.5,
+        "balance_change_7d": 28055381.146954,
+        "balance_change_30d": 27392999.771432,
+        "ownership_percentage": 0.0282754136403064,
+        "value_usd": 1116540.031517718
+      },
+      {
+        "address": "JCNCMFXo5M5qwUPg2Utu1u6YWp3MbygxqBsBeXXJfrw",
+        "address_label": "🏦 Drift Protocol: JCNCMF [JCNCMFXo]",
+        "token_amount": 27847150.411398,
+        "total_outflow": 207351330.556145,
+        "total_inflow": 235198480.967543,
+        "balance_change_24h": 0,
+        "balance_change_7d": -4201293.322002,
+        "balance_change_30d": -4789470.426361,
+        "ownership_percentage": 0.02784600531350957,
+        "value_usd": 1099583.54795094
+      },
+      {
+        "address": "EPpctwZpP7LE61Xkpbb9ixfxMFD8fFAxewe7dTk6dg1M",
+        "address_label": "🏦 Coinbase: Deposit [EPpctwZp]",
+        "token_amount": 25846871.809551,
+        "total_outflow": 33744561.343745,
+        "total_inflow": 59591433.153296,
+        "balance_change_24h": 0,
+        "balance_change_7d": -718661.603553,
+        "balance_change_30d": -3301477.79869,
+        "ownership_percentage": 0.025845808964775344,
+        "value_usd": 1020599.7593256948
+      },
+      {
+        "address": "DemTRm4sQbLxMywg9XST9TMYRmXfwNH6CCfiU4xb47kR",
+        "address_label": "​​JITOSOL Custody Vaults [DemTRm4s]",
+        "token_amount": 22257547.9,
+        "total_outflow": 1742452.1,
+        "total_inflow": 24000000,
+        "balance_change_24h": 0,
+        "balance_change_7d": 0,
+        "balance_change_30d": 0,
+        "ownership_percentage": 0.022256632651196245,
+        "value_usd": 878870.3018802465
+      },
+      {
+        "address": "C8MXWUNWQXt2G3K8iwF8spZivwPzkNjQkxVNrcvc5M5s",
+        "address_label": "[C8MXWUNW]",
+        "token_amount": 20000100,
+        "total_outflow": 2000000,
+        "total_inflow": 22000100,
+        "balance_change_24h": 0,
+        "balance_change_7d": 20000100,
+        "balance_change_30d": 20000100,
+        "ownership_percentage": 0.019999277579323554,
+        "value_usd": 789731.8250693339
+      }
+    ],
+    "pagination": {
+      "page": 1,
+      "per_page": 10,
+      "is_last_page": false
+    },
+    "warnings": null
+  }
+}

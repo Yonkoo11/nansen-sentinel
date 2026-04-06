@@ -1,0 +1,143 @@
+[x402] Paid via local wallet default (eip155:8453)
+{
+  "success": true,
+  "data": {
+    "data": [
+      {
+        "trader_address_label": "🤓 Smart HL Perps Trader [0x36076e]",
+        "trader_address": "0x36076e4bfad9624d7feba562326fdfa2063ede23",
+        "token_symbol": "ZEC",
+        "side": "Short",
+        "action": "Open",
+        "token_amount": 3.26,
+        "price_usd": 260.525,
+        "value_usd": 849.3114999999999,
+        "type": "Limit",
+        "block_timestamp": "2026-04-06T10:10:21.293000",
+        "transaction_hash": "0x0fcf0c2075a0ba4f1148043885190a020190000610a3d921b397b77334a49439"
+      },
+      {
+        "trader_address_label": "🤓 Smart HL Perps Trader [0x36076e]",
+        "trader_address": "0x36076e4bfad9624d7feba562326fdfa2063ede23",
+        "token_symbol": "ZEC",
+        "side": "Short",
+        "action": "Open",
+        "token_amount": 1.54,
+        "price_usd": 260.44,
+        "value_usd": 401.0776,
+        "type": "Limit",
+        "block_timestamp": "2026-04-06T10:10:21.218000",
+        "transaction_hash": "0xf2a9bd543642f0f0f42304388519090201ef0039d1460fc3967268a6f546cadb"
+      },
+      {
+        "trader_address_label": "🤓 Smart HL Perps Trader [0x36076e]",
+        "trader_address": "0x36076e4bfad9624d7feba562326fdfa2063ede23",
+        "token_symbol": "ZEC",
+        "side": "Short",
+        "action": "Open",
+        "token_amount": 2.62,
+        "price_usd": 260.305,
+        "value_usd": 681.9991,
+        "type": "Limit",
+        "block_timestamp": "2026-04-06T10:10:20.686000",
+        "transaction_hash": "0x53f39b60ae4d63a5556d0438851901020397004649408277f7bc46b36d413d8f"
+      },
+      {
+        "trader_address_label": "🤓 Smart HL Perps Trader [0x36076e]",
+        "trader_address": "0x36076e4bfad9624d7feba562326fdfa2063ede23",
+        "token_symbol": "ZEC",
+        "side": "Short",
+        "action": "Open",
+        "token_amount": 3.55,
+        "price_usd": 260.146,
+        "value_usd": 923.5183,
+        "type": "Limit",
+        "block_timestamp": "2026-04-06T10:10:20.561000",
+        "transaction_hash": "0x65d05e3289032721674a04388518ff0205ad0018240645f3099909854807010c"
+      },
+      {
+        "trader_address_label": "🤓 Smart HL Perps Trader [0x36076e]",
+        "trader_address": "0x36076e4bfad9624d7feba562326fdfa2063ede23",
+        "token_symbol": "ZEC",
+        "side": "Short",
+        "action": "Open",
+        "token_amount": 11.22,
+        "price_usd": 259.6746153846154,
+        "value_usd": 2913.5491846153845,
+        "type": "Limit",
+        "block_timestamp": "2026-04-06T10:10:20.212000",
+        "transaction_hash": "0x911c5d72a957bb22929604388518fa0205d30058445ad9f434e508c5685b950d"
+      },
+      {
+        "trader_address_label": "🤓 Smart HL Perps Trader [0x36076e]",
+        "trader_address": "0x36076e4bfad9624d7feba562326fdfa2063ede23",
+        "token_symbol": "ZEC",
+        "side": "Short",
+        "action": "Open",
+        "token_amount": 0.33,
+        "price_usd": 259.39,
+        "value_usd": 85.5987,
+        "type": "Limit",
+        "block_timestamp": "2026-04-06T10:10:19.739000",
+        "transaction_hash": "0x57de3467be1dfe04595704388518f402039d004d59111cd6fba6dfba7d11d7ee"
+      },
+      {
+        "trader_address_label": "🤓 Smart HL Perps Trader [0x36076e]",
+        "trader_address": "0x36076e4bfad9624d7feba562326fdfa2063ede23",
+        "token_symbol": "ZEC",
+        "side": "Short",
+        "action": "Open",
+        "token_amount": 1.18,
+        "price_usd": 259.29,
+        "value_usd": 305.9622,
+        "type": "Limit",
+        "block_timestamp": "2026-04-06T10:10:19.415000",
+        "transaction_hash": "0x396405ce63dbe9f53add04388518ef02033200b3fedf08c7dd2cb12122dfc3df"
+      },
+      {
+        "trader_address_label": "🤓 Smart HL Perps Trader [0x36076e]",
+        "trader_address": "0x36076e4bfad9624d7feba562326fdfa2063ede23",
+        "token_symbol": "ZEC",
+        "side": "Short",
+        "action": "Open",
+        "token_amount": 0.54,
+        "price_usd": 259.26,
+        "value_usd": 140.0004,
+        "type": "Limit",
+        "block_timestamp": "2026-04-06T10:10:19.195000",
+        "transaction_hash": "0xa9dbba146f8af47cab5504388518ec0201f400fa0a8e134e4da465672e8ece67"
+      },
+      {
+        "trader_address_label": "🤓 Smart HL Perps Trader [0x36076e]",
+        "trader_address": "0x36076e4bfad9624d7feba562326fdfa2063ede23",
+        "token_symbol": "ZEC",
+        "side": "Short",
+        "action": "Open",
+        "token_amount": 2.52,
+        "price_usd": 259.1566666666667,
+        "value_usd": 653.0748000000001,
+        "type": "Limit",
+        "block_timestamp": "2026-04-06T10:10:19.129000",
+        "transaction_hash": "0xc525eeccca4b885ac69f04388518eb02024500b2654ea72c68ee9a1f894f6245"
+      },
+      {
+        "trader_address_label": "🤓 Smart HL Perps Trader [0x36076e]",
+        "trader_address": "0x36076e4bfad9624d7feba562326fdfa2063ede23",
+        "token_symbol": "ZEC",
+        "side": "Short",
+        "action": "Open",
+        "token_amount": 1.73,
+        "price_usd": 259,
+        "value_usd": 448.07,
+        "type": "Limit",
+        "block_timestamp": "2026-04-06T10:10:06.334000",
+        "transaction_hash": "0x0e0647e2b7a756210f8004388518310202ad00c852aa74f3b1cef33576ab300b"
+      }
+    ],
+    "pagination": {
+      "page": 1,
+      "per_page": 10,
+      "is_last_page": false
+    }
+  }
+}

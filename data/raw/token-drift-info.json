@@ -1,0 +1,33 @@
+[x402] Paid via local wallet default (eip155:8453)
+{
+  "success": true,
+  "data": {
+    "data": {
+      "name": "Drift",
+      "symbol": "DRIFT",
+      "contract_address": "DriFtupJYLTosbwoN8koMbEYSx54aFAVLddWsbksjwg7",
+      "logo": "https://coin-images.coingecko.com/coins/images/37509/small/DRIFT.png?1715842607",
+      "token_details": {
+        "token_deployment_date": "2024-05-02 23:09:28",
+        "website": "https://app.drift.trade/",
+        "x": "DriftProtocol",
+        "telegram": "+G4i0AZcHf6cxNDll",
+        "market_cap_usd": 24145849.544441342,
+        "fdv_usd": 39617886,
+        "circulating_supply": 611497966.960346,
+        "total_supply": 1000000000
+      },
+      "spot_metrics": {
+        "volume_total_usd": 216357.46358651062,
+        "buy_volume_usd": 98935.02053751783,
+        "sell_volume_usd": 117422.4430489928,
+        "total_buys": 869,
+        "total_sells": 934,
+        "unique_buyers": 235,
+        "unique_sellers": 195,
+        "liquidity_usd": 76108.5689628386,
+        "total_holders": 11409
+      }
+    }
+  }
+}

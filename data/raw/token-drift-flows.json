@@ -1,0 +1,143 @@
+[x402] Paid via local wallet default (eip155:8453)
+{
+  "success": true,
+  "data": {
+    "data": [
+      {
+        "date": "2026-04-06",
+        "price_usd": 0.03948639382149759,
+        "token_amount": 941217926.927525,
+        "value_usd": 37165301.7345138,
+        "holders_count": 100,
+        "total_inflows_count": 6615391.453123002,
+        "total_outflows_count": -2685340.8340759994,
+        "total_inflows_dex": null,
+        "total_outflows_dex": null,
+        "total_inflows_cex": null,
+        "total_outflows_cex": null
+      },
+      {
+        "date": "2026-04-05",
+        "price_usd": 0.044330369305590756,
+        "token_amount": 937287876.3084779,
+        "value_usd": 41550317.70240769,
+        "holders_count": 100,
+        "total_inflows_count": 43393975.685461,
+        "total_outflows_count": -23221119.091402005,
+        "total_inflows_dex": null,
+        "total_outflows_dex": null,
+        "total_inflows_cex": null,
+        "total_outflows_cex": null
+      },
+      {
+        "date": "2026-04-04",
+        "price_usd": 0.039416657464482585,
+        "token_amount": 917115019.7144191,
+        "value_usd": 36149608.58761544,
+        "holders_count": 99,
+        "total_inflows_count": 21232920.060639996,
+        "total_outflows_count": -28648264.388978,
+        "total_inflows_dex": null,
+        "total_outflows_dex": null,
+        "total_inflows_cex": null,
+        "total_outflows_cex": null
+      },
+      {
+        "date": "2026-04-03",
+        "price_usd": 0.043269102880239135,
+        "token_amount": 924530364.042757,
+        "value_usd": 40003599.43767098,
+        "holders_count": 99,
+        "total_inflows_count": 59357781.028828,
+        "total_outflows_count": -72819974.49782,
+        "total_inflows_dex": null,
+        "total_outflows_dex": null,
+        "total_inflows_cex": null,
+        "total_outflows_cex": null
+      },
+      {
+        "date": "2026-04-02",
+        "price_usd": 0.044375653573829964,
+        "token_amount": 937992557.5117489,
+        "value_usd": 41624032.786972165,
+        "holders_count": 96,
+        "total_inflows_count": 43962703.027028,
+        "total_outflows_count": -32907595.753245,
+        "total_inflows_dex": null,
+        "total_outflows_dex": null,
+        "total_inflows_cex": null,
+        "total_outflows_cex": null
+      },
+      {
+        "date": "2026-04-01",
+        "price_usd": 0.06956850559508054,
+        "token_amount": 926937450.237966,
+        "value_usd": 64485653.19316962,
+        "holders_count": 98,
+        "total_inflows_count": 126478446.02639699,
+        "total_outflows_count": -8250632.395094999,
+        "total_inflows_dex": null,
+        "total_outflows_dex": null,
+        "total_inflows_cex": null,
+        "total_outflows_cex": null
+      },
+      {
+        "date": "2026-03-31",
+        "price_usd": 0.06477485618659598,
+        "token_amount": 808709636.606664,
+        "value_usd": 52384050.407910965,
+        "holders_count": 94,
+        "total_inflows_count": 1302514.2070570001,
+        "total_outflows_count": -7195817.960587999,
+        "total_inflows_dex": null,
+        "total_outflows_dex": null,
+        "total_inflows_cex": null,
+        "total_outflows_cex": null
+      },
+      {
+        "date": "2026-03-30",
+        "price_usd": 0.0659044111890035,
+        "token_amount": 814602940.3601948,
+        "value_usd": 53685927.13726959,
+        "holders_count": 94,
+        "total_inflows_count": 2361566.1055719955,
+        "total_outflows_count": -1825608.2903960145,
+        "total_inflows_dex": null,
+        "total_outflows_dex": null,
+        "total_inflows_cex": null,
+        "total_outflows_cex": null
+      },
+      {
+        "date": "2026-03-29",
+        "price_usd": 0.06548693312340385,
+        "token_amount": 814066982.5450188,
+        "value_usd": 53310750.043896824,
+        "holders_count": 94,
+        "total_inflows_count": 2629186.160696019,
+        "total_outflows_count": -2641051.842372,
+        "total_inflows_dex": null,
+        "total_outflows_dex": null,
+        "total_inflows_cex": null,
+        "total_outflows_cex": null
+      },
+      {
+        "date": "2026-03-28",
+        "price_usd": 0.06643073974863736,
+        "token_amount": 814078848.2266948,
+        "value_usd": 54079860.10141802,
+        "holders_count": 94,
+        "total_inflows_count": 2046493.2726649942,
+        "total_outflows_count": -1839215.3136479973,
+        "total_inflows_dex": null,
+        "total_outflows_dex": null,
+        "total_inflows_cex": null,
+        "total_outflows_cex": null
+      }
+    ],
+    "pagination": {
+      "page": 1,
+      "per_page": 10,
+      "is_last_page": false
+    }
+  }
+}

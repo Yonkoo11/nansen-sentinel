@@ -1,0 +1,52 @@
+{
+  "success": true,
+  "data": {
+    "data": [
+      {
+        "chain": "ethereum",
+        "block_timestamp": "2026-04-05T16:48:11",
+        "transaction_hash": "0x03bc9b4a21725b9f5b509d44d627a2848ec435d564cf9b391a149433fe8a560a",
+        "trader_address": "0x23303159ad0a3171c00a9447edd177c957d23ebc",
+        "trader_address_label": "[0x307832]",
+        "token_bought_address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+        "token_sold_address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+        "token_bought_amount": 0.000728652008303261,
+        "token_sold_amount": 1.0375,
+        "token_bought_symbol": "WETH",
+        "token_sold_symbol": "ETH",
+        "token_bought_age_days": 3037,
+        "token_sold_age_days": 3903,
+        "token_bought_market_cap": 4843444515,
+        "token_sold_market_cap": 259584728865,
+        "token_bought_fdv": 4843444515,
+        "token_sold_fdv": 259584728865,
+        "trade_value_usd": 2131.8537314748396
+      },
+      {
+        "chain": "ethereum",
+        "block_timestamp": "2026-04-05T13:20:59",
+        "transaction_hash": "0x4d8ff5074fdfacecd4c7579edfc5f0487175e257cdf5abdd8d7870c7f5ef00e8",
+        "trader_address": "0x23303159ad0a3171c00a9447edd177c957d23ebc",
+        "trader_address_label": "[0x307832]",
+        "token_bought_address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+        "token_sold_address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+        "token_bought_amount": 135.34265861570537,
+        "token_sold_amount": 275135.570172,
+        "token_bought_symbol": "ETH",
+        "token_sold_symbol": "USDC",
+        "token_bought_age_days": 3903,
+        "token_sold_age_days": 2803,
+        "token_bought_market_cap": 259584728865,
+        "token_sold_market_cap": 77587449174,
+        "token_bought_fdv": 259584728865,
+        "token_sold_fdv": 77589756671,
+        "trade_value_usd": 275188.3406161163
+      }
+    ],
+    "pagination": {
+      "page": 1,
+      "per_page": 30,
+      "is_last_page": true
+    }
+  }
+}

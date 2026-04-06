@@ -1,0 +1,461 @@
+{
+  "token_symbol": "DRIFT",
+  "chain": "solana",
+  "event_name": "Drift Protocol Exploit",
+  "event_date": "2026-04-01",
+  "price_before": 0.06956850559508054,
+  "price_after": 0.039416657464482585,
+  "price_change_pct": -43.34123303739632,
+  "signals_detected": [
+    {
+      "type": "netflow_dump",
+      "token_symbol": "DRIFT",
+      "chain": "solana",
+      "confidence": "HIGH",
+      "value_usd": 2087062.1247029759,
+      "description": "​​DRIFT Custody Vaults [9Wiiyv: -30,000,100 DRIFT in 7 days",
+      "timestamp": "2026-04-01",
+      "raw_data": {
+        "address": "9Wiiyvy8zzbZmJwxevi5CHZKs2VSZW7fvJJjrixviLA6",
+        "address_label": "​​DRIFT Custody Vaults [9Wiiyvy8]",
+        "token_amount": 238724773.000009,
+        "total_outflow": 38809148,
+        "total_inflow": 277533921.000009,
+        "balance_change_24h": 0,
+        "balance_change_7d": -30000100,
+        "balance_change_30d": -30000100,
+        "ownership_percentage": 0.23871495643962704,
+        "value_usd": 9413003.775393287
+      }
+    },
+    {
+      "type": "exchange_inflow",
+      "token_symbol": "DRIFT",
+      "chain": "solana",
+      "confidence": "HIGH",
+      "value_usd": 1956795.4934054518,
+      "description": "​​🏦 Bybit: Hot Wallet [5LZkAT: +28,127,605.684 DRIFT in 7 days",
+      "timestamp": "2026-04-01",
+      "raw_data": {
+        "address": "5LZkATrLwHYCQj2YuVbjjgsDZzBk6YfL4pFQRJmtboT2",
+        "address_label": "​​🏦 Bybit: Hot Wallet [5LZkATrL]",
+        "token_amount": 37702933.068176,
+        "total_outflow": 636318075.564736,
+        "total_inflow": 674021008.632912,
+        "balance_change_24h": -3194349.5,
+        "balance_change_7d": 28127605.684027,
+        "balance_change_30d": 23509801.322877,
+        "ownership_percentage": 0.03770138269234198,
+        "value_usd": 1486640.2294751694
+      }
+    },
+    {
+      "type": "netflow_dump",
+      "token_symbol": "DRIFT",
+      "chain": "solana",
+      "confidence": "MEDIUM",
+      "value_usd": 292277.69797827065,
+      "description": "🏦 Drift Protocol: JCNCMF [JCN: -4,201,293.322 DRIFT in 7 days",
+      "timestamp": "2026-04-01",
+      "raw_data": {
+        "address": "JCNCMFXo5M5qwUPg2Utu1u6YWp3MbygxqBsBeXXJfrw",
+        "address_label": "🏦 Drift Protocol: JCNCMF [JCNCMFXo]",
+        "token_amount": 27847150.411398,
+        "total_outflow": 207351330.556145,
+        "total_inflow": 235198480.967543,
+        "balance_change_24h": 0,
+        "balance_change_7d": -4201293.322002,
+        "balance_change_30d": -4742785.794764,
+        "ownership_percentage": 0.02784600531350957,
+        "value_usd": 1098023.169788182
+      }
+    },
+    {
+      "type": "netflow_dump",
+      "token_symbol": "DRIFT",
+      "chain": "solana",
+      "confidence": "HIGH",
+      "value_usd": 155548.83664383486,
+      "description": "​​Wintermute: SOL Millionaire  sold $155,548.837 DRIFT",
+      "timestamp": "2026-04-01",
+      "raw_data": {
+        "address": "BMnT51N4iSNhWU5PyFFgWwFvN1jgaiiDr9ZHgnkm3iLJ",
+        "address_label": "​​Wintermute: SOL Millionaire [BMnT51N4]",
+        "bought_token_volume": 6494853.557312997,
+        "sold_token_volume": 2950920.9295940003,
+        "token_trade_volume": 3543932.6277189967,
+        "bought_volume_usd": 352817.69878513453,
+        "sold_volume_usd": 155548.83664383486,
+        "trade_volume_usd": 197268.86214129967
+      }
+    },
+    {
+      "type": "netflow_dump",
+      "token_symbol": "DRIFT",
+      "chain": "solana",
+      "confidence": "MEDIUM",
+      "value_usd": 37963.43164119184,
+      "description": "​​Trading Bot [7ebCZ3KJ] sold $37,963.432 DRIFT",
+      "timestamp": "2026-04-01",
+      "raw_data": {
+        "address": "7ebCZ3KJqJKvUfAz3PSn5xkcJ4bSnLuEJgkSHuAYd32F",
+        "address_label": "​​Trading Bot [7ebCZ3KJ]",
+        "bought_token_volume": 4202596.134283999,
+        "sold_token_volume": 794931.396864,
+        "token_trade_volume": 3407664.737419999,
+        "bought_volume_usd": 189496.39515350343,
+        "sold_volume_usd": 37963.43164119184,
+        "trade_volume_usd": 151532.96351231157
+      }
+    },
+    {
+      "type": "netflow_dump",
+      "token_symbol": "DRIFT",
+      "chain": "solana",
+      "confidence": "MEDIUM",
+      "value_usd": 26022.192121648764,
+      "description": "​​Trading Bot [GCvHhEUY] sold $26,022.192 DRIFT",
+      "timestamp": "2026-04-01",
+      "raw_data": {
+        "address": "GCvHhEUYQwTJ8jyf8Lc4bv8jBXyZU4LMMsZCobwEPzvM",
+        "address_label": "​​Trading Bot [GCvHhEUY]",
+        "bought_token_volume": 3940140.642369005,
+        "sold_token_volume": 549070.130655,
+        "token_trade_volume": 3391070.511714005,
+        "bought_volume_usd": 194255.31556131874,
+        "sold_volume_usd": 26022.192121648764,
+        "trade_volume_usd": 168233.12343967
+      }
+    }
+  ],
+  "detection_lead_time_minutes": 0,
+  "timeline": [
+    {
+      "timestamp": "2026-03-24",
+      "event": "Price: $0.0788, Net flow: +6,441,724 tokens",
+      "source": "nansen_token_flows",
+      "data": {
+        "date": "2026-03-24",
+        "price_usd": 0.07879978167919705,
+        "token_amount": 814592596.2897677,
+        "value_usd": 64189718.745124,
+        "holders_count": 94,
+        "total_inflows_count": 9544235.557682004,
+        "total_outflows_count": -3102511.5766319972,
+        "total_inflows_dex": null,
+        "total_outflows_dex": null,
+        "total_inflows_cex": null,
+        "total_outflows_cex": null
+      }
+    },
+    {
+      "timestamp": "2026-03-25",
+      "event": "Price: $0.0809, Net flow: +665,165 tokens",
+      "source": "nansen_token_flows",
+      "data": {
+        "date": "2026-03-25",
+        "price_usd": 0.08088581813847495,
+        "token_amount": 815257761.5697768,
+        "value_usd": 65942791.038313136,
+        "holders_count": 94,
+        "total_inflows_count": 1461233.9012699998,
+        "total_outflows_count": -796068.6212609988,
+        "total_inflows_dex": null,
+        "total_outflows_dex": null,
+        "total_inflows_cex": null,
+        "total_outflows_cex": null
+      }
+    },
+    {
+      "timestamp": "2026-03-26",
+      "event": "Price: $0.0757, Net flow: -1,246,049 tokens",
+      "source": "nansen_token_flows",
+      "data": {
+        "date": "2026-03-26",
+        "price_usd": 0.07566162420212465,
+        "token_amount": 814011712.5801989,
+        "value_usd": 61589448.29337092,
+        "holders_count": 94,
+        "total_inflows_count": 1939889.8560650153,
+        "total_outflows_count": -3185938.8456429997,
+        "total_inflows_dex": null,
+        "total_outflows_dex": null,
+        "total_inflows_cex": null,
+        "total_outflows_cex": null
+      }
+    },
+    {
+      "timestamp": "2026-03-27",
+      "event": "Price: $0.0719, Net flow: -140,142 tokens",
+      "source": "nansen_token_flows",
+      "data": {
+        "date": "2026-03-27",
+        "price_usd": 0.07187702334860577,
+        "token_amount": 813871570.267678,
+        "value_usd": 58498665.85889634,
+        "holders_count": 94,
+        "total_inflows_count": 1899792.0979629988,
+        "total_outflows_count": -2039934.4104840194,
+        "total_inflows_dex": null,
+        "total_outflows_dex": null,
+        "total_inflows_cex": null,
+        "total_outflows_cex": null
+      }
+    },
+    {
+      "timestamp": "2026-03-28",
+      "event": "Price: $0.0664, Net flow: +207,278 tokens",
+      "source": "nansen_token_flows",
+      "data": {
+        "date": "2026-03-28",
+        "price_usd": 0.06643073974863736,
+        "token_amount": 814078848.2266948,
+        "value_usd": 54079860.10141804,
+        "holders_count": 94,
+        "total_inflows_count": 2046493.2726649942,
+        "total_outflows_count": -1839215.3136479973,
+        "total_inflows_dex": null,
+        "total_outflows_dex": null,
+        "total_inflows_cex": null,
+        "total_outflows_cex": null
+      }
+    },
+    {
+      "timestamp": "2026-03-29",
+      "event": "Price: $0.0655, Net flow: -11,866 tokens",
+      "source": "nansen_token_flows",
+      "data": {
+        "date": "2026-03-29",
+        "price_usd": 0.06548693312340385,
+        "token_amount": 814066982.545019,
+        "value_usd": 53310750.04389685,
+        "holders_count": 94,
+        "total_inflows_count": 2629186.160696019,
+        "total_outflows_count": -2641051.842372,
+        "total_inflows_dex": null,
+        "total_outflows_dex": null,
+        "total_inflows_cex": null,
+        "total_outflows_cex": null
+      }
+    },
+    {
+      "timestamp": "2026-03-30",
+      "event": "Price: $0.0659, Net flow: +535,958 tokens",
+      "source": "nansen_token_flows",
+      "data": {
+        "date": "2026-03-30",
+        "price_usd": 0.0659044111890035,
+        "token_amount": 814602940.3601948,
+        "value_usd": 53685927.13726958,
+        "holders_count": 94,
+        "total_inflows_count": 2361566.1055719955,
+        "total_outflows_count": -1825608.2903960142,
+        "total_inflows_dex": null,
+        "total_outflows_dex": null,
+        "total_inflows_cex": null,
+        "total_outflows_cex": null
+      }
+    },
+    {
+      "timestamp": "2026-03-31",
+      "event": "Price: $0.0648, Net flow: -5,893,304 tokens",
+      "source": "nansen_token_flows",
+      "data": {
+        "date": "2026-03-31",
+        "price_usd": 0.06477485618659598,
+        "token_amount": 808709636.606664,
+        "value_usd": 52384050.407910965,
+        "holders_count": 94,
+        "total_inflows_count": 1302514.2070570001,
+        "total_outflows_count": -7195817.960588,
+        "total_inflows_dex": null,
+        "total_outflows_dex": null,
+        "total_inflows_cex": null,
+        "total_outflows_cex": null
+      }
+    },
+    {
+      "timestamp": "2026-04-01",
+      "event": "Price: $0.0696, Net flow: +118,227,814 tokens",
+      "source": "nansen_token_flows",
+      "data": {
+        "date": "2026-04-01",
+        "price_usd": 0.06956850559508054,
+        "token_amount": 926937450.237966,
+        "value_usd": 64485653.19316962,
+        "holders_count": 98,
+        "total_inflows_count": 126478446.02639699,
+        "total_outflows_count": -8250632.395094999,
+        "total_inflows_dex": null,
+        "total_outflows_dex": null,
+        "total_inflows_cex": null,
+        "total_outflows_cex": null
+      }
+    },
+    {
+      "timestamp": "2026-04-02",
+      "event": "Price: $0.0444, Net flow: +11,055,107 tokens",
+      "source": "nansen_token_flows",
+      "data": {
+        "date": "2026-04-02",
+        "price_usd": 0.044375653573829964,
+        "token_amount": 937992557.5117491,
+        "value_usd": 41624032.78697216,
+        "holders_count": 96,
+        "total_inflows_count": 43962703.027028,
+        "total_outflows_count": -32907595.753244996,
+        "total_inflows_dex": null,
+        "total_outflows_dex": null,
+        "total_inflows_cex": null,
+        "total_outflows_cex": null
+      }
+    },
+    {
+      "timestamp": "2026-04-03",
+      "event": "Price: $0.0433, Net flow: -13,462,193 tokens",
+      "source": "nansen_token_flows",
+      "data": {
+        "date": "2026-04-03",
+        "price_usd": 0.043269102880239135,
+        "token_amount": 924530364.042757,
+        "value_usd": 40003599.437671006,
+        "holders_count": 99,
+        "total_inflows_count": 59357781.028828,
+        "total_outflows_count": -72819974.49782,
+        "total_inflows_dex": null,
+        "total_outflows_dex": null,
+        "total_inflows_cex": null,
+        "total_outflows_cex": null
+      }
+    },
+    {
+      "timestamp": "2026-04-04",
+      "event": "Price: $0.0394, Net flow: -7,415,344 tokens",
+      "source": "nansen_token_flows",
+      "data": {
+        "date": "2026-04-04",
+        "price_usd": 0.039416657464482585,
+        "token_amount": 917115019.7144189,
+        "value_usd": 36149608.587615445,
+        "holders_count": 99,
+        "total_inflows_count": 21232920.06064,
+        "total_outflows_count": -28648264.388978,
+        "total_inflows_dex": null,
+        "total_outflows_dex": null,
+        "total_inflows_cex": null,
+        "total_outflows_cex": null
+      }
+    },
+    {
+      "timestamp": "2026-04-05",
+      "event": "Price: $0.0443, Net flow: +20,172,857 tokens",
+      "source": "nansen_token_flows",
+      "data": {
+        "date": "2026-04-05",
+        "price_usd": 0.044330369305590756,
+        "token_amount": 937287876.308478,
+        "value_usd": 41550317.70240771,
+        "holders_count": 100,
+        "total_inflows_count": 43393975.68546101,
+        "total_outflows_count": -23221119.091401998,
+        "total_inflows_dex": null,
+        "total_outflows_dex": null,
+        "total_inflows_cex": null,
+        "total_outflows_cex": null
+      }
+    },
+    {
+      "timestamp": "2026-04-06",
+      "event": "Price: $0.0394, Net flow: +3,930,051 tokens",
+      "source": "nansen_token_flows",
+      "data": {
+        "date": "2026-04-06",
+        "price_usd": 0.03943036014696695,
+        "token_amount": 941217926.927525,
+        "value_usd": 37112561.83553393,
+        "holders_count": 100,
+        "total_inflows_count": 6717120.745513001,
+        "total_outflows_count": -2787070.1264659995,
+        "total_inflows_dex": null,
+        "total_outflows_dex": null,
+        "total_inflows_cex": null,
+        "total_outflows_cex": null
+      }
+    },
+    {
+      "timestamp": "2026-04-01",
+      "event": "Holder ​​DRIFT Custody Vaults [9Wiiyv: 7d change -30,000,100",
+      "source": "nansen_token_holders"
+    },
+    {
+      "timestamp": "2026-04-01",
+      "event": "Holder 🏦 Upbit: Internal Wallet [FH9: 7d change +470,576.511",
+      "source": "nansen_token_holders"
+    },
+    {
+      "timestamp": "2026-04-01",
+      "event": "Holder ​​Drift [7LCwgH3T]: 7d change +0",
+      "source": "nansen_token_holders"
+    },
+    {
+      "timestamp": "2026-04-01",
+      "event": "Holder ​​🏦 Bybit: Hot Wallet [5LZkAT: 7d change +28,127,605.684",
+      "source": "nansen_token_holders"
+    },
+    {
+      "timestamp": "2026-04-01",
+      "event": "Holder SOL Millionaire [Am8MAEor]: 7d change +31,677,277.141",
+      "source": "nansen_token_holders"
+    },
+    {
+      "timestamp": "2026-04-01",
+      "event": "Holder ​​Wintermute Market Making: Hi: 7d change +28,055,381.147",
+      "source": "nansen_token_holders"
+    },
+    {
+      "timestamp": "2026-04-01",
+      "event": "Holder 🏦 Drift Protocol: JCNCMF [JCN: 7d change -4,201,293.322",
+      "source": "nansen_token_holders"
+    },
+    {
+      "timestamp": "2026-04-01",
+      "event": "Holder 🏦 Coinbase: Deposit [EPpctwZp: 7d change -718,661.604",
+      "source": "nansen_token_holders"
+    },
+    {
+      "timestamp": "2026-04-01",
+      "event": "Holder ​​JITOSOL Custody Vaults [DemT: 7d change +0",
+      "source": "nansen_token_holders"
+    },
+    {
+      "timestamp": "2026-04-01",
+      "event": "Holder [C8MXWUNW]: 7d change +20,000,100",
+      "source": "nansen_token_holders"
+    },
+    {
+      "timestamp": "2026-04-01",
+      "event": "Holder Token Millionaire [3VYKR2SW]: 7d change +0",
+      "source": "nansen_token_holders"
+    },
+    {
+      "timestamp": "2026-04-01",
+      "event": "Holder ​​Drift Foundation [HPjkU5hU]: 7d change +0",
+      "source": "nansen_token_holders"
+    },
+    {
+      "timestamp": "2026-04-01",
+      "event": "Holder ​​USDG Distributor [4AK83Vf8]: 7d change +7,684,192.403",
+      "source": "nansen_token_holders"
+    },
+    {
+      "timestamp": "2026-04-01",
+      "event": "Holder [87HMEidQ]: 7d change +0",
+      "source": "nansen_token_holders"
+    },
+    {
+      "timestamp": "2026-04-01",
+      "event": "Holder 🏦 Bithumb: Hot Wallet [8Mm46C: 7d change +2,637,689.97",
+      "source": "nansen_token_holders"
+    }
+  ]
+}
