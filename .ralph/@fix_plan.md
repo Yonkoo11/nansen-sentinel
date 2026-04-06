@@ -18,7 +18,7 @@
   - Acceptance: Generates static JSON data files for the Svelte dashboard
   - Files: scripts/report.ts
 
-- [ ] Task 5: Build Svelte dashboard
+- [x] Task 5: Build Svelte dashboard
   - Acceptance: Dashboard loads locally showing heatmap, alert feed, and case study
   - Files: dashboard/src/*, dashboard/package.json
 

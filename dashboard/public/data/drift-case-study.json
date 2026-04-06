@@ -25,13 +25,13 @@
     {
       "date": "2026-03-26",
       "price": 0.07566162420212465,
-      "net_flow": -1246048.989577985,
+      "net_flow": -1246048.9895779854,
       "holders": 95
     },
     {
       "date": "2026-03-27",
       "price": 0.07187702334860577,
-      "net_flow": -140319.29933602037,
+      "net_flow": -140319.29933602014,
       "holders": 95
     },
     {
@@ -61,7 +61,7 @@
     {
       "date": "2026-04-01",
       "price": 0.06956850559508054,
-      "net_flow": 118513815.636655,
+      "net_flow": 118513815.63665499,
       "holders": 99
     },
     {
@@ -73,13 +73,13 @@
     {
       "date": "2026-04-03",
       "price": 0.043269102880239135,
-      "net_flow": -13300249.010984004,
+      "net_flow": -13300249.010983996,
       "holders": 100
     },
     {
       "date": "2026-04-04",
       "price": 0.039416657464482585,
-      "net_flow": -6976298.203494001,
+      "net_flow": -6976298.203493997,
       "holders": 100
     },
     {
@@ -91,7 +91,7 @@
     {
       "date": "2026-04-06",
       "price": 0.03952050437074717,
-      "net_flow": 23760546.265955,
+      "net_flow": 23760546.265955005,
       "holders": 100
     }
   ],
@@ -99,70 +99,70 @@
     {
       "label": "​​DRIFT Custody Vaults [9Wiiyvy8]",
       "tokens": 238724773.000009,
-      "ownership_pct": 23.871495643962653,
+      "ownership_pct": 23.871495643962703,
       "change_7d": -30000100,
       "is_exchange": false
     },
     {
       "label": "🏦 Upbit: Internal Wallet [FH9iLV5Z]",
       "tokens": 142123304.104063,
-      "ownership_pct": 14.211745987608884,
+      "ownership_pct": 14.211745987608914,
       "change_7d": 470576.510631,
       "is_exchange": true
     },
     {
       "label": "​​Drift [7LCwgH3T]",
       "tokens": 39846001,
-      "ownership_pct": 3.984436249943761,
+      "ownership_pct": 3.98443624994377,
       "change_7d": 0,
       "is_exchange": false
     },
     {
       "label": "​​🏦 Bybit: Hot Wallet [5LZkATrL]",
       "tokens": 37702933.068176,
-      "ownership_pct": 3.7701382692341903,
+      "ownership_pct": 3.7701382692341983,
       "change_7d": 28127605.684027,
       "is_exchange": true
     },
     {
       "label": "Multiple Memecoin Whale [Am8MAEor]",
       "tokens": 33101563.723315,
-      "ownership_pct": 3.310020255959931,
+      "ownership_pct": 3.3100202559599383,
       "change_7d": 31677277.140881,
       "is_exchange": false
     },
     {
       "label": "​​Wintermute Market Making: Token Millionaire [44P5Ct5J]",
       "tokens": 28276576.396547,
-      "ownership_pct": 2.8275413640306337,
+      "ownership_pct": 2.82754136403064,
       "change_7d": 28055381.146954,
       "is_exchange": false
     },
     {
       "label": "🏦 Drift Protocol: JCNCMF [JCNCMFXo]",
       "tokens": 27847150.411398,
-      "ownership_pct": 2.784600531350951,
+      "ownership_pct": 2.7846005313509568,
       "change_7d": -4201293.322002,
       "is_exchange": false
     },
     {
       "label": "🏦 Coinbase: Deposit [EPpctwZp]",
       "tokens": 25846871.809551,
-      "ownership_pct": 2.584580896477529,
+      "ownership_pct": 2.5845808964775343,
       "change_7d": -718661.603553,
       "is_exchange": true
     },
     {
       "label": "​​JITOSOL Custody Vaults [DemTRm4s]",
       "tokens": 22257547.9,
-      "ownership_pct": 2.2256632651196195,
+      "ownership_pct": 2.2256632651196244,
       "change_7d": 0,
       "is_exchange": false
     },
     {
       "label": "Token Millionaire [3VYKR2SW]",
       "tokens": 15000000,
-      "ownership_pct": 1.4999383187576696,
+      "ownership_pct": 1.499938318757673,
       "change_7d": 0,
       "is_exchange": false
     }
