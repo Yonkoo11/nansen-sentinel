@@ -223,7 +223,7 @@
     <div class="loading-ring">
       <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
         <circle cx="24" cy="24" r="20" stroke="rgba(59,130,246,0.15)" stroke-width="3"/>
-        <circle cx="24" cy="24" r="20" stroke="var(--accent-blue)" stroke-width="3" stroke-linecap="round" stroke-dasharray="30 100" class="spin-ring"/>
+        <circle cx="24" cy="24" r="20" stroke="var(--accent-brand)" stroke-width="3" stroke-linecap="round" stroke-dasharray="30 100" class="spin-ring"/>
       </svg>
     </div>
     <p class="loading-text">Loading intelligence data</p>
@@ -242,9 +242,9 @@
     <div class="header-left">
       <div class="logo-mark">
         <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
-          <circle cx="14" cy="14" r="12" stroke="var(--accent-blue)" stroke-width="1.5" opacity="0.5"/>
-          <circle cx="14" cy="14" r="7" stroke="var(--accent-blue)" stroke-width="1" opacity="0.3"/>
-          <circle cx="14" cy="14" r="3" fill="var(--accent-blue)"/>
+          <circle cx="14" cy="14" r="12" stroke="var(--accent-brand)" stroke-width="1.5" opacity="0.5"/>
+          <circle cx="14" cy="14" r="7" stroke="var(--accent-brand)" stroke-width="1" opacity="0.3"/>
+          <circle cx="14" cy="14" r="3" fill="var(--accent-brand)"/>
         </svg>
       </div>
       <div>
@@ -383,8 +383,8 @@
 
           <defs>
             <linearGradient id="areaGrad" x1="0" y1="0" x2="0" y2="1">
-              <stop offset="0%" stop-color="var(--accent-blue)" stop-opacity="0.25"/>
-              <stop offset="100%" stop-color="var(--accent-blue)" stop-opacity="0"/>
+              <stop offset="0%" stop-color="var(--accent-brand)" stop-opacity="0.25"/>
+              <stop offset="100%" stop-color="var(--accent-brand)" stop-opacity="0"/>
             </linearGradient>
           </defs>
 
@@ -395,7 +395,7 @@
           <path
             d={buildPricePath(data.drift_case_study.price_timeline)}
             fill="none"
-            stroke="var(--accent-blue)"
+            stroke="var(--accent-brand)"
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
@@ -413,7 +413,7 @@
               cx={cx}
               cy={cy}
               r="3.5"
-              fill={pt.date === '2026-04-01' ? 'var(--accent-red)' : 'var(--accent-blue)'}
+              fill={pt.date === '2026-04-01' ? 'var(--accent-red)' : 'var(--accent-brand)'}
               stroke="var(--bg-surface)"
               stroke-width="1.5"
             />
@@ -628,7 +628,7 @@
     left: 0;
     right: 0;
     height: 500px;
-    background: radial-gradient(ellipse at 50% 0%, rgba(59,130,246,0.06) 0%, transparent 60%);
+    background: radial-gradient(ellipse at 50% 0%, rgba(34,171,148,0.06) 0%, transparent 60%);
     pointer-events: none;
     z-index: 0;
   }
@@ -919,7 +919,7 @@
 
   .alert-score-fill {
     height: 100%;
-    background: var(--accent-blue);
+    background: var(--accent-brand);
     border-radius: 2px;
     opacity: 0.7;
   }
@@ -1044,7 +1044,7 @@
     width: 6px;
     height: 6px;
     border-radius: 50%;
-    background: var(--accent-blue);
+    background: var(--accent-brand);
     flex-shrink: 0;
     margin-top: 8px;
   }
@@ -1113,7 +1113,7 @@
     height: 18px;
     border-radius: var(--radius-sm);
     background: rgba(59,130,246,0.1);
-    color: var(--accent-blue);
+    color: var(--accent-brand);
     font-size: 10px;
     font-weight: 700;
     flex-shrink: 0;
@@ -1191,7 +1191,7 @@
     height: 28px;
     border-radius: 50%;
     background: rgba(59,130,246,0.1);
-    color: var(--accent-blue);
+    color: var(--accent-brand);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1283,7 +1283,7 @@
   }
 
   .footer strong {
-    color: var(--accent-blue);
+    color: var(--accent-brand);
     font-weight: 600;
   }
 

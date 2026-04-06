@@ -17,8 +17,8 @@
   --text-secondary: #8b8d9a;
   --text-muted: #4a4c5a;
 
-  --accent-blue: #3b82f6;
-  --accent-blue-glow: rgba(59, 130, 246, 0.12);
+  --accent-brand: #22AB94;
+  --accent-brand-glow: rgba(34, 171, 148, 0.12);
   --accent-green: #22AB94;
   --accent-green-dim: rgba(34, 171, 148, 0.15);
   --accent-green-glow: rgba(34, 171, 148, 0.10);
@@ -159,12 +159,12 @@ body {
 /* Focus states */
 a:focus-visible,
 button:focus-visible {
-  outline: 2px solid var(--accent-blue);
+  outline: 2px solid var(--accent-brand);
   outline-offset: 2px;
 }
 
 a {
-  color: var(--accent-blue);
+  color: var(--accent-brand);
   text-decoration: none;
 }
 
