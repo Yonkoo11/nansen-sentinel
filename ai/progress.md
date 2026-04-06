@@ -1,8 +1,10 @@
 # Progress - Nansen Sentinel
 
 ## Current Status
-Phase 1: PASSED. Phase 2-3: COMPLETE. Phase 4 (dashboard): BUILT.
-Next: Deploy to GitHub Pages (Task 6) and write README (Task 7).
+ALL PHASES COMPLETE. Deployed to GitHub Pages.
+Dashboard: https://yonkoo11.github.io/nansen-sentinel/
+Repo: https://github.com/Yonkoo11/nansen-sentinel
+Remaining: X post for submission (user must post manually).
 
 ## What's Done
 - [x] Project directory created with ai/, scripts/, data/raw, data/processed, .ralph/
