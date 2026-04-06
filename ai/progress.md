@@ -5,12 +5,11 @@ ALL PHASES COMPLETE. Final design deployed.
 Dashboard: https://yonkoo11.github.io/nansen-sentinel/
 Repo: https://github.com/Yonkoo11/nansen-sentinel
 
-### Design Audit (April 6)
-- Visually reviewed Coinglass heatmap, Hyperliquid trading terminal, Nansen's own app
-- Switched accent from generic blue (#3b82f6) to Nansen brand teal (#22AB94)
-- This matches both Nansen's and Hyperliquid's brand identity
-- Verified warm dark background extends full page (no white bleed)
-- All badges 12px minimum, all body text 14px+
+### Design Audit (April 6) - THREE ROUNDS COMPLETED
+Round 1: Switched accent to Nansen brand teal (#22AB94). Fixed white bg bleed.
+Round 2: Liveness fixes - visible teal glow (0.15), noise texture (0.035), card depth hierarchy.
+Round 3: Segment-by-segment review. Fixed holders 7D color (CSS specificity bug), alert number decimals, 10px font.
+design-qa.sh passes 6/6. Built enforcement script at ~/System/scripts/design-qa.sh.
 
 ### Remaining before April 12:
 1. Refresh dashboard data closer to submission (run `npx tsx scripts/generate-dashboard-data.ts` then rebuild + redeploy)
