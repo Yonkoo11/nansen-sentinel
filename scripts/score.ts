@@ -34,7 +34,7 @@ export function extractNetflowSignals(
         chain: nf.chain,
         confidence: severity,
         value_usd: Math.min(nf.net_flow_24h_usd, nf.net_flow_7d_usd),
-        description: `SM net outflow: $${Math.abs(nf.net_flow_24h_usd).toLocaleString()} (24h), $${Math.abs(nf.net_flow_7d_usd).toLocaleString()} (7d)`,
+        description: `SM net outflow: $${Math.abs(nf.net_flow_24h_usd).toLocaleString(undefined, {maximumFractionDigits: 0})} (24h), $${Math.abs(nf.net_flow_7d_usd).toLocaleString(undefined, {maximumFractionDigits: 0})} (7d)`,
         timestamp: new Date().toISOString(),
         raw_data: nf as unknown as Record<string, unknown>,
       });
@@ -83,7 +83,7 @@ export function extractPerpShortSignals(
       chain: "hyperliquid",
       confidence,
       value_usd: data.total_usd,
-      description: `SM opening shorts: $${data.total_usd.toLocaleString()} across ${data.count} trades by ${data.traders.size} trader(s)`,
+      description: `SM opening shorts: $${data.total_usd.toLocaleString(undefined, {maximumFractionDigits: 0})} across ${data.count} trades by ${data.traders.size} traders`,
       timestamp: new Date().toISOString(),
       raw_data: {
         total_usd: data.total_usd,
@@ -132,7 +132,7 @@ export function extractDexSellSignals(
       chain: data.chain,
       confidence: data.traders.size > 1 ? "HIGH" : "MEDIUM",
       value_usd: data.total_usd,
-      description: `SM selling on DEX: $${data.total_usd.toLocaleString()} across ${data.count} trades by ${data.traders.size} trader(s)`,
+      description: `SM selling on DEX: $${data.total_usd.toLocaleString(undefined, {maximumFractionDigits: 0})} across ${data.count} trades by ${data.traders.size} traders`,
       timestamp: new Date().toISOString(),
       raw_data: {
         total_usd: data.total_usd,

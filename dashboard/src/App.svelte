@@ -1100,6 +1100,14 @@
     color: var(--text-secondary);
   }
 
+  .holders-table td.text-long {
+    color: var(--accent-green);
+  }
+
+  .holders-table td.text-short {
+    color: var(--accent-red);
+  }
+
   .holders-table tr:last-child td {
     border-bottom: none;
   }
