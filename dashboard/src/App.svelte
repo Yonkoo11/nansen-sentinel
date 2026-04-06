@@ -126,6 +126,10 @@
     return sym.replace(/^(xyz:|cash:)/, '');
   }
 
+  let majorPerps = $derived(data ? sortedPerps(data.perp_sentiment).filter(p => Math.abs(p.net_usd) > 5_000_000) : []);
+  let otherPerps = $derived(data ? sortedPerps(data.perp_sentiment).filter(p => Math.abs(p.net_usd) <= 5_000_000) : []);
+  let perpMaxUsd = $derived(data ? Math.max(...data.perp_sentiment.map(p => Math.max(p.long_usd, p.short_usd))) : 0);
+
   // SVG chart helpers - wider viewBox (900x220)
   function buildPricePath(timeline: PricePoint[]): string {
     if (!timeline.length) return '';
@@ -250,6 +254,7 @@
       <div>
         <h1 class="logo-text">Nansen Sentinel</h1>
         <p class="logo-sub">Smart Money Intelligence</p>
+        <p class="header-desc">Cross-referencing perp positions, netflow, DEX trades, and exchange inflows across {data.metadata.chains_scanned.length} chains.</p>
       </div>
     </div>
     <div class="header-right">
@@ -258,17 +263,24 @@
     </div>
   </header>
 
+  <!-- Sticky Section Nav -->
+  <nav class="section-nav">
+    <div class="section-nav-inner">
+      <a href="#perp-sentiment" class="section-nav-link">Perp Sentiment</a>
+      <a href="#alerts" class="section-nav-link">Alerts</a>
+      <a href="#case-study" class="section-nav-link">Case Study</a>
+      <a href="#methodology" class="section-nav-link">Methodology</a>
+    </div>
+  </nav>
+
   <!-- Section 1: Perp Sentiment -->
-  <section class="section">
+  <section class="section" id="perp-sentiment">
     <h2 class="section-heading">Perp Sentiment</h2>
     <p class="section-desc">Smart money positioning on Hyperliquid perpetuals, sorted by absolute net exposure.</p>
 
     <div class="perp-list">
-      {#each sortedPerps(data.perp_sentiment) as item}
-        {@const maxUsd = Math.max(
-          ...data.perp_sentiment.map(p => Math.max(p.long_usd, p.short_usd))
-        )}
-        <div class="perp-row" class:perp-long={item.bias === 'LONG'} class:perp-short={item.bias !== 'LONG'} class:perp-major={Math.abs(item.net_usd) > 5_000_000}>
+      {#each majorPerps as item}
+        <div class="perp-row" class:perp-long={item.bias === 'LONG'} class:perp-short={item.bias !== 'LONG'} class:perp-major={true}>
           <div class="perp-left">
             <span class="perp-name mono">{cleanSymbol(item.symbol)}</span>
             <span class="perp-badge" class:perp-badge-long={item.bias === 'LONG'} class:perp-badge-short={item.bias !== 'LONG'}>
@@ -280,14 +292,54 @@
             <div class="bar-row">
               <span class="bar-label">L</span>
               <div class="bar-track">
-                <div class="bar-fill bar-long" style="width: {barWidth(item.long_usd, maxUsd)}%"></div>
+                <div class="bar-fill bar-long" style="width: {barWidth(item.long_usd, perpMaxUsd)}%"></div>
               </div>
               <span class="bar-value mono">{fmtUsd(item.long_usd)}</span>
             </div>
             <div class="bar-row">
               <span class="bar-label">S</span>
               <div class="bar-track">
-                <div class="bar-fill bar-short" style="width: {barWidth(item.short_usd, maxUsd)}%"></div>
+                <div class="bar-fill bar-short" style="width: {barWidth(item.short_usd, perpMaxUsd)}%"></div>
+              </div>
+              <span class="bar-value mono">{fmtUsd(item.short_usd)}</span>
+            </div>
+          </div>
+
+          <div class="perp-net mono" class:text-long={item.net_usd >= 0} class:text-short={item.net_usd < 0}>
+            {item.net_usd >= 0 ? '+' : ''}{fmtUsd(item.net_usd)}
+          </div>
+        </div>
+      {/each}
+
+      {#if majorPerps.length > 0 && otherPerps.length > 0}
+        <div class="perp-divider">
+          <span class="perp-divider-line"></span>
+          <span class="perp-divider-label">Other Positions</span>
+          <span class="perp-divider-line"></span>
+        </div>
+      {/if}
+
+      {#each otherPerps as item}
+        <div class="perp-row" class:perp-long={item.bias === 'LONG'} class:perp-short={item.bias !== 'LONG'}>
+          <div class="perp-left">
+            <span class="perp-name mono">{cleanSymbol(item.symbol)}</span>
+            <span class="perp-badge" class:perp-badge-long={item.bias === 'LONG'} class:perp-badge-short={item.bias !== 'LONG'}>
+              {item.bias}
+            </span>
+          </div>
+
+          <div class="perp-bars">
+            <div class="bar-row">
+              <span class="bar-label">L</span>
+              <div class="bar-track">
+                <div class="bar-fill bar-long" style="width: {barWidth(item.long_usd, perpMaxUsd)}%"></div>
+              </div>
+              <span class="bar-value mono">{fmtUsd(item.long_usd)}</span>
+            </div>
+            <div class="bar-row">
+              <span class="bar-label">S</span>
+              <div class="bar-track">
+                <div class="bar-fill bar-short" style="width: {barWidth(item.short_usd, perpMaxUsd)}%"></div>
               </div>
               <span class="bar-value mono">{fmtUsd(item.short_usd)}</span>
             </div>
@@ -302,7 +354,7 @@
   </section>
 
   <!-- Section 2: Alerts -->
-  <section class="section">
+  <section class="section" id="alerts">
     <h2 class="section-heading">Alerts</h2>
     <p class="section-desc">Active signals from cross-referencing smart money flows, perp positions, and token anomalies.</p>
 
@@ -330,7 +382,7 @@
   </section>
 
   <!-- Section 3: Drift Case Study -->
-  <section class="section section-drift">
+  <section class="section section-drift" id="case-study">
     <div class="drift-header">
       <h2 class="drift-title">{data.drift_case_study.event.name}</h2>
       <div class="drift-meta-row">
@@ -383,7 +435,7 @@
 
           <defs>
             <linearGradient id="areaGrad" x1="0" y1="0" x2="0" y2="1">
-              <stop offset="0%" stop-color="var(--accent-brand)" stop-opacity="0.25"/>
+              <stop offset="0%" stop-color="var(--accent-brand)" stop-opacity="0.40"/>
               <stop offset="100%" stop-color="var(--accent-brand)" stop-opacity="0"/>
             </linearGradient>
           </defs>
@@ -440,6 +492,25 @@
       </ul>
     </div>
 
+    <!-- Honest Assessment -->
+    <div class="assessment-card">
+      <h3 class="sub-label">Honest Assessment</h3>
+      <div class="assessment-sections">
+        <div class="assessment-block">
+          <h4 class="assessment-heading">EARLY WARNING CAPABILITY</h4>
+          <p>{data.drift_case_study.honest_assessment.early_warning}</p>
+        </div>
+        <div class="assessment-block">
+          <h4 class="assessment-heading">WHAT THE DATA SHOWS</h4>
+          <p>{data.drift_case_study.honest_assessment.what_it_shows}</p>
+        </div>
+        <div class="assessment-block">
+          <h4 class="assessment-heading">IMPLICATION</h4>
+          <p>{data.drift_case_study.honest_assessment.implication}</p>
+        </div>
+      </div>
+    </div>
+
     <!-- Holders Table -->
     <div class="holders-card">
       <h3 class="sub-label">Top Holders &mdash; 7-Day Changes</h3>
@@ -479,29 +550,10 @@
         </table>
       </div>
     </div>
-
-    <!-- Honest Assessment -->
-    <div class="assessment-card">
-      <h3 class="sub-label">Honest Assessment</h3>
-      <div class="assessment-sections">
-        <div class="assessment-block">
-          <h4 class="assessment-heading">EARLY WARNING CAPABILITY</h4>
-          <p>{data.drift_case_study.honest_assessment.early_warning}</p>
-        </div>
-        <div class="assessment-block">
-          <h4 class="assessment-heading">WHAT THE DATA SHOWS</h4>
-          <p>{data.drift_case_study.honest_assessment.what_it_shows}</p>
-        </div>
-        <div class="assessment-block">
-          <h4 class="assessment-heading">IMPLICATION</h4>
-          <p>{data.drift_case_study.honest_assessment.implication}</p>
-        </div>
-      </div>
-    </div>
   </section>
 
   <!-- Section 4: Methodology -->
-  <section class="section">
+  <section class="section" id="methodology">
     <h2 class="section-heading">Methodology</h2>
 
     <div class="method-grid">
@@ -585,9 +637,11 @@
 
   <!-- Footer -->
   <footer class="footer">
-    <p>Built with <a href="https://docs.nansen.ai/reference/cli" target="_blank" rel="noopener">Nansen CLI</a> for <strong>#NansenCLI Challenge</strong></p>
-    <p class="footer-link"><a href="https://github.com/Yonkoo11/nansen-sentinel" target="_blank" rel="noopener">GitHub</a></p>
-    <p class="footer-fine">Real data from Nansen smart money labels. No mock data. No guarantees.</p>
+    <div class="footer-container">
+      <p>Built with <a href="https://docs.nansen.ai/reference/cli" target="_blank" rel="noopener">Nansen CLI</a> for <strong>#NansenCLI Challenge</strong></p>
+      <p class="footer-link"><a href="https://github.com/Yonkoo11/nansen-sentinel" target="_blank" rel="noopener">GitHub</a></p>
+      <p class="footer-fine">Real data from Nansen smart money labels. No mock data. No guarantees.</p>
+    </div>
   </footer>
 {/if}
 
@@ -694,6 +748,49 @@
   @keyframes blink {
     0%, 100% { opacity: 1; }
     50% { opacity: 0.3; }
+  }
+
+  /* === STICKY NAV === */
+  .section-nav {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: rgba(22, 22, 26, 0.95);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border-bottom: 0.5px solid var(--border-hairline);
+    margin-bottom: var(--sp-10);
+  }
+
+  .section-nav-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: var(--sp-3) var(--sp-6);
+    display: flex;
+    gap: var(--sp-6);
+  }
+
+  .section-nav-link {
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--text-muted);
+    text-decoration: none;
+    transition: color var(--duration-fast) var(--ease-out);
+  }
+
+  .section-nav-link:hover {
+    color: var(--accent-brand);
+    text-decoration: none;
+  }
+
+  /* === HEADER DESC === */
+  .header-desc {
+    font-size: 14px;
+    color: var(--text-secondary);
+    max-width: 500px;
+    margin-top: var(--sp-1);
+    line-height: 1.5;
   }
 
   /* === SECTIONS === */
@@ -849,6 +946,26 @@
     font-weight: 600;
   }
 
+  .perp-divider {
+    display: flex;
+    align-items: center;
+    gap: var(--sp-3);
+    padding: var(--sp-2) 0;
+  }
+
+  .perp-divider-line {
+    flex: 1;
+    height: 0.5px;
+    background: var(--border-hairline);
+  }
+
+  .perp-divider-label {
+    font-size: 12px;
+    color: var(--text-muted);
+    letter-spacing: 0.04em;
+    white-space: nowrap;
+  }
+
   .text-long { color: var(--accent-green); }
   .text-short { color: var(--accent-red); }
   .text-muted { color: var(--text-muted); }
@@ -887,7 +1004,7 @@
 
   .alert-card.alert-medium {
     border-left-color: var(--accent-yellow);
-    box-shadow: 0 0 20px rgba(234,179,8,0.06);
+    box-shadow: 0 0 20px rgba(234,179,8,0.08);
   }
 
   .alert-top {
@@ -1297,13 +1414,19 @@
 
   /* === FOOTER === */
   .footer {
-    text-align: center;
     padding: var(--sp-10) 0 var(--sp-8);
-    border-top: 0.5px solid var(--border-hairline);
     font-size: 14px;
     color: var(--text-secondary);
     position: relative;
     z-index: 1;
+  }
+
+  .footer-container {
+    background: var(--bg-surface);
+    border-top: 0.5px solid var(--border-hairline);
+    border-radius: var(--radius-md);
+    padding: var(--sp-6);
+    text-align: center;
   }
 
   .footer strong {
@@ -1323,6 +1446,17 @@
 
   /* === RESPONSIVE === */
   @media (max-width: 768px) {
+    .section-nav-inner {
+      padding: var(--sp-3) var(--sp-3);
+      gap: var(--sp-4);
+      overflow-x: auto;
+    }
+
+    .section-nav-link {
+      font-size: 12px;
+      white-space: nowrap;
+    }
+
     .header {
       flex-direction: column;
       align-items: flex-start;

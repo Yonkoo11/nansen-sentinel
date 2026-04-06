@@ -2,7 +2,7 @@
    Nansen Sentinel - Design Tokens & Global Styles
    ============================================ */
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap');
+/* Fonts loaded via index.html <link> with display=swap for non-blocking render */
 
 :root {
   /* Colors - warm near-black base */
@@ -82,6 +82,7 @@
 
 html {
   background: var(--bg-base);
+  scroll-behavior: smooth;
 }
 
 body {
