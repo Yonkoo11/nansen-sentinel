@@ -11,6 +11,26 @@ Round 2: Liveness fixes - visible teal glow (0.15), noise texture (0.035), card 
 Round 3: Segment-by-segment review. Fixed holders 7D color (CSS specificity bug), alert number decimals, 10px font.
 design-qa.sh passes 6/6. Built enforcement script at ~/System/scripts/design-qa.sh.
 
+### Round 4 Critique (pending implementation):
+Deep critique as UI designer + UX architect + frontend engineer found these issues:
+
+**Must fix (ranked by impact for hackathon):**
+1. Add OpenGraph meta tags + og:image screenshot — judges click from X, see blank preview
+2. Add sticky section nav with anchor links — judges jump to case study directly
+3. Move "Honest Assessment" BEFORE holders table — don't bury the differentiator
+4. Add font-display: swap for Google Fonts — prevent render-blocking
+5. Group perp rows: "Major (>$5M)" vs "Other" with divider — break visual monotony
+6. Boost MEDIUM alert card glow — too subtle vs LOW cards at full-page zoom
+7. Header needs brief intro line or closer proximity to first section
+8. Footer needs subtle top border or container
+9. Chart gradient fill should be more visible against card bg
+
+**Implementation approach:**
+- Fix #1-5 in App.svelte and index.html directly
+- Fix #6-9 are CSS-only tweaks
+- After fixes: run design-qa.sh, take screenshots, rebuild + deploy
+- Take og:image screenshot at 1200x630 for Twitter cards
+
 ### Remaining before April 12:
 1. Refresh dashboard data closer to submission (run `npx tsx scripts/generate-dashboard-data.ts` then rebuild + redeploy)
 2. Consider adding a Nansen Alerts integration (nansen CLI has `alerts create` — could show we use their alert system)
