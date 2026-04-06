@@ -190,27 +190,30 @@ export const DEFAULT_CONFIG: CollectConfig = {
 };
 
 // === Scoring Thresholds ===
-// Calibrated from real API data (April 6 2026)
+// Calibrated from baseline measurement April 6 2026:
+// - Solana: 0/50 tokens triggered at -$10K 24h threshold
+// - Ethereum: 1/50 tokens triggered at -$10K 24h (MAV, -$17K)
+// - Ethereum: 2/50 tokens triggered at -$50K 7d
+// False positive rate: ~0-2% per chain per scan. Acceptable.
 
 export const THRESHOLDS = {
-  // Netflow: consider negative 24h flow as a dump signal
   netflow_dump_24h_usd: -10_000,
   netflow_dump_7d_usd: -50_000,
 
-  // Perp: minimum short value to consider as signal
   perp_short_min_usd: 500,
 
-  // Price: minimum drop to flag
   price_drop_pct: -10,
 
-  // Exchange inflow: balance change threshold
   exchange_inflow_7d_pct: 10,
 
-  // Scoring weights
+  // Weights reflect signal reliability, not prediction accuracy.
+  // SM perp trades are highest-signal (real money conviction).
+  // Netflow is second (aggregated across all SM wallets).
+  // DEX sells and exchange inflows are weaker (many benign reasons).
   weights: {
     netflow_dump: 30,
-    perp_short: 25,
-    price_anomaly: 25,
+    perp_short: 30,
+    price_anomaly: 20,
     exchange_inflow: 20,
   },
 } as const;

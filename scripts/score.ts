@@ -1,5 +1,6 @@
 // Signal scoring engine for Nansen Sentinel
-// Takes raw Nansen data and produces scored alerts
+// Extracts smart money behavior signals from Nansen data.
+// NOT a prediction engine. Shows what SM is doing so you can decide.
 
 import type {
   SmartMoneyPerpTrade,
@@ -126,7 +127,7 @@ export function extractDexSellSignals(
     if (data.total_usd < 1000) continue; // Ignore dust
 
     signals.push({
-      type: "price_anomaly", // Using as proxy for DEX sell pressure
+      type: "price_anomaly", // DEX sell pressure from labeled wallets
       token_symbol: symbol,
       chain: data.chain,
       confidence: data.traders.size > 1 ? "HIGH" : "MEDIUM",
@@ -247,7 +248,7 @@ export function scoreAlerts(signals: Signal[]): ScoredAlert[] {
 
 export function printAlerts(alerts: ScoredAlert[]): void {
   console.log(`\n${"=".repeat(80)}`);
-  console.log(`  NANSEN SENTINEL — Smart Money Exploit Early Warning`);
+  console.log(`  NANSEN SENTINEL — Smart Money Intelligence`);
   console.log(`  ${new Date().toISOString()}`);
   console.log(`${"=".repeat(80)}\n`);
 

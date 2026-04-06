@@ -1,0 +1,542 @@
+{
+  "generated_at": "2026-04-06T10:38:24.323Z",
+  "api_calls": 8,
+  "perp_sentiment": [
+    {
+      "symbol": "BTC",
+      "longs": 2,
+      "shorts": 17,
+      "long_usd": 1514219,
+      "short_usd": 20201094,
+      "net_usd": -18686875,
+      "long_traders": 2,
+      "short_traders": 3,
+      "bias": "SHORT"
+    },
+    {
+      "symbol": "xyz:BRENTOIL",
+      "longs": 23,
+      "shorts": 0,
+      "long_usd": 16436422,
+      "short_usd": 0,
+      "net_usd": 16436422,
+      "long_traders": 2,
+      "short_traders": 0,
+      "bias": "LONG"
+    },
+    {
+      "symbol": "ETH",
+      "longs": 2,
+      "shorts": 18,
+      "long_usd": 1084403,
+      "short_usd": 12241277,
+      "net_usd": -11156874,
+      "long_traders": 2,
+      "short_traders": 2,
+      "bias": "SHORT"
+    },
+    {
+      "symbol": "xyz:CL",
+      "longs": 5,
+      "shorts": 15,
+      "long_usd": 2912254,
+      "short_usd": 9555514,
+      "net_usd": -6643260,
+      "long_traders": 2,
+      "short_traders": 3,
+      "bias": "SHORT"
+    },
+    {
+      "symbol": "cash:NVDA",
+      "longs": 0,
+      "shorts": 2,
+      "long_usd": 0,
+      "short_usd": 3236648,
+      "net_usd": -3236648,
+      "long_traders": 0,
+      "short_traders": 1,
+      "bias": "SHORT"
+    },
+    {
+      "symbol": "XPL",
+      "longs": 4,
+      "shorts": 1,
+      "long_usd": 3425207,
+      "short_usd": 651108,
+      "net_usd": 2774099,
+      "long_traders": 1,
+      "short_traders": 1,
+      "bias": "LONG"
+    },
+    {
+      "symbol": "cash:INTC",
+      "longs": 1,
+      "shorts": 0,
+      "long_usd": 1700000,
+      "short_usd": 0,
+      "net_usd": 1700000,
+      "long_traders": 1,
+      "short_traders": 0,
+      "bias": "LONG"
+    },
+    {
+      "symbol": "cash:AMZN",
+      "longs": 2,
+      "shorts": 0,
+      "long_usd": 1215088,
+      "short_usd": 0,
+      "net_usd": 1215088,
+      "long_traders": 1,
+      "short_traders": 0,
+      "bias": "LONG"
+    },
+    {
+      "symbol": "xyz:SP500",
+      "longs": 0,
+      "shorts": 1,
+      "long_usd": 0,
+      "short_usd": 983550,
+      "net_usd": -983550,
+      "long_traders": 0,
+      "short_traders": 1,
+      "bias": "SHORT"
+    },
+    {
+      "symbol": "cash:USA500",
+      "longs": 3,
+      "shorts": 2,
+      "long_usd": 5962074,
+      "short_usd": 5432957,
+      "net_usd": 529117,
+      "long_traders": 1,
+      "short_traders": 1,
+      "bias": "LONG"
+    },
+    {
+      "symbol": "HYPE",
+      "longs": 1,
+      "shorts": 1,
+      "long_usd": 490224,
+      "short_usd": 492626,
+      "net_usd": -2402,
+      "long_traders": 1,
+      "short_traders": 1,
+      "bias": "SHORT"
+    }
+  ],
+  "alerts": [
+    {
+      "token_symbol": "xyz:CL",
+      "chain": "hyperliquid",
+      "confidence": "MEDIUM",
+      "signals": [
+        {
+          "type": "perp_short",
+          "token_symbol": "xyz:CL",
+          "chain": "hyperliquid",
+          "confidence": "HIGH",
+          "value_usd": 6909787.096282983,
+          "description": "SM opening shorts: $6,909,787.096 across 12 trades by 2 trader(s)",
+          "timestamp": "2026-04-06T10:37:56.381Z",
+          "raw_data": {
+            "total_usd": 6909787.096282983,
+            "trade_count": 12,
+            "unique_traders": 2
+          }
+        }
+      ],
+      "score": 30,
+      "timestamp": "2026-04-06T10:37:56.381Z",
+      "summary": "SM opening shorts: $6,909,787.096 across 12 trades by 2 trader(s)"
+    },
+    {
+      "token_symbol": "MAV",
+      "chain": "ethereum",
+      "confidence": "LOW",
+      "signals": [
+        {
+          "type": "netflow_dump",
+          "token_symbol": "MAV",
+          "chain": "ethereum",
+          "confidence": "MEDIUM",
+          "value_usd": -17231.64773213464,
+          "description": "SM net outflow: $17,231.648 (24h), $17,231.648 (7d)",
+          "timestamp": "2026-04-06T10:37:47.351Z",
+          "raw_data": {
+            "token_address": "0x7448c7456a97769f6cd04f1e83a4a23ccdc46abd",
+            "token_symbol": "MAV",
+            "net_flow_1h_usd": 0,
+            "net_flow_24h_usd": -17231.64773213464,
+            "net_flow_7d_usd": -17231.64773213464,
+            "net_flow_30d_usd": -17231.64773213464,
+            "chain": "ethereum",
+            "token_sectors": [
+              "Scaling & Connectivity",
+              "Decentralised Exchanges"
+            ],
+            "trader_count": 1,
+            "token_age_days": 1028,
+            "market_cap_usd": 12810584
+          }
+        }
+      ],
+      "score": 18,
+      "timestamp": "2026-04-06T10:37:56.381Z",
+      "summary": "SM net outflow: $17,231.648 (24h), $17,231.648 (7d)"
+    },
+    {
+      "token_symbol": "cash:USA500",
+      "chain": "hyperliquid",
+      "confidence": "LOW",
+      "signals": [
+        {
+          "type": "perp_short",
+          "token_symbol": "cash:USA500",
+          "chain": "hyperliquid",
+          "confidence": "MEDIUM",
+          "value_usd": 3000568.5115230773,
+          "description": "SM opening shorts: $3,000,568.512 across 1 trades by 1 trader(s)",
+          "timestamp": "2026-04-06T10:37:56.381Z",
+          "raw_data": {
+            "total_usd": 3000568.5115230773,
+            "trade_count": 1,
+            "unique_traders": 1
+          }
+        }
+      ],
+      "score": 18,
+      "timestamp": "2026-04-06T10:37:56.381Z",
+      "summary": "SM opening shorts: $3,000,568.512 across 1 trades by 1 trader(s)"
+    },
+    {
+      "token_symbol": "cash:NVDA",
+      "chain": "hyperliquid",
+      "confidence": "LOW",
+      "signals": [
+        {
+          "type": "perp_short",
+          "token_symbol": "cash:NVDA",
+          "chain": "hyperliquid",
+          "confidence": "MEDIUM",
+          "value_usd": 1601209.6890225532,
+          "description": "SM opening shorts: $1,601,209.689 across 1 trades by 1 trader(s)",
+          "timestamp": "2026-04-06T10:37:56.381Z",
+          "raw_data": {
+            "total_usd": 1601209.6890225532,
+            "trade_count": 1,
+            "unique_traders": 1
+          }
+        }
+      ],
+      "score": 18,
+      "timestamp": "2026-04-06T10:37:56.381Z",
+      "summary": "SM opening shorts: $1,601,209.689 across 1 trades by 1 trader(s)"
+    },
+    {
+      "token_symbol": "xyz:SP500",
+      "chain": "hyperliquid",
+      "confidence": "LOW",
+      "signals": [
+        {
+          "type": "perp_short",
+          "token_symbol": "xyz:SP500",
+          "chain": "hyperliquid",
+          "confidence": "MEDIUM",
+          "value_usd": 983550,
+          "description": "SM opening shorts: $983,550 across 1 trades by 1 trader(s)",
+          "timestamp": "2026-04-06T10:37:56.381Z",
+          "raw_data": {
+            "total_usd": 983550,
+            "trade_count": 1,
+            "unique_traders": 1
+          }
+        }
+      ],
+      "score": 18,
+      "timestamp": "2026-04-06T10:37:56.381Z",
+      "summary": "SM opening shorts: $983,550 across 1 trades by 1 trader(s)"
+    },
+    {
+      "token_symbol": "MEEP",
+      "chain": "solana",
+      "confidence": "LOW",
+      "signals": [
+        {
+          "type": "price_anomaly",
+          "token_symbol": "MEEP",
+          "chain": "solana",
+          "confidence": "MEDIUM",
+          "value_usd": 1566.135878876697,
+          "description": "SM selling on DEX: $1,566.136 across 2 trades by 1 trader(s)",
+          "timestamp": "2026-04-06T10:37:56.379Z",
+          "raw_data": {
+            "total_usd": 1566.135878876697,
+            "trade_count": 2,
+            "unique_traders": 1
+          }
+        }
+      ],
+      "score": 12,
+      "timestamp": "2026-04-06T10:37:56.381Z",
+      "summary": "SM selling on DEX: $1,566.136 across 2 trades by 1 trader(s)"
+    }
+  ],
+  "drift_case_study": {
+    "token": {
+      "name": "Drift",
+      "symbol": "DRIFT",
+      "market_cap": 24166708.07595936
+    },
+    "event": {
+      "name": "Drift Protocol Exploit",
+      "date": "2026-04-01",
+      "tvl_drop": "-92.4% in 1h ($23.7M -> $1.8M)"
+    },
+    "price_timeline": [
+      {
+        "date": "2026-03-24",
+        "price": 0.07879978167919705,
+        "net_flow": 6441723.981050007,
+        "holders": 95
+      },
+      {
+        "date": "2026-03-25",
+        "price": 0.08088581813847495,
+        "net_flow": 665165.280009001,
+        "holders": 95
+      },
+      {
+        "date": "2026-03-26",
+        "price": 0.07566162420212465,
+        "net_flow": -1246048.989577985,
+        "holders": 95
+      },
+      {
+        "date": "2026-03-27",
+        "price": 0.07187702334860577,
+        "net_flow": -140319.29933602037,
+        "holders": 95
+      },
+      {
+        "date": "2026-03-28",
+        "price": 0.06643073974863736,
+        "net_flow": 207277.95901699713,
+        "holders": 95
+      },
+      {
+        "date": "2026-03-29",
+        "price": 0.06548693312340385,
+        "net_flow": -11865.681675981265,
+        "holders": 95
+      },
+      {
+        "date": "2026-03-30",
+        "price": 0.0659044111890035,
+        "net_flow": 535957.815175981,
+        "holders": 95
+      },
+      {
+        "date": "2026-03-31",
+        "price": 0.06477485618659598,
+        "net_flow": -5904821.233313,
+        "holders": 95
+      },
+      {
+        "date": "2026-04-01",
+        "price": 0.06956850559508054,
+        "net_flow": 118513815.636655,
+        "holders": 99
+      },
+      {
+        "date": "2026-04-02",
+        "price": 0.044375653573829964,
+        "net_flow": 11037685.264203005,
+        "holders": 97
+      },
+      {
+        "date": "2026-04-03",
+        "price": 0.043269102880239135,
+        "net_flow": -13300249.010984004,
+        "holders": 100
+      },
+      {
+        "date": "2026-04-04",
+        "price": 0.039416657464482585,
+        "net_flow": -6976298.203494001,
+        "holders": 100
+      },
+      {
+        "date": "2026-04-05",
+        "price": 0.044330369305590756,
+        "net_flow": 60208.99462399632,
+        "holders": 100
+      },
+      {
+        "date": "2026-04-06",
+        "price": 0.03952050437074717,
+        "net_flow": 23760546.265955,
+        "holders": 100
+      }
+    ],
+    "holders": [
+      {
+        "label": "​​DRIFT Custody Vaults [9Wiiyvy8]",
+        "tokens": 238724773.000009,
+        "ownership_pct": 23.871495643962653,
+        "change_7d": -30000100,
+        "is_exchange": false
+      },
+      {
+        "label": "🏦 Upbit: Internal Wallet [FH9iLV5Z]",
+        "tokens": 142123304.104063,
+        "ownership_pct": 14.211745987608884,
+        "change_7d": 470576.510631,
+        "is_exchange": true
+      },
+      {
+        "label": "​​Drift [7LCwgH3T]",
+        "tokens": 39846001,
+        "ownership_pct": 3.984436249943761,
+        "change_7d": 0,
+        "is_exchange": false
+      },
+      {
+        "label": "​​🏦 Bybit: Hot Wallet [5LZkATrL]",
+        "tokens": 37702933.068176,
+        "ownership_pct": 3.7701382692341903,
+        "change_7d": 28127605.684027,
+        "is_exchange": true
+      },
+      {
+        "label": "Multiple Memecoin Whale [Am8MAEor]",
+        "tokens": 33101563.723315,
+        "ownership_pct": 3.310020255959931,
+        "change_7d": 31677277.140881,
+        "is_exchange": false
+      },
+      {
+        "label": "​​Wintermute Market Making: Token Millionaire [44P5Ct5J]",
+        "tokens": 28276576.396547,
+        "ownership_pct": 2.8275413640306337,
+        "change_7d": 28055381.146954,
+        "is_exchange": false
+      },
+      {
+        "label": "🏦 Drift Protocol: JCNCMF [JCNCMFXo]",
+        "tokens": 27847150.411398,
+        "ownership_pct": 2.784600531350951,
+        "change_7d": -4201293.322002,
+        "is_exchange": false
+      },
+      {
+        "label": "🏦 Coinbase: Deposit [EPpctwZp]",
+        "tokens": 25846871.809551,
+        "ownership_pct": 2.584580896477529,
+        "change_7d": -718661.603553,
+        "is_exchange": true
+      },
+      {
+        "label": "​​JITOSOL Custody Vaults [DemTRm4s]",
+        "tokens": 22257547.9,
+        "ownership_pct": 2.2256632651196195,
+        "change_7d": 0,
+        "is_exchange": false
+      },
+      {
+        "label": "Token Millionaire [3VYKR2SW]",
+        "tokens": 15000000,
+        "ownership_pct": 1.4999383187576696,
+        "change_7d": 0,
+        "is_exchange": false
+      }
+    ],
+    "traders": [
+      {
+        "label": "High Balance [HnL9dMWV]",
+        "bought_usd": 208202.35080625306,
+        "sold_usd": 0,
+        "net_usd": 208202.35080625306
+      },
+      {
+        "label": "​​Wintermute: Token Millionaire [BMnT51N4]",
+        "bought_usd": 352817.69878513453,
+        "sold_usd": 155548.83664383486,
+        "net_usd": 197268.86214129967
+      },
+      {
+        "label": "​​Trading Bot [7ebCZ3KJ]",
+        "bought_usd": 189496.39515350343,
+        "sold_usd": 37963.43164119184,
+        "net_usd": 151532.96351231157
+      },
+      {
+        "label": "​​Trading Bot [GCvHhEUY]",
+        "bought_usd": 194255.31556131874,
+        "sold_usd": 26022.192121648764,
+        "net_usd": 168233.12343967
+      },
+      {
+        "label": "​​Trading Bot [6b8wNt5C]",
+        "bought_usd": 29878.667137610337,
+        "sold_usd": 0,
+        "net_usd": 29878.667137610337
+      },
+      {
+        "label": "​​Trading Bot [9Ycg7vSk]",
+        "bought_usd": 21300.831063547063,
+        "sold_usd": 0,
+        "net_usd": 21300.831063547063
+      },
+      {
+        "label": "[DS37mUbN]",
+        "bought_usd": 18204.458316040815,
+        "sold_usd": 2649.781549604054,
+        "net_usd": 15554.676766436762
+      },
+      {
+        "label": "[AfGHVJwu]",
+        "bought_usd": 14043.493029434921,
+        "sold_usd": 0,
+        "net_usd": 14043.493029434921
+      },
+      {
+        "label": "[6VeVCG2E]",
+        "bought_usd": 15504.555635655523,
+        "sold_usd": 0,
+        "net_usd": 15504.555635655523
+      },
+      {
+        "label": "[CdSkvzb4]",
+        "bought_usd": 15350.6440525934,
+        "sold_usd": 148.05331964596564,
+        "net_usd": 15202.590732947434
+      }
+    ],
+    "key_findings": [
+      "Price crashed 43.3% over 3 days (Apr 1-4)",
+      "DRIFT Custody Vaults lost 30M tokens in 7 days",
+      "Bybit hot wallet gained 28.1M tokens (users depositing to sell)",
+      "Wintermute Market Making absorbed 28M tokens",
+      "40 consecutive sells on April 1, zero buys during crash",
+      "SOL Big Brain label sold $20K at $0.050-0.052 during dead cat bounce",
+      "High Balance wallet systematically sold $70K at $0.047-0.050 post-crash"
+    ],
+    "honest_assessment": {
+      "early_warning": "NOT PROVEN. All observed selling occurred AFTER the price had already crashed from $0.070 to $0.026. The token was too small for SM netflow tracking.",
+      "what_it_shows": "SM reaction speed. Labeled wallets sold within hours of the crash while retail was still figuring out what happened. Custody vault outflows and exchange inflows are clear retrospective signals.",
+      "implication": "Nansen data is most useful for real-time reaction analysis and post-event forensics, not pre-event prediction for small-cap exploits."
+    }
+  },
+  "metadata": {
+    "chains_scanned": [
+      "solana",
+      "ethereum"
+    ],
+    "total_signals": 6,
+    "false_positive_baseline": {
+      "solana": "0/50 tokens triggered (0%)",
+      "ethereum": "1/50 tokens triggered (2%)",
+      "measurement_date": "2026-04-06"
+    }
+  }
+}

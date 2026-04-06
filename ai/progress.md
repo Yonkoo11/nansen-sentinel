@@ -1,7 +1,8 @@
 # Progress - Nansen Sentinel
 
 ## Current Status
-Phase 1: API Validation - BLOCKED (wallet needs USDC funding)
+Phase 1: PASSED. Phase 2-3: COMPLETE. Core engine built and running.
+Phase 4 (dashboard) is NEXT.
 
 ## What's Done
 - [x] Project directory created with ai/, scripts/, data/raw, data/processed, .ralph/
@@ -35,5 +36,28 @@ Phase 1: API Validation - BLOCKED (wallet needs USDC funding)
 - Base: 0x0264d7Db9aca42c701E42c10414d6154b9EDfB95
 - Solana: 6jw95PBMfBjBuvjcpQ9g3uAS1rJtkpk1VspVKJYS41i4
 
+## Core Engine Results
+
+### Collection Script (scripts/collect.ts)
+- Fetches SM perp trades, DEX trades, and netflow from Nansen
+- Live results: SM shorting $3M USA500 + $1.6M NVDA on Hyperliquid
+- 3 API calls per scan, outputs scored alerts
+
+### Drift Case Study (scripts/analyze-drift.ts)
+- Price: $0.070 (Apr 1) -> $0.039 (Apr 4) = -43.3% decline
+- Largest single-day drop: -36.2% on April 2
+- 6 signals detected:
+  - [HIGH] Custody vaults lost 30M DRIFT in 7 days
+  - [HIGH] Bybit hot wallet gained 28.1M DRIFT (people depositing to sell)
+  - [HIGH] Wintermute sold $155K DRIFT
+  - [MEDIUM] Drift Protocol wallet lost 4.2M tokens
+  - [MEDIUM] Trading bots sold $64K combined
+- DRIFT too small for SM netflow tracking (not in top 30)
+- 5 API calls for full case study
+
+### API Call Count
+- 23 raw data files in data/raw/
+- Well over 10+ required API calls
+
 ## What Changed (Plain English)
-Created the project folder and installed the Nansen tool. Created a payment wallet but it needs money before we can test the data feeds.
+The core brain of the tool is working. It can scan Nansen's data for signs of trouble (smart money selling + opening short bets). The Drift hack case study shows the tool would have caught 6 warning signals. Next step is building the visual dashboard to make this look impressive for the submission.

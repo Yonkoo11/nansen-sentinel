@@ -1,0 +1,123 @@
+[
+  {
+    "symbol": "BTC",
+    "longs": 2,
+    "shorts": 17,
+    "long_usd": 1514219,
+    "short_usd": 20201094,
+    "net_usd": -18686875,
+    "long_traders": 2,
+    "short_traders": 3,
+    "bias": "SHORT"
+  },
+  {
+    "symbol": "xyz:BRENTOIL",
+    "longs": 23,
+    "shorts": 0,
+    "long_usd": 16436422,
+    "short_usd": 0,
+    "net_usd": 16436422,
+    "long_traders": 2,
+    "short_traders": 0,
+    "bias": "LONG"
+  },
+  {
+    "symbol": "ETH",
+    "longs": 2,
+    "shorts": 18,
+    "long_usd": 1084403,
+    "short_usd": 12241277,
+    "net_usd": -11156874,
+    "long_traders": 2,
+    "short_traders": 2,
+    "bias": "SHORT"
+  },
+  {
+    "symbol": "xyz:CL",
+    "longs": 5,
+    "shorts": 15,
+    "long_usd": 2912254,
+    "short_usd": 9555514,
+    "net_usd": -6643260,
+    "long_traders": 2,
+    "short_traders": 3,
+    "bias": "SHORT"
+  },
+  {
+    "symbol": "cash:NVDA",
+    "longs": 0,
+    "shorts": 2,
+    "long_usd": 0,
+    "short_usd": 3236648,
+    "net_usd": -3236648,
+    "long_traders": 0,
+    "short_traders": 1,
+    "bias": "SHORT"
+  },
+  {
+    "symbol": "XPL",
+    "longs": 4,
+    "shorts": 1,
+    "long_usd": 3425207,
+    "short_usd": 651108,
+    "net_usd": 2774099,
+    "long_traders": 1,
+    "short_traders": 1,
+    "bias": "LONG"
+  },
+  {
+    "symbol": "cash:INTC",
+    "longs": 1,
+    "shorts": 0,
+    "long_usd": 1700000,
+    "short_usd": 0,
+    "net_usd": 1700000,
+    "long_traders": 1,
+    "short_traders": 0,
+    "bias": "LONG"
+  },
+  {
+    "symbol": "cash:AMZN",
+    "longs": 2,
+    "shorts": 0,
+    "long_usd": 1215088,
+    "short_usd": 0,
+    "net_usd": 1215088,
+    "long_traders": 1,
+    "short_traders": 0,
+    "bias": "LONG"
+  },
+  {
+    "symbol": "xyz:SP500",
+    "longs": 0,
+    "shorts": 1,
+    "long_usd": 0,
+    "short_usd": 983550,
+    "net_usd": -983550,
+    "long_traders": 0,
+    "short_traders": 1,
+    "bias": "SHORT"
+  },
+  {
+    "symbol": "cash:USA500",
+    "longs": 3,
+    "shorts": 2,
+    "long_usd": 5962074,
+    "short_usd": 5432957,
+    "net_usd": 529117,
+    "long_traders": 1,
+    "short_traders": 1,
+    "bias": "LONG"
+  },
+  {
+    "symbol": "HYPE",
+    "longs": 1,
+    "shorts": 1,
+    "long_usd": 490224,
+    "short_usd": 492626,
+    "net_usd": -2402,
+    "long_traders": 1,
+    "short_traders": 1,
+    "bias": "SHORT"
+  }
+]
