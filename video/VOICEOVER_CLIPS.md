@@ -1,4 +1,4 @@
-# Nansen Sentinel — Demo Video Script
+# Nansen Sentinel — Demo Video Script (v2)
 
 ## Clip 01: hero
 **Frame:** Dashboard header + perp sentiment section (top of page)
@@ -15,17 +15,17 @@ Click any row to see who's behind it. These are Nansen's labeled wallets. Names,
 **Voice:**
 The scoring engine cross-references four signals. Netflow dumps. Perp shorts. DEX sells. Exchange inflows. When multiple signals fire on the same token. That's a high-confidence warning.
 
-## Clip 04: drift
-**Frame:** Drift case study chart with exploit marker
+## Clip 04: drift-forensics
+**Frame:** Drift case study chart with exploit marker + key findings
 **Voice:**
-Case study. The Drift Protocol hack on April first. Ninety-two percent TVL drop. Twenty-three million dollars gone in hours. We ran Nansen's data through the engine.
+Forensic case study. The Drift Protocol hack. We traced thirty million tokens leaving custody vaults. Twenty-eight million flowing to Bybit. Forty consecutive sells on April first. Zero buys. Nansen's labels showed exactly who moved what. When.
 
-## Clip 05: findings
-**Frame:** Key findings + honest assessment
+## Clip 05: methodology
+**Frame:** Methodology section showing 4 signal types + scoring levels
 **Voice:**
-Custody vaults lost thirty million tokens. Bybit hot wallet gained twenty-eight million. Wintermute sold a hundred and fifty-five K. But here's the honest part. All of this happened after the crash. Not before. The early warning thesis is not proven for this event.
+Four signal types. Each weighted and scored. False positive rate. Zero percent on Solana. Two percent on Ethereum. Calibrated against fifty tokens per chain.
 
-## Clip 06: methodology
-**Frame:** Methodology section + API stats
+## Clip 06: closer
+**Frame:** API stats section (calls, chains, data freshness)
 **Voice:**
-Sixty-five API calls. Nine endpoint types. Three chains. Solana, Ethereum, Base. Zero percent false positive rate on Solana. Two percent on Ethereum. Nansen Sentinel.
+Sixty-five API calls. Nine endpoint types. Three chains. Built with the Nansen CLI. Nansen Sentinel.
