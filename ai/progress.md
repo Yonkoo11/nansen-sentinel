@@ -13,10 +13,30 @@ Repo: https://github.com/Yonkoo11/nansen-sentinel
 - All badges 12px minimum, all body text 14px+
 
 ### Remaining before April 12:
-1. Refresh dashboard data closer to submission (fresher SM positions)
-2. Write X post (user posts manually): @nansen_ai #NansenCLI + QT announcement
-3. Optional: /demo-video for extra impact
-4. Optional: refresh data day-of for most current SM sentiment
+1. Refresh dashboard data closer to submission (run `npx tsx scripts/generate-dashboard-data.ts` then rebuild + redeploy)
+2. Consider adding a Nansen Alerts integration (nansen CLI has `alerts create` — could show we use their alert system)
+3. Consider adding more chains to the scan (currently solana + ethereum, could add base/arbitrum)
+4. Write X post (user posts manually): @nansen_ai #NansenCLI + QT announcement thread + screenshots + GitHub link
+5. Optional: /demo-video for extra impact
+
+### What the submission needs on post day:
+- Fresh data (same day, run generate-dashboard-data.ts -> npm run build -> npx gh-pages -d dashboard/dist)
+- 4 screenshots: perp sentiment, alerts, drift case study chart, honest assessment
+- X post template:
+  "Built Nansen Sentinel — a smart money intelligence tool using @nansen_ai CLI.
+
+   What it does: cross-references SM perp positions, netflow dumps, DEX sells, and exchange inflows to surface what labeled wallets are doing.
+
+   Case study: analyzed the Drift Protocol exploit using Nansen data.
+
+   44+ API calls, 9 endpoints, 2 chains.
+
+   Live: [dashboard URL]
+   Code: [github URL]
+
+   #NansenCLI"
+
+  Then QT the announcement thread.
 
 ## What's Done
 - [x] Project directory created with ai/, scripts/, data/raw, data/processed, .ralph/
