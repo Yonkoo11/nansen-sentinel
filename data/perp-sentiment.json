@@ -35,10 +35,10 @@
   {
     "symbol": "xyz:CL",
     "longs": 5,
-    "shorts": 15,
+    "shorts": 14,
     "long_usd": 2912254,
-    "short_usd": 9555514,
-    "net_usd": -6643260,
+    "short_usd": 9091238,
+    "net_usd": -6178985,
     "long_traders": 2,
     "short_traders": 3,
     "bias": "SHORT"
@@ -107,6 +107,17 @@
     "net_usd": 529117,
     "long_traders": 1,
     "short_traders": 1,
+    "bias": "LONG"
+  },
+  {
+    "symbol": "ZEC",
+    "longs": 1,
+    "shorts": 0,
+    "long_usd": 446087,
+    "short_usd": 0,
+    "net_usd": 446087,
+    "long_traders": 1,
+    "short_traders": 0,
     "bias": "LONG"
   },
   {
