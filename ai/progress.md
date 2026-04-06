@@ -11,7 +11,11 @@ Round 2: Liveness fixes - visible teal glow (0.15), noise texture (0.035), card 
 Round 3: Segment-by-segment review. Fixed holders 7D color (CSS specificity bug), alert number decimals, 10px font.
 design-qa.sh passes 6/6. Built enforcement script at ~/System/scripts/design-qa.sh.
 
-### Round 4 Critique (pending implementation):
+### Round 4 (COMPLETED):
+Sticky nav, perp grouping, assessment reorder, OG image (1200x630), font-display swap, header desc, footer card, chart gradient boost, medium alert glow. All deployed.
+
+### Round 5 (IN PROGRESS — fix before submission):
+Self-critique found 6 weaknesses. Prioritized fixes:
 Deep critique as UI designer + UX architect + frontend engineer found these issues:
 
 **Must fix (ranked by impact for hackathon):**
@@ -25,11 +29,20 @@ Deep critique as UI designer + UX architect + frontend engineer found these issu
 8. Footer needs subtle top border or container
 9. Chart gradient fill should be more visible against card bg
 
-**Implementation approach:**
-- Fix #1-5 in App.svelte and index.html directly
-- Fix #6-9 are CSS-only tweaks
-- After fixes: run design-qa.sh, take screenshots, rebuild + deploy
-- Take og:image screenshot at 1200x630 for Twitter cards
+1. [TODO] Add click-to-expand on perp rows (show individual SM trades) — changes perception from "report" to "tool"
+2. [TODO] Run scorer against 3-5 more tokens with recent price drops — validate or honestly report detection rate
+3. [TODO] Deduplicate data/raw/ filenames — show 9 unique endpoint types clearly
+4. [TODO] Add "9 unique endpoints, 65 total calls" to dashboard metadata instead of just "9"
+5. [TODO] Run /ui-revamp (Phase 4 polish) for final design pass
+6. [TODO] Create demo video (/demo-video) before submission
+7. [TODO] Re-read submission rules to ensure we meet all requirements
+
+### Submission Requirements (from challenge):
+- Install CLI (agents.nansen.ai) ✅
+- Minimum 10 API calls ✅ (65+)
+- Build something creative using the CLI ✅
+- Share on X: tag @nansen_ai, #NansenCLI hashtag, QT announcement thread
+- Bonus: include visuals/video demo, proof of API calls, GitHub link, trading skill
 
 ### Remaining before April 12:
 1. Refresh dashboard data closer to submission (run `npx tsx scripts/generate-dashboard-data.ts` then rebuild + redeploy)
