@@ -268,7 +268,7 @@
         {@const maxUsd = Math.max(
           ...data.perp_sentiment.map(p => Math.max(p.long_usd, p.short_usd))
         )}
-        <div class="perp-row" class:perp-long={item.bias === 'LONG'} class:perp-short={item.bias !== 'LONG'}>
+        <div class="perp-row" class:perp-long={item.bias === 'LONG'} class:perp-short={item.bias !== 'LONG'} class:perp-major={Math.abs(item.net_usd) > 5_000_000}>
           <div class="perp-left">
             <span class="perp-name mono">{cleanSymbol(item.symbol)}</span>
             <span class="perp-badge" class:perp-badge-long={item.bias === 'LONG'} class:perp-badge-short={item.bias !== 'LONG'}>
@@ -624,11 +624,11 @@
   /* === HERO GLOW === */
   .hero-glow {
     position: fixed;
-    top: 0;
+    top: -100px;
     left: 0;
     right: 0;
-    height: 500px;
-    background: radial-gradient(ellipse at 50% 0%, rgba(34,171,148,0.06) 0%, transparent 60%);
+    height: 600px;
+    background: radial-gradient(ellipse at 50% 0%, rgba(34,171,148,0.15) 0%, rgba(34,171,148,0.05) 40%, transparent 70%);
     pointer-events: none;
     z-index: 0;
   }
@@ -749,6 +749,16 @@
     border-left: 2px solid var(--accent-red);
   }
 
+  .perp-row.perp-major.perp-long {
+    box-shadow: 0 0 25px rgba(34,171,148,0.08);
+    background: linear-gradient(90deg, rgba(34,171,148,0.04) 0%, var(--bg-surface) 30%);
+  }
+
+  .perp-row.perp-major.perp-short {
+    box-shadow: 0 0 25px rgba(242,54,69,0.08);
+    background: linear-gradient(90deg, rgba(242,54,69,0.04) 0%, var(--bg-surface) 30%);
+  }
+
   .perp-left {
     display: flex;
     align-items: center;
@@ -866,15 +876,18 @@
 
   .alert-card.alert-critical {
     border-left-color: var(--accent-red);
-    box-shadow: 0 0 20px rgba(242,54,69,0.06);
+    box-shadow: 0 0 30px rgba(242,54,69,0.12), 0 0 60px rgba(242,54,69,0.05);
+    background: linear-gradient(135deg, rgba(242,54,69,0.04) 0%, var(--bg-surface) 40%);
   }
 
   .alert-card.alert-high {
     border-left-color: var(--accent-amber);
+    box-shadow: 0 0 25px rgba(245,166,35,0.08);
   }
 
   .alert-card.alert-medium {
     border-left-color: var(--accent-yellow);
+    box-shadow: 0 0 20px rgba(234,179,8,0.06);
   }
 
   .alert-top {
@@ -981,12 +994,13 @@
 
   /* Chart card */
   .chart-card {
-    background: var(--bg-surface);
-    border: 0.5px solid var(--border-hairline);
+    background: linear-gradient(180deg, rgba(34,171,148,0.03) 0%, var(--bg-surface) 30%);
+    border: 0.5px solid rgba(34,171,148,0.12);
     border-radius: var(--radius-md);
     padding: var(--sp-5);
     margin-bottom: var(--sp-6);
     overflow: hidden;
+    box-shadow: 0 0 40px rgba(34,171,148,0.04);
   }
 
   .chart-label {
@@ -1126,11 +1140,12 @@
 
   /* Assessment */
   .assessment-card {
-    background: var(--bg-surface);
-    border: 0.5px solid var(--border-hairline);
+    background: linear-gradient(135deg, rgba(245,166,35,0.03) 0%, var(--bg-surface) 30%);
+    border: 0.5px solid rgba(245,166,35,0.15);
     border-left: 3px solid var(--accent-amber);
     border-radius: var(--radius-md);
     padding: var(--sp-6);
+    box-shadow: 0 0 30px rgba(245,166,35,0.04);
   }
 
   .assessment-sections {
