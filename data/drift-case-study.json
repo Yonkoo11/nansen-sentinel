@@ -2,7 +2,7 @@
   "token": {
     "name": "Drift",
     "symbol": "DRIFT",
-    "market_cap": 24535419.60412801
+    "market_cap": 25966865.82878192
   },
   "event": {
     "name": "Drift Protocol Exploit",
@@ -10,12 +10,6 @@
     "tvl_drop": "-92.4% in 1h ($23.7M -> $1.8M)"
   },
   "price_timeline": [
-    {
-      "date": "2026-03-24",
-      "price": 0.07879978167919705,
-      "net_flow": 6333545.160184007,
-      "holders": 95
-    },
     {
       "date": "2026-03-25",
       "price": 0.08088581813847495,
@@ -31,13 +25,13 @@
     {
       "date": "2026-03-27",
       "price": 0.07187702334860577,
-      "net_flow": 153157.3687139796,
+      "net_flow": 153907.42704697954,
       "holders": 95
     },
     {
       "date": "2026-03-28",
       "price": 0.06643073974863736,
-      "net_flow": 401791.71576299705,
+      "net_flow": 386781.0623629971,
       "holders": 95
     },
     {
@@ -49,49 +43,55 @@
     {
       "date": "2026-03-30",
       "price": 0.0659044111890035,
-      "net_flow": 202446.83279698063,
+      "net_flow": 202446.8327969811,
       "holders": 95
     },
     {
       "date": "2026-03-31",
       "price": 0.06477485618659598,
-      "net_flow": -5887842.595323,
+      "net_flow": -1457933.5924229994,
       "holders": 95
     },
     {
       "date": "2026-04-01",
       "price": 0.06956850559508054,
-      "net_flow": 115639810.987971,
-      "holders": 99
+      "net_flow": 27043302.504670005,
+      "holders": 97
     },
     {
       "date": "2026-04-02",
       "price": 0.044375653573829964,
-      "net_flow": 8659134.270368006,
-      "holders": 96
+      "net_flow": 36295927.450713,
+      "holders": 94
     },
     {
       "date": "2026-04-03",
       "price": 0.043269102880239135,
-      "net_flow": -8417291.589814976,
-      "holders": 100
+      "net_flow": 38520160.20547199,
+      "holders": 98
     },
     {
       "date": "2026-04-04",
       "price": 0.039416657464482585,
-      "net_flow": -6036664.581525996,
-      "holders": 100
+      "net_flow": -6589120.956651997,
+      "holders": 98
     },
     {
       "date": "2026-04-05",
       "price": 0.044330369305590756,
-      "net_flow": -1401241.2520980015,
-      "holders": 100
+      "net_flow": -1205847.1531790048,
+      "holders": 98
     },
     {
       "date": "2026-04-06",
-      "price": 0.04012346880904523,
-      "net_flow": 23430327.881144002,
+      "price": 0.03997146423162648,
+      "net_flow": 36185772.331107005,
+      "holders": 99
+    },
+    {
+      "date": "2026-04-07",
+      "price": 0.042532167501324596,
+      "net_flow": 4280265.672617979,
       "holders": 100
     }
   ],
@@ -99,72 +99,72 @@
     {
       "label": "​​DRIFT Custody Vaults [9Wiiyvy8]",
       "tokens": 238724773.000009,
-      "ownership_pct": 23.87149568576264,
+      "ownership_pct": 23.871496058661034,
       "change_7d": -30000100,
       "is_exchange": false
     },
     {
       "label": "🏦 Upbit: Internal Wallet [FH9iLV5Z]",
-      "tokens": 142123304.104063,
-      "ownership_pct": 14.211746012494245,
-      "change_7d": 470576.510631,
+      "tokens": 142136101.37091,
+      "ownership_pct": 14.213025908580484,
+      "change_7d": 1953565.180192,
       "is_exchange": true
+    },
+    {
+      "label": "High Balance [Am8MAEor]",
+      "tokens": 42838014.847004,
+      "ownership_pct": 4.283625405651051,
+      "change_7d": 41481623.26457,
+      "is_exchange": false
     },
     {
       "label": "​​Drift [7LCwgH3T]",
       "tokens": 39846001,
-      "ownership_pct": 3.984436256920675,
+      "ownership_pct": 3.9844363191618486,
       "change_7d": 0,
       "is_exchange": false
     },
     {
       "label": "​​🏦 Bybit: Hot Wallet [5LZkATrL]",
-      "tokens": 37702933.068176,
-      "ownership_pct": 3.7701382758358597,
-      "change_7d": 28127605.684027,
+      "tokens": 32649453.794217,
+      "ownership_pct": 3.2648111788802803,
+      "change_7d": 21660835.627239,
       "is_exchange": true
-    },
-    {
-      "label": "SOL Millionaire [Am8MAEor]",
-      "tokens": 33101563.723315,
-      "ownership_pct": 3.3100202617559145,
-      "change_7d": 31677277.140881,
-      "is_exchange": false
     },
     {
       "label": "🏦 Drift Protocol: JCNCMF [JCNCMFXo]",
       "tokens": 27847150.411398,
-      "ownership_pct": 2.7846005362269026,
-      "change_7d": -4201293.322002,
+      "ownership_pct": 2.7846005797253532,
+      "change_7d": -4213542.32157,
       "is_exchange": false
     },
     {
       "label": "🏦 Coinbase: Deposit [EPpctwZp]",
       "tokens": 25846871.809551,
-      "ownership_pct": 2.5845809010032377,
+      "ownership_pct": 2.5845809413771668,
       "change_7d": -718661.603553,
       "is_exchange": true
     },
     {
-      "label": "​​Wintermute Market Making: High Balance [44P5Ct5J]",
-      "tokens": 25203638.396547,
-      "ownership_pct": 2.520260204619278,
-      "change_7d": 24982443.146954,
+      "label": "​​Wintermute Market Making: FARTCOIN Whale [44P5Ct5J]",
+      "tokens": 23133009.396547,
+      "ownership_pct": 2.3132058549894174,
+      "change_7d": 22911814.146954,
       "is_exchange": false
     },
     {
       "label": "​​JITOSOL Custody Vaults [DemTRm4s]",
       "tokens": 22257547.9,
-      "ownership_pct": 2.225663269016849,
+      "ownership_pct": 2.225663303784099,
       "change_7d": 0,
       "is_exchange": false
     },
     {
-      "label": "Token Millionaire [3VYKR2SW]",
-      "tokens": 15000000,
-      "ownership_pct": 1.4999383213841242,
-      "change_7d": 0,
-      "is_exchange": false
+      "label": "​​🏦 Kraken: Hot Wallet [6LY1JzAF]",
+      "tokens": 20783436.074701,
+      "ownership_pct": 2.0782581803633753,
+      "change_7d": 18544229.049981,
+      "is_exchange": true
     }
   ],
   "traders": [
@@ -176,27 +176,27 @@
     },
     {
       "label": "​​Trading Bot [7ebCZ3KJ]",
-      "bought_usd": 199963.51508708857,
+      "bought_usd": 221517.95562642225,
       "sold_usd": 37963.43164119184,
-      "net_usd": 162000.08344589674
+      "net_usd": 183554.52398523042
     },
     {
       "label": "​​Wintermute: SOL Millionaire [BMnT51N4]",
-      "bought_usd": 352817.69878513453,
+      "bought_usd": 356411.8683312918,
       "sold_usd": 155548.83664383486,
-      "net_usd": 197268.86214129967
+      "net_usd": 200863.0316874569
     },
     {
       "label": "​​Trading Bot [GCvHhEUY]",
-      "bought_usd": 195686.0351549626,
-      "sold_usd": 26022.192121648768,
-      "net_usd": 169663.8430333138
+      "bought_usd": 200303.65126911981,
+      "sold_usd": 26189.22698278999,
+      "net_usd": 174114.42428632983
     },
     {
       "label": "​​Trading Bot [6b8wNt5C]",
-      "bought_usd": 29878.667137610337,
+      "bought_usd": 29818.58481144497,
       "sold_usd": 0,
-      "net_usd": 29878.667137610337
+      "net_usd": 29818.58481144497
     },
     {
       "label": "​​Trading Bot [9Ycg7vSk]",
@@ -218,15 +218,15 @@
     },
     {
       "label": "[6VeVCG2E]",
-      "bought_usd": 15504.555635655523,
+      "bought_usd": 15427.250663438766,
       "sold_usd": 0,
-      "net_usd": 15504.555635655523
+      "net_usd": 15427.250663438766
     },
     {
       "label": "[CdSkvzb4]",
-      "bought_usd": 15350.6440525934,
-      "sold_usd": 148.05331964596564,
-      "net_usd": 15202.590732947434
+      "bought_usd": 15038.721914335132,
+      "sold_usd": 147.30188418485412,
+      "net_usd": 14891.420030150279
     }
   ],
   "key_findings": [

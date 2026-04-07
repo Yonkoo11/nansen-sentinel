@@ -1,25 +1,14 @@
 [
   {
     "symbol": "BTC",
-    "longs": 1,
+    "longs": 2,
     "shorts": 18,
-    "long_usd": 816327,
+    "long_usd": 2006455,
     "short_usd": 20898986,
-    "net_usd": -20082659,
-    "long_traders": 1,
+    "net_usd": -18892531,
+    "long_traders": 2,
     "short_traders": 4,
     "bias": "SHORT"
-  },
-  {
-    "symbol": "xyz:BRENTOIL",
-    "longs": 23,
-    "shorts": 0,
-    "long_usd": 16436422,
-    "short_usd": 0,
-    "net_usd": 16436422,
-    "long_traders": 2,
-    "short_traders": 0,
-    "bias": "LONG"
   },
   {
     "symbol": "ETH",
@@ -33,12 +22,34 @@
     "bias": "SHORT"
   },
   {
+    "symbol": "xyz:BRENTOIL",
+    "longs": 12,
+    "shorts": 0,
+    "long_usd": 8495600,
+    "short_usd": 0,
+    "net_usd": 8495600,
+    "long_traders": 4,
+    "short_traders": 0,
+    "bias": "LONG"
+  },
+  {
+    "symbol": "xyz:XYZ100",
+    "longs": 2,
+    "shorts": 9,
+    "long_usd": 1050248,
+    "short_usd": 8036323,
+    "net_usd": -6986075,
+    "long_traders": 1,
+    "short_traders": 1,
+    "bias": "SHORT"
+  },
+  {
     "symbol": "xyz:CL",
     "longs": 5,
-    "shorts": 14,
+    "shorts": 10,
     "long_usd": 2912254,
-    "short_usd": 9091238,
-    "net_usd": -6178985,
+    "short_usd": 7036407,
+    "net_usd": -4124153,
     "long_traders": 2,
     "short_traders": 3,
     "bias": "SHORT"
@@ -111,13 +122,13 @@
   },
   {
     "symbol": "ZEC",
-    "longs": 1,
-    "shorts": 0,
-    "long_usd": 446087,
-    "short_usd": 0,
-    "net_usd": 446087,
+    "longs": 2,
+    "shorts": 2,
+    "long_usd": 890416,
+    "short_usd": 887976,
+    "net_usd": 2440,
     "long_traders": 1,
-    "short_traders": 0,
+    "short_traders": 1,
     "bias": "LONG"
   },
   {
