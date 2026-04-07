@@ -271,7 +271,7 @@
       </div>
       <div>
         <h1 class="logo-text">Nansen Sentinel</h1>
-        <p class="logo-sub">Smart Money Intelligence</p>
+        <p class="logo-sub">Smart Money Early Warning System</p>
         <p class="header-desc">Cross-referencing perp positions, netflow, DEX trades, and exchange inflows across {data.metadata.chains_scanned.length} chains.</p>
       </div>
     </div>

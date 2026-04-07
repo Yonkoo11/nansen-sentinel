@@ -11,7 +11,7 @@ import type {
   ScoredAlert,
   SignalConfidence,
 } from "./types.js";
-import { THRESHOLDS, IGNORE_TOKENS } from "./types.js";
+import { THRESHOLDS, IGNORE_TOKENS, CHAIN_BASE_ASSET } from "./types.js";
 
 // === Signal Extractors ===
 
@@ -195,6 +195,50 @@ export function scoreAlerts(signals: Signal[]): ScoredAlert[] {
     const existing = byToken.get(key) ?? [];
     existing.push(s);
     byToken.set(key, existing);
+  }
+
+  // === SECTOR CORRELATION (the core thesis) ===
+  // If SM is shorting a chain's base asset (ETH, SOL, BTC) on perps
+  // AND dumping tokens on that chain via netflow/DEX,
+  // that's a correlated exploit-to-short signal.
+  // Inject synthetic "sector_short" signals into dump tokens.
+  const perpShortAssets = new Map<string, Signal>(); // base asset -> perp signal
+  for (const s of signals) {
+    if (s.type === "perp_short") {
+      perpShortAssets.set(s.token_symbol, s);
+    }
+  }
+
+  for (const [symbol, tokenSignals] of byToken) {
+    const hasOnChainDump = tokenSignals.some(
+      s => s.type === "netflow_dump" || s.type === "price_anomaly"
+    );
+    if (!hasOnChainDump) continue;
+
+    // Find what chain this token's dump is on
+    const dumpChain = tokenSignals.find(
+      s => s.type === "netflow_dump" || s.type === "price_anomaly"
+    )?.chain;
+    if (!dumpChain) continue;
+
+    // Is SM also shorting this chain's base asset on perps?
+    const baseAsset = CHAIN_BASE_ASSET[dumpChain];
+    if (!baseAsset) continue;
+
+    const perpSignal = perpShortAssets.get(baseAsset);
+    if (!perpSignal) continue;
+
+    // Correlated signal: SM dumping this token AND shorting the chain's base asset
+    tokenSignals.push({
+      type: "perp_short",
+      token_symbol: symbol,
+      chain: "hyperliquid",
+      confidence: perpSignal.confidence,
+      value_usd: perpSignal.value_usd,
+      description: `SM also shorting ${baseAsset} on Hyperliquid: ${perpSignal.description}`,
+      timestamp: perpSignal.timestamp,
+      raw_data: perpSignal.raw_data,
+    });
   }
 
   const alerts: ScoredAlert[] = [];

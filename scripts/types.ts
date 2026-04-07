@@ -218,8 +218,20 @@ export const THRESHOLDS = {
   },
 } as const;
 
-// Stablecoins and base tokens to exclude from signal detection
+// Stablecoins to exclude from netflow/DEX signal detection
+// NOTE: BTC/ETH/SOL are NOT excluded — their perp shorts are critical
+// for sector-level exploit correlation (SM shorting ETH while dumping DeFi tokens)
 export const IGNORE_TOKENS = new Set([
   "USDC", "USDT", "DAI", "BUSD", "TUSD", "FRAX", "USD1",
-  "SOL", "ETH", "WETH", "WSOL", "BTC", "WBTC",
+  "WETH", "WSOL", "WBTC",
 ]);
+
+// Sector mapping: which base asset does each chain's ecosystem correlate with?
+// SM shorting ETH while dumping Ethereum DeFi tokens = correlated exploit signal
+export const CHAIN_BASE_ASSET: Record<string, string> = {
+  ethereum: "ETH",
+  solana: "SOL",
+  base: "ETH",
+  arbitrum: "ETH",
+  bsc: "BNB",
+};
