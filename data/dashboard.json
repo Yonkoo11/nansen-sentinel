@@ -1,321 +1,72 @@
 {
-  "generated_at": "2026-04-07T07:19:05.469Z",
+  "generated_at": "2026-04-12T09:35:24.515Z",
   "api_calls": 9,
   "perp_sentiment": [
     {
-      "symbol": "BTC",
-      "longs": 2,
-      "shorts": 18,
-      "long_usd": 2006455,
-      "short_usd": 20898986,
-      "net_usd": -18892531,
-      "long_traders": 2,
-      "short_traders": 4,
-      "bias": "SHORT",
-      "top_trades": [
-        {
-          "label": "\ud83e\udd13 \ud83d\udc64 58bro [0x418aa6]",
-          "side": "Short",
-          "action": "Reduce",
-          "value_usd": 2847907,
-          "timestamp": "2026-04-01T20:04:01"
-        },
-        {
-          "label": "\ud83e\udd13 \ud83d\udc64 58bro [0x418aa6]",
-          "side": "Short",
-          "action": "Reduce",
-          "value_usd": 1457551,
-          "timestamp": "2026-04-01T20:04:01"
-        },
-        {
-          "label": "\ud83e\udd13 Smart HL Perps Trader [0x06cecf]",
-          "side": "Short",
-          "action": "Reduce",
-          "value_usd": 1299790,
-          "timestamp": "2026-04-01T17:41:58"
-        },
-        {
-          "label": "\ud83e\udd13 Smart HL Perps Trader [0x35d115]",
-          "side": "Short",
-          "action": "Close",
-          "value_usd": 1208152,
-          "timestamp": "2026-04-01T21:03:29"
-        },
-        {
-          "label": "\ud83e\udd13 Smart HL Perps Trader [0x35d115]",
-          "side": "Short",
-          "action": "Reduce",
-          "value_usd": 1205513,
-          "timestamp": "2026-04-01T20:52:58"
-        }
-      ]
+      "symbol": "FARTCOIN",
+      "longs": 3,
+      "shorts": 2,
+      "long_usd": 25746512,
+      "short_usd": 3810123,
+      "net_usd": 21936389,
+      "long_traders": 1,
+      "short_traders": 2,
+      "bias": "LONG"
     },
     {
-      "symbol": "ETH",
-      "longs": 2,
-      "shorts": 18,
-      "long_usd": 1084403,
-      "short_usd": 12241277,
-      "net_usd": -11156874,
-      "long_traders": 2,
+      "symbol": "BTC",
+      "longs": 16,
+      "shorts": 12,
+      "long_usd": 27120567,
+      "short_usd": 13195420,
+      "net_usd": 13925147,
+      "long_traders": 4,
       "short_traders": 2,
-      "bias": "SHORT",
-      "top_trades": [
-        {
-          "label": "\ud83e\udd13 Smart HL Perps Trader [0xcc1595]",
-          "side": "Short",
-          "action": "Add",
-          "value_usd": 1285353,
-          "timestamp": "2026-03-31T15:42:01"
-        },
-        {
-          "label": "\ud83e\udd13 Smart HL Perps Trader [0xcc1595]",
-          "side": "Short",
-          "action": "Add",
-          "value_usd": 861988,
-          "timestamp": "2026-04-05T17:54:52"
-        },
-        {
-          "label": "\ud83e\udd13 Smart HL Perps Trader [0xcc1595]",
-          "side": "Short",
-          "action": "Reduce",
-          "value_usd": 673128,
-          "timestamp": "2026-04-06T07:55:10"
-        },
-        {
-          "label": "\ud83e\udd13 Smart HL Perps Trader [0x35d115]",
-          "side": "Short",
-          "action": "Reduce",
-          "value_usd": 664454,
-          "timestamp": "2026-04-01T20:52:58"
-        },
-        {
-          "label": "\ud83e\udd13 Smart HL Perps Trader [0x35d115]",
-          "side": "Short",
-          "action": "Reduce",
-          "value_usd": 664365,
-          "timestamp": "2026-04-01T21:00:46"
-        }
-      ]
+      "bias": "LONG"
     },
     {
       "symbol": "xyz:BRENTOIL",
-      "longs": 12,
-      "shorts": 0,
-      "long_usd": 8495600,
-      "short_usd": 0,
-      "net_usd": 8495600,
+      "longs": 15,
+      "shorts": 1,
+      "long_usd": 10313982,
+      "short_usd": 545158,
+      "net_usd": 9768825,
       "long_traders": 4,
-      "short_traders": 0,
-      "bias": "LONG",
-      "top_trades": [
-        {
-          "label": "\ud83e\udd13 Smart HL Perps Trader [0xcc1595]",
-          "side": "Long",
-          "action": "Reduce",
-          "value_usd": 1641188,
-          "timestamp": "2026-04-03T15:05:17"
-        },
-        {
-          "label": "\ud83e\udd13 Smart HL Perps Trader [0xcc1595]",
-          "side": "Long",
-          "action": "Add",
-          "value_usd": 1291666,
-          "timestamp": "2026-03-31T02:13:31"
-        },
-        {
-          "label": "\ud83e\udd13 Smart HL Perps Trader [0xcc1595]",
-          "side": "Long",
-          "action": "Reduce",
-          "value_usd": 1195016,
-          "timestamp": "2026-03-31T01:41:15"
-        },
-        {
-          "label": "\ud83e\udd13 Smart HL Perps Trader [0xcc1595]",
-          "side": "Long",
-          "action": "Open",
-          "value_usd": 804509,
-          "timestamp": "2026-03-31T02:12:08"
-        },
-        {
-          "label": "\ud83e\udd13 Smart HL Perps Trader [0x8bae35]",
-          "side": "Long",
-          "action": "Open",
-          "value_usd": 802179,
-          "timestamp": "2026-04-02T01:18:03"
-        }
-      ]
-    },
-    {
-      "symbol": "xyz:XYZ100",
-      "longs": 2,
-      "shorts": 9,
-      "long_usd": 1050248,
-      "short_usd": 8036323,
-      "net_usd": -6986075,
-      "long_traders": 1,
       "short_traders": 1,
-      "bias": "SHORT",
-      "top_trades": [
-        {
-          "label": "\ud83e\udd13 Smart HL Perps Trader [0x5b2833]",
-          "side": "Short",
-          "action": "Reduce",
-          "value_usd": 1833917,
-          "timestamp": "2026-04-02T14:38:00"
-        },
-        {
-          "label": "\ud83e\udd13 Smart HL Perps Trader [0x5b2833]",
-          "side": "Short",
-          "action": "Reduce",
-          "value_usd": 1588697,
-          "timestamp": "2026-04-02T14:40:12"
-        },
-        {
-          "label": "\ud83e\udd13 Smart HL Perps Trader [0x5b2833]",
-          "side": "Short",
-          "action": "Reduce",
-          "value_usd": 952243,
-          "timestamp": "2026-04-02T14:39:03"
-        },
-        {
-          "label": "\ud83e\udd13 Smart HL Perps Trader [0x5b2833]",
-          "side": "Short",
-          "action": "Reduce",
-          "value_usd": 938482,
-          "timestamp": "2026-04-02T14:39:02"
-        },
-        {
-          "label": "\ud83e\udd13 Smart HL Perps Trader [0x5b2833]",
-          "side": "Short",
-          "action": "Reduce",
-          "value_usd": 807336,
-          "timestamp": "2026-04-02T14:40:12"
-        }
-      ]
+      "bias": "LONG"
     },
     {
       "symbol": "xyz:CL",
-      "longs": 5,
-      "shorts": 10,
-      "long_usd": 2912254,
-      "short_usd": 7036407,
-      "net_usd": -4124153,
-      "long_traders": 2,
+      "longs": 6,
+      "shorts": 19,
+      "long_usd": 3359285,
+      "short_usd": 10735834,
+      "net_usd": -7376549,
+      "long_traders": 3,
       "short_traders": 3,
-      "bias": "SHORT",
-      "top_trades": [
-        {
-          "label": "\ud83e\udd13 Smart HL Perps Trader [0xa92fb6]",
-          "side": "Short",
-          "action": "Close",
-          "value_usd": 1584450,
-          "timestamp": "2026-04-05T22:10:15"
-        },
-        {
-          "label": "\ud83e\udd13 Smart HL Perps Trader [0x71dfc0]",
-          "side": "Short",
-          "action": "Open",
-          "value_usd": 1086582,
-          "timestamp": "2026-04-06T10:24:24"
-        },
-        {
-          "label": "\ud83e\udd13 Smart HL Perps Trader [0x71dfc0]",
-          "side": "Short",
-          "action": "Open",
-          "value_usd": 742351,
-          "timestamp": "2026-04-06T10:22:58"
-        },
-        {
-          "label": "\ud83e\udd13 Smart HL Perps Trader [0xcc1595]",
-          "side": "Long",
-          "action": "Add",
-          "value_usd": 690407,
-          "timestamp": "2026-04-06T04:13:35"
-        },
-        {
-          "label": "\ud83e\udd13 Smart HL Perps Trader [0x71dfc0]",
-          "side": "Long",
-          "action": "Open",
-          "value_usd": 555717,
-          "timestamp": "2026-04-06T03:26:41"
-        }
-      ]
+      "bias": "SHORT"
+    },
+    {
+      "symbol": "xyz:XYZ100",
+      "longs": 0,
+      "shorts": 8,
+      "long_usd": 0,
+      "short_usd": 4718074,
+      "net_usd": -4718074,
+      "long_traders": 0,
+      "short_traders": 1,
+      "bias": "SHORT"
     },
     {
       "symbol": "cash:NVDA",
-      "longs": 0,
-      "shorts": 2,
-      "long_usd": 0,
-      "short_usd": 3236648,
-      "net_usd": -3236648,
-      "long_traders": 0,
-      "short_traders": 1,
-      "bias": "SHORT",
-      "top_trades": [
-        {
-          "label": "\ud83e\udd13 Smart HL Perps Trader [0x8bae35]",
-          "side": "Short",
-          "action": "Close",
-          "value_usd": 1635439,
-          "timestamp": "2026-04-02T14:57:44"
-        },
-        {
-          "label": "\ud83e\udd13 Smart HL Perps Trader [0x8bae35]",
-          "side": "Short",
-          "action": "Open",
-          "value_usd": 1601210,
-          "timestamp": "2026-04-02T01:44:40"
-        }
-      ]
-    },
-    {
-      "symbol": "XPL",
-      "longs": 4,
-      "shorts": 1,
-      "long_usd": 3425207,
-      "short_usd": 651108,
-      "net_usd": 2774099,
+      "longs": 2,
+      "shorts": 0,
+      "long_usd": 2198172,
+      "short_usd": 0,
+      "net_usd": 2198172,
       "long_traders": 1,
-      "short_traders": 1,
-      "bias": "LONG",
-      "top_trades": [
-        {
-          "label": "\ud83e\udd13 Smart HL Perps Trader [0x015354]",
-          "side": "Long",
-          "action": "Reduce",
-          "value_usd": 912953,
-          "timestamp": "2026-04-02T21:10:33"
-        },
-        {
-          "label": "\ud83e\udd13 Smart HL Perps Trader [0x015354]",
-          "side": "Long",
-          "action": "Reduce",
-          "value_usd": 901850,
-          "timestamp": "2026-04-02T21:10:38"
-        },
-        {
-          "label": "\ud83e\udd13 Smart HL Perps Trader [0x015354]",
-          "side": "Long",
-          "action": "Reduce",
-          "value_usd": 872803,
-          "timestamp": "2026-04-02T21:10:41"
-        },
-        {
-          "label": "\ud83e\udd13 Smart HL Perps Trader [0x015354]",
-          "side": "Long",
-          "action": "Reduce",
-          "value_usd": 737602,
-          "timestamp": "2026-04-02T21:10:45"
-        },
-        {
-          "label": "\ud83e\udd13 Smart HL Perps Trader [0x577586]",
-          "side": "Short",
-          "action": "Close",
-          "value_usd": 651108,
-          "timestamp": "2026-04-02T21:10:58"
-        }
-      ]
+      "short_traders": 0,
+      "bias": "LONG"
     },
     {
       "symbol": "cash:INTC",
@@ -326,306 +77,76 @@
       "net_usd": 1700000,
       "long_traders": 1,
       "short_traders": 0,
-      "bias": "LONG",
-      "top_trades": [
-        {
-          "label": "\ud83e\udd13 Smart HL Perps Trader [0x8bae35]",
-          "side": "Long",
-          "action": "Reduce",
-          "value_usd": 1700000,
-          "timestamp": "2026-04-05T12:44:46"
-        }
-      ]
+      "bias": "LONG"
+    },
+    {
+      "symbol": "SOL",
+      "longs": 2,
+      "shorts": 0,
+      "long_usd": 1676827,
+      "short_usd": 0,
+      "net_usd": 1676827,
+      "long_traders": 1,
+      "short_traders": 0,
+      "bias": "LONG"
     },
     {
       "symbol": "cash:AMZN",
       "longs": 2,
       "shorts": 0,
-      "long_usd": 1215088,
+      "long_usd": 1599269,
       "short_usd": 0,
-      "net_usd": 1215088,
+      "net_usd": 1599269,
       "long_traders": 1,
       "short_traders": 0,
-      "bias": "LONG",
-      "top_trades": [
-        {
-          "label": "\ud83e\udd13 Smart HL Perps Trader [0x8bae35]",
-          "side": "Long",
-          "action": "Open",
-          "value_usd": 614819,
-          "timestamp": "2026-03-31T16:22:09"
-        },
-        {
-          "label": "\ud83e\udd13 Smart HL Perps Trader [0x8bae35]",
-          "side": "Long",
-          "action": "Reduce",
-          "value_usd": 600268,
-          "timestamp": "2026-04-02T04:26:19"
-        }
-      ]
+      "bias": "LONG"
     },
     {
       "symbol": "xyz:SP500",
       "longs": 0,
       "shorts": 1,
       "long_usd": 0,
-      "short_usd": 983550,
-      "net_usd": -983550,
+      "short_usd": 1360736,
+      "net_usd": -1360736,
       "long_traders": 0,
       "short_traders": 1,
-      "bias": "SHORT",
-      "top_trades": [
-        {
-          "label": "\ud83e\udd13 Smart HL Perps Trader [0x720c93]",
-          "side": "Short",
-          "action": "Open",
-          "value_usd": 983550,
-          "timestamp": "2026-04-02T14:35:18"
-        }
-      ]
+      "bias": "SHORT"
     },
     {
-      "symbol": "cash:USA500",
-      "longs": 3,
+      "symbol": "TAO",
+      "longs": 0,
       "shorts": 2,
-      "long_usd": 5962074,
-      "short_usd": 5432957,
-      "net_usd": 529117,
-      "long_traders": 1,
+      "long_usd": 0,
+      "short_usd": 998499,
+      "net_usd": -998499,
+      "long_traders": 0,
       "short_traders": 1,
-      "bias": "LONG",
-      "top_trades": [
-        {
-          "label": "\ud83e\udd13 Smart HL Perps Trader [0x8bae35]",
-          "side": "Long",
-          "action": "Open",
-          "value_usd": 3026684,
-          "timestamp": "2026-04-02T14:36:35"
-        },
-        {
-          "label": "\ud83e\udd13 Smart HL Perps Trader [0x8bae35]",
-          "side": "Short",
-          "action": "Open",
-          "value_usd": 3000569,
-          "timestamp": "2026-04-02T01:19:25"
-        },
-        {
-          "label": "\ud83e\udd13 Smart HL Perps Trader [0x8bae35]",
-          "side": "Short",
-          "action": "Reduce",
-          "value_usd": 2432388,
-          "timestamp": "2026-04-02T13:58:39"
-        },
-        {
-          "label": "\ud83e\udd13 Smart HL Perps Trader [0x8bae35]",
-          "side": "Long",
-          "action": "Reduce",
-          "value_usd": 1988724,
-          "timestamp": "2026-04-03T02:53:17"
-        },
-        {
-          "label": "\ud83e\udd13 Smart HL Perps Trader [0x8bae35]",
-          "side": "Long",
-          "action": "Reduce",
-          "value_usd": 946666,
-          "timestamp": "2026-04-03T13:07:20"
-        }
-      ]
+      "bias": "SHORT"
+    },
+    {
+      "symbol": "ETH",
+      "longs": 4,
+      "shorts": 2,
+      "long_usd": 3150971,
+      "short_usd": 2870131,
+      "net_usd": 280839,
+      "long_traders": 2,
+      "short_traders": 2,
+      "bias": "LONG"
     },
     {
       "symbol": "ZEC",
-      "longs": 2,
-      "shorts": 2,
-      "long_usd": 890416,
-      "short_usd": 887976,
-      "net_usd": 2440,
-      "long_traders": 1,
-      "short_traders": 1,
-      "bias": "LONG",
-      "top_trades": [
-        {
-          "label": "\ud83e\udd13 Smart HL Perps Trader [0x0f7707]",
-          "side": "Long",
-          "action": "Reduce",
-          "value_usd": 446087,
-          "timestamp": "2026-04-02T02:04:16"
-        },
-        {
-          "label": "\ud83e\udd13 Smart HL Perps Trader [0x0f7707]",
-          "side": "Short",
-          "action": "Reduce",
-          "value_usd": 444890,
-          "timestamp": "2026-04-02T01:52:55"
-        },
-        {
-          "label": "\ud83e\udd13 Smart HL Perps Trader [0x0f7707]",
-          "side": "Long",
-          "action": "Reduce",
-          "value_usd": 444329,
-          "timestamp": "2026-04-02T01:44:34"
-        },
-        {
-          "label": "\ud83e\udd13 Smart HL Perps Trader [0x0f7707]",
-          "side": "Short",
-          "action": "Reduce",
-          "value_usd": 443086,
-          "timestamp": "2026-04-02T02:07:07"
-        },
-        {
-          "label": "\ud83e\udd13 Smart HL Perps Trader [0x36076e]",
-          "side": "Short",
-          "action": "Open",
-          "value_usd": 2914,
-          "timestamp": "2026-04-06T10:10:20"
-        }
-      ]
-    },
-    {
-      "symbol": "HYPE",
       "longs": 1,
       "shorts": 1,
-      "long_usd": 490224,
-      "short_usd": 492626,
-      "net_usd": -2402,
+      "long_usd": 558017,
+      "short_usd": 757492,
+      "net_usd": -199476,
       "long_traders": 1,
       "short_traders": 1,
-      "bias": "SHORT",
-      "top_trades": [
-        {
-          "label": "\ud83e\udd13 Smart HL Perps Trader [0xfd9760]",
-          "side": "Short",
-          "action": "Close",
-          "value_usd": 492626,
-          "timestamp": "2026-03-31T10:16:00"
-        },
-        {
-          "label": "\ud83e\udd13 Smart HL Perps Trader [0x720c93]",
-          "side": "Long",
-          "action": "Open",
-          "value_usd": 490224,
-          "timestamp": "2026-04-02T04:50:31"
-        },
-        {
-          "label": "\ud83e\udd13 Smart HL Perps Trader [0x2fdf33]",
-          "side": "Long",
-          "action": "Open",
-          "value_usd": 374,
-          "timestamp": "2026-04-06T10:05:39"
-        },
-        {
-          "label": "\ud83e\udd13 Smart HL Perps Trader [0x2fdf33]",
-          "side": "Long",
-          "action": "Open",
-          "value_usd": 374,
-          "timestamp": "2026-04-06T10:05:33"
-        },
-        {
-          "label": "\ud83e\udd13 Smart HL Perps Trader [0x2fdf33]",
-          "side": "Long",
-          "action": "Open",
-          "value_usd": 187,
-          "timestamp": "2026-04-06T10:11:20"
-        }
-      ]
+      "bias": "SHORT"
     }
   ],
   "alerts": [
-    {
-      "token_symbol": "OHM",
-      "chain": "ethereum, hyperliquid",
-      "confidence": "HIGH",
-      "signals": [
-        {
-          "type": "netflow_dump",
-          "token_symbol": "OHM",
-          "chain": "ethereum",
-          "confidence": "HIGH",
-          "value_usd": -77037.88535789188,
-          "description": "SM net outflow: $77,038 (24h), $77,038 (7d)",
-          "timestamp": "2026-04-07T07:17:56.272Z",
-          "raw_data": {
-            "token_address": "0x64aa3364f17a4d01c6f1751fd97c2bd3d7e7f1d5",
-            "token_symbol": "OHM",
-            "net_flow_1h_usd": 0,
-            "net_flow_24h_usd": -77037.88535789188,
-            "net_flow_7d_usd": -77037.88535789188,
-            "net_flow_30d_usd": -409670.92111539654,
-            "chain": "ethereum",
-            "token_sectors": [
-              "Yield Bearing"
-            ],
-            "trader_count": 2,
-            "token_age_days": 1578,
-            "market_cap_usd": 245839712
-          }
-        },
-        {
-          "type": "perp_short",
-          "token_symbol": "OHM",
-          "chain": "hyperliquid",
-          "confidence": "MEDIUM",
-          "value_usd": 3756706.919719849,
-          "description": "SM also shorting ETH on Hyperliquid: SM opening shorts: $3,756,707 across 5 trades by 1 traders",
-          "timestamp": "2026-04-07T07:18:23.587Z",
-          "raw_data": {
-            "total_usd": 3756706.919719849,
-            "trade_count": 5,
-            "unique_traders": 1
-          }
-        }
-      ],
-      "score": 58,
-      "timestamp": "2026-04-07T07:18:23.600Z",
-      "summary": "SM net outflow: $77,038 (24h), $77,038 (7d) | SM also shorting ETH on Hyperliquid: SM opening shorts: $3,756,707 across 5 trades by 1 traders"
-    },
-    {
-      "token_symbol": "REI",
-      "chain": "base, hyperliquid",
-      "confidence": "HIGH",
-      "signals": [
-        {
-          "type": "netflow_dump",
-          "token_symbol": "REI",
-          "chain": "base",
-          "confidence": "MEDIUM",
-          "value_usd": -109298.33093201343,
-          "description": "SM net outflow: $0 (24h), $109,298 (7d)",
-          "timestamp": "2026-04-07T07:18:10.888Z",
-          "raw_data": {
-            "token_address": "0x6b2504a03ca4d43d0d73776f6ad46dab2f2a4cfd",
-            "token_symbol": "REI",
-            "net_flow_1h_usd": 0,
-            "net_flow_24h_usd": 0,
-            "net_flow_7d_usd": -109298.33093201343,
-            "net_flow_30d_usd": -123565.94768594601,
-            "chain": "base",
-            "token_sectors": [
-              "Artificial Intelligence"
-            ],
-            "trader_count": 1,
-            "token_age_days": 502,
-            "market_cap_usd": 16300764
-          }
-        },
-        {
-          "type": "perp_short",
-          "token_symbol": "REI",
-          "chain": "hyperliquid",
-          "confidence": "MEDIUM",
-          "value_usd": 3756706.919719849,
-          "description": "SM also shorting ETH on Hyperliquid: SM opening shorts: $3,756,707 across 5 trades by 1 traders",
-          "timestamp": "2026-04-07T07:18:23.587Z",
-          "raw_data": {
-            "total_usd": 3756706.919719849,
-            "trade_count": 5,
-            "unique_traders": 1
-          }
-        }
-      ],
-      "score": 43,
-      "timestamp": "2026-04-07T07:18:23.600Z",
-      "summary": "SM net outflow: $0 (24h), $109,298 (7d) | SM also shorting ETH on Hyperliquid: SM opening shorts: $3,756,707 across 5 trades by 1 traders"
-    },
     {
       "token_symbol": "xyz:CL",
       "chain": "hyperliquid",
@@ -636,19 +157,19 @@
           "token_symbol": "xyz:CL",
           "chain": "hyperliquid",
           "confidence": "HIGH",
-          "value_usd": 4390680.285903156,
-          "description": "SM opening shorts: $4,390,680 across 7 trades by 2 traders",
-          "timestamp": "2026-04-07T07:18:23.587Z",
+          "value_usd": 5317366.701616612,
+          "description": "SM opening shorts: $5,317,367 across 9 trades by 3 traders",
+          "timestamp": "2026-04-12T09:35:00.814Z",
           "raw_data": {
-            "total_usd": 4390680.285903156,
-            "trade_count": 7,
-            "unique_traders": 2
+            "total_usd": 5317366.701616612,
+            "trade_count": 9,
+            "unique_traders": 3
           }
         }
       ],
       "score": 30,
-      "timestamp": "2026-04-07T07:18:23.600Z",
-      "summary": "SM opening shorts: $4,390,680 across 7 trades by 2 traders"
+      "timestamp": "2026-04-12T09:35:00.815Z",
+      "summary": "SM opening shorts: $5,317,367 across 9 trades by 3 traders"
     },
     {
       "token_symbol": "SOL",
@@ -660,115 +181,137 @@
           "token_symbol": "SOL",
           "chain": "solana",
           "confidence": "HIGH",
-          "value_usd": 3116.4011883776975,
-          "description": "SM selling on DEX: $3,116 across 15 trades by 7 traders",
-          "timestamp": "2026-04-07T07:18:23.561Z",
+          "value_usd": 5671.872192724638,
+          "description": "SM selling on DEX: $5,672 across 13 trades by 5 traders",
+          "timestamp": "2026-04-12T09:35:00.813Z",
           "raw_data": {
-            "total_usd": 3116.4011883776975,
-            "trade_count": 15,
-            "unique_traders": 7
+            "total_usd": 5671.872192724638,
+            "trade_count": 13,
+            "unique_traders": 5
           }
         }
       ],
       "score": 20,
-      "timestamp": "2026-04-07T07:18:23.600Z",
-      "summary": "SM selling on DEX: $3,116 across 15 trades by 7 traders"
+      "timestamp": "2026-04-12T09:35:00.815Z",
+      "summary": "SM selling on DEX: $5,672 across 13 trades by 5 traders"
     },
     {
-      "token_symbol": "cash:USA500",
+      "token_symbol": "RED",
+      "chain": "ethereum",
+      "confidence": "LOW",
+      "signals": [
+        {
+          "type": "netflow_dump",
+          "token_symbol": "RED",
+          "chain": "ethereum",
+          "confidence": "MEDIUM",
+          "value_usd": -56971.82784557784,
+          "description": "SM net outflow: $0 (24h), $56,972 (7d)",
+          "timestamp": "2026-04-12T09:34:50.449Z",
+          "raw_data": {
+            "token_address": "0xc43c6bfeda065fe2c4c11765bf838789bd0bb5de",
+            "token_symbol": "RED",
+            "net_flow_1h_usd": 0,
+            "net_flow_24h_usd": 0,
+            "net_flow_7d_usd": -56971.82784557784,
+            "net_flow_30d_usd": -56971.82784557784,
+            "chain": "ethereum",
+            "token_sectors": [
+              "Data source and Oracle",
+              "Scaling & Connectivity",
+              "Restaking"
+            ],
+            "trader_count": 1,
+            "token_age_days": 429,
+            "market_cap_usd": 52773004
+          }
+        }
+      ],
+      "score": 18,
+      "timestamp": "2026-04-12T09:35:00.815Z",
+      "summary": "SM net outflow: $0 (24h), $56,972 (7d)"
+    },
+    {
+      "token_symbol": "OHM",
+      "chain": "ethereum",
+      "confidence": "LOW",
+      "signals": [
+        {
+          "type": "netflow_dump",
+          "token_symbol": "OHM",
+          "chain": "ethereum",
+          "confidence": "MEDIUM",
+          "value_usd": -77037.88535789188,
+          "description": "SM net outflow: $0 (24h), $77,038 (7d)",
+          "timestamp": "2026-04-12T09:34:50.450Z",
+          "raw_data": {
+            "token_address": "0x64aa3364f17a4d01c6f1751fd97c2bd3d7e7f1d5",
+            "token_symbol": "OHM",
+            "net_flow_1h_usd": 0,
+            "net_flow_24h_usd": 0,
+            "net_flow_7d_usd": -77037.88535789188,
+            "net_flow_30d_usd": -380177.0007650583,
+            "chain": "ethereum",
+            "token_sectors": [
+              "Yield Bearing"
+            ],
+            "trader_count": 2,
+            "token_age_days": 1583,
+            "market_cap_usd": 249757293
+          }
+        }
+      ],
+      "score": 18,
+      "timestamp": "2026-04-12T09:35:00.815Z",
+      "summary": "SM net outflow: $0 (24h), $77,038 (7d)"
+    },
+    {
+      "token_symbol": "BTC",
       "chain": "hyperliquid",
       "confidence": "LOW",
       "signals": [
         {
           "type": "perp_short",
-          "token_symbol": "cash:USA500",
+          "token_symbol": "BTC",
           "chain": "hyperliquid",
           "confidence": "MEDIUM",
-          "value_usd": 3000568.5115230773,
-          "description": "SM opening shorts: $3,000,569 across 1 trades by 1 traders",
-          "timestamp": "2026-04-07T07:18:23.582Z",
+          "value_usd": 4305743.513513513,
+          "description": "SM opening shorts: $4,305,744 across 6 trades by 1 traders",
+          "timestamp": "2026-04-12T09:35:00.814Z",
           "raw_data": {
-            "total_usd": 3000568.5115230773,
+            "total_usd": 4305743.513513513,
+            "trade_count": 6,
+            "unique_traders": 1
+          }
+        }
+      ],
+      "score": 18,
+      "timestamp": "2026-04-12T09:35:00.815Z",
+      "summary": "SM opening shorts: $4,305,744 across 6 trades by 1 traders"
+    },
+    {
+      "token_symbol": "xyz:BRENTOIL",
+      "chain": "hyperliquid",
+      "confidence": "LOW",
+      "signals": [
+        {
+          "type": "perp_short",
+          "token_symbol": "xyz:BRENTOIL",
+          "chain": "hyperliquid",
+          "confidence": "MEDIUM",
+          "value_usd": 545157.6923076924,
+          "description": "SM opening shorts: $545,158 across 1 trades by 1 traders",
+          "timestamp": "2026-04-12T09:35:00.814Z",
+          "raw_data": {
+            "total_usd": 545157.6923076924,
             "trade_count": 1,
             "unique_traders": 1
           }
         }
       ],
       "score": 18,
-      "timestamp": "2026-04-07T07:18:23.600Z",
-      "summary": "SM opening shorts: $3,000,569 across 1 trades by 1 traders"
-    },
-    {
-      "token_symbol": "cash:NVDA",
-      "chain": "hyperliquid",
-      "confidence": "LOW",
-      "signals": [
-        {
-          "type": "perp_short",
-          "token_symbol": "cash:NVDA",
-          "chain": "hyperliquid",
-          "confidence": "MEDIUM",
-          "value_usd": 1601209.6890225532,
-          "description": "SM opening shorts: $1,601,210 across 1 trades by 1 traders",
-          "timestamp": "2026-04-07T07:18:23.586Z",
-          "raw_data": {
-            "total_usd": 1601209.6890225532,
-            "trade_count": 1,
-            "unique_traders": 1
-          }
-        }
-      ],
-      "score": 18,
-      "timestamp": "2026-04-07T07:18:23.600Z",
-      "summary": "SM opening shorts: $1,601,210 across 1 trades by 1 traders"
-    },
-    {
-      "token_symbol": "ETH",
-      "chain": "hyperliquid",
-      "confidence": "LOW",
-      "signals": [
-        {
-          "type": "perp_short",
-          "token_symbol": "ETH",
-          "chain": "hyperliquid",
-          "confidence": "MEDIUM",
-          "value_usd": 3756706.919719849,
-          "description": "SM opening shorts: $3,756,707 across 5 trades by 1 traders",
-          "timestamp": "2026-04-07T07:18:23.587Z",
-          "raw_data": {
-            "total_usd": 3756706.919719849,
-            "trade_count": 5,
-            "unique_traders": 1
-          }
-        }
-      ],
-      "score": 18,
-      "timestamp": "2026-04-07T07:18:23.600Z",
-      "summary": "SM opening shorts: $3,756,707 across 5 trades by 1 traders"
-    },
-    {
-      "token_symbol": "xyz:SP500",
-      "chain": "hyperliquid",
-      "confidence": "LOW",
-      "signals": [
-        {
-          "type": "perp_short",
-          "token_symbol": "xyz:SP500",
-          "chain": "hyperliquid",
-          "confidence": "MEDIUM",
-          "value_usd": 983550,
-          "description": "SM opening shorts: $983,550 across 1 trades by 1 traders",
-          "timestamp": "2026-04-07T07:18:23.587Z",
-          "raw_data": {
-            "total_usd": 983550,
-            "trade_count": 1,
-            "unique_traders": 1
-          }
-        }
-      ],
-      "score": 18,
-      "timestamp": "2026-04-07T07:18:23.600Z",
-      "summary": "SM opening shorts: $983,550 across 1 trades by 1 traders"
+      "timestamp": "2026-04-12T09:35:00.815Z",
+      "summary": "SM opening shorts: $545,158 across 1 trades by 1 traders"
     },
     {
       "token_symbol": "xyz:XYZ100",
@@ -780,98 +323,146 @@
           "token_symbol": "xyz:XYZ100",
           "chain": "hyperliquid",
           "confidence": "MEDIUM",
-          "value_usd": 1450001.561,
-          "description": "SM opening shorts: $1,450,002 across 3 trades by 1 traders",
-          "timestamp": "2026-04-07T07:18:23.588Z",
+          "value_usd": 1973174.142,
+          "description": "SM opening shorts: $1,973,174 across 4 trades by 1 traders",
+          "timestamp": "2026-04-12T09:35:00.814Z",
           "raw_data": {
-            "total_usd": 1450001.561,
-            "trade_count": 3,
+            "total_usd": 1973174.142,
+            "trade_count": 4,
             "unique_traders": 1
           }
         }
       ],
       "score": 18,
-      "timestamp": "2026-04-07T07:18:23.600Z",
-      "summary": "SM opening shorts: $1,450,002 across 3 trades by 1 traders"
+      "timestamp": "2026-04-12T09:35:00.815Z",
+      "summary": "SM opening shorts: $1,973,174 across 4 trades by 1 traders"
     },
     {
-      "token_symbol": "LOL",
+      "token_symbol": "TAO",
+      "chain": "hyperliquid",
+      "confidence": "LOW",
+      "signals": [
+        {
+          "type": "perp_short",
+          "token_symbol": "TAO",
+          "chain": "hyperliquid",
+          "confidence": "MEDIUM",
+          "value_usd": 998499.0378218184,
+          "description": "SM opening shorts: $998,499 across 2 trades by 1 traders",
+          "timestamp": "2026-04-12T09:35:00.814Z",
+          "raw_data": {
+            "total_usd": 998499.0378218184,
+            "trade_count": 2,
+            "unique_traders": 1
+          }
+        }
+      ],
+      "score": 18,
+      "timestamp": "2026-04-12T09:35:00.815Z",
+      "summary": "SM opening shorts: $998,499 across 2 trades by 1 traders"
+    },
+    {
+      "token_symbol": "QUEST",
       "chain": "solana",
       "confidence": "LOW",
       "signals": [
         {
           "type": "price_anomaly",
-          "token_symbol": "LOL",
+          "token_symbol": "QUEST",
           "chain": "solana",
           "confidence": "MEDIUM",
-          "value_usd": 3155.842193492136,
-          "description": "SM selling on DEX: $3,156 across 2 trades by 1 traders",
-          "timestamp": "2026-04-07T07:18:23.564Z",
+          "value_usd": 1566.5352367637743,
+          "description": "SM selling on DEX: $1,567 across 2 trades by 1 traders",
+          "timestamp": "2026-04-12T09:35:00.813Z",
           "raw_data": {
-            "total_usd": 3155.842193492136,
+            "total_usd": 1566.5352367637743,
             "trade_count": 2,
             "unique_traders": 1
           }
         }
       ],
       "score": 12,
-      "timestamp": "2026-04-07T07:18:23.600Z",
-      "summary": "SM selling on DEX: $3,156 across 2 trades by 1 traders"
+      "timestamp": "2026-04-12T09:35:00.815Z",
+      "summary": "SM selling on DEX: $1,567 across 2 trades by 1 traders"
     },
     {
-      "token_symbol": "\u6211\u7684\u5200\u76fe",
+      "token_symbol": "NEET",
       "chain": "solana",
       "confidence": "LOW",
       "signals": [
         {
           "type": "price_anomaly",
-          "token_symbol": "\u6211\u7684\u5200\u76fe",
+          "token_symbol": "NEET",
           "chain": "solana",
           "confidence": "MEDIUM",
-          "value_usd": 4790.520411061738,
-          "description": "SM selling on DEX: $4,791 across 1 trades by 1 traders",
-          "timestamp": "2026-04-07T07:18:23.564Z",
+          "value_usd": 3330.464612853956,
+          "description": "SM selling on DEX: $3,330 across 2 trades by 1 traders",
+          "timestamp": "2026-04-12T09:35:00.813Z",
           "raw_data": {
-            "total_usd": 4790.520411061738,
+            "total_usd": 3330.464612853956,
+            "trade_count": 2,
+            "unique_traders": 1
+          }
+        }
+      ],
+      "score": 12,
+      "timestamp": "2026-04-12T09:35:00.815Z",
+      "summary": "SM selling on DEX: $3,330 across 2 trades by 1 traders"
+    },
+    {
+      "token_symbol": "PUPPY",
+      "chain": "solana",
+      "confidence": "LOW",
+      "signals": [
+        {
+          "type": "price_anomaly",
+          "token_symbol": "PUPPY",
+          "chain": "solana",
+          "confidence": "MEDIUM",
+          "value_usd": 1650.7068132992063,
+          "description": "SM selling on DEX: $1,651 across 2 trades by 1 traders",
+          "timestamp": "2026-04-12T09:35:00.813Z",
+          "raw_data": {
+            "total_usd": 1650.7068132992063,
+            "trade_count": 2,
+            "unique_traders": 1
+          }
+        }
+      ],
+      "score": 12,
+      "timestamp": "2026-04-12T09:35:00.815Z",
+      "summary": "SM selling on DEX: $1,651 across 2 trades by 1 traders"
+    },
+    {
+      "token_symbol": "⚠️ BOTO",
+      "chain": "solana",
+      "confidence": "LOW",
+      "signals": [
+        {
+          "type": "price_anomaly",
+          "token_symbol": "⚠️ BOTO",
+          "chain": "solana",
+          "confidence": "MEDIUM",
+          "value_usd": 1699.4220602009486,
+          "description": "SM selling on DEX: $1,699 across 1 trades by 1 traders",
+          "timestamp": "2026-04-12T09:35:00.814Z",
+          "raw_data": {
+            "total_usd": 1699.4220602009486,
             "trade_count": 1,
             "unique_traders": 1
           }
         }
       ],
       "score": 12,
-      "timestamp": "2026-04-07T07:18:23.600Z",
-      "summary": "SM selling on DEX: $4,791 across 1 trades by 1 traders"
-    },
-    {
-      "token_symbol": "GTA$",
-      "chain": "solana",
-      "confidence": "LOW",
-      "signals": [
-        {
-          "type": "price_anomaly",
-          "token_symbol": "GTA$",
-          "chain": "solana",
-          "confidence": "MEDIUM",
-          "value_usd": 2208.4805259936097,
-          "description": "SM selling on DEX: $2,208 across 4 trades by 1 traders",
-          "timestamp": "2026-04-07T07:18:23.564Z",
-          "raw_data": {
-            "total_usd": 2208.4805259936097,
-            "trade_count": 4,
-            "unique_traders": 1
-          }
-        }
-      ],
-      "score": 12,
-      "timestamp": "2026-04-07T07:18:23.600Z",
-      "summary": "SM selling on DEX: $2,208 across 4 trades by 1 traders"
+      "timestamp": "2026-04-12T09:35:00.815Z",
+      "summary": "SM selling on DEX: $1,699 across 1 trades by 1 traders"
     }
   ],
   "drift_case_study": {
     "token": {
       "name": "Drift",
       "symbol": "DRIFT",
-      "market_cap": 25966865.82878192
+      "market_cap": 23084854.39783836
     },
     "event": {
       "name": "Drift Protocol Exploit",
@@ -880,198 +471,198 @@
     },
     "price_timeline": [
       {
-        "date": "2026-03-25",
-        "price": 0.08088581813847495,
-        "net_flow": 729225.4391210012,
-        "holders": 95
-      },
-      {
-        "date": "2026-03-26",
-        "price": 0.07566162420212465,
-        "net_flow": -1324413.374321985,
-        "holders": 95
-      },
-      {
-        "date": "2026-03-27",
-        "price": 0.07187702334860577,
-        "net_flow": 153907.42704697954,
-        "holders": 95
-      },
-      {
-        "date": "2026-03-28",
-        "price": 0.06643073974863736,
-        "net_flow": 386781.0623629971,
-        "holders": 95
-      },
-      {
-        "date": "2026-03-29",
-        "price": 0.06548693312340385,
-        "net_flow": -992.3892209809273,
-        "holders": 95
-      },
-      {
         "date": "2026-03-30",
         "price": 0.0659044111890035,
-        "net_flow": 202446.8327969811,
+        "net_flow": 1138160.1762829802,
         "holders": 95
       },
       {
         "date": "2026-03-31",
         "price": 0.06477485618659598,
-        "net_flow": -1457933.5924229994,
+        "net_flow": -1616026.9822469996,
         "holders": 95
       },
       {
         "date": "2026-04-01",
         "price": 0.06956850559508054,
-        "net_flow": 27043302.504670005,
-        "holders": 97
+        "net_flow": 23571737.882923007,
+        "holders": 96
       },
       {
         "date": "2026-04-02",
         "price": 0.044375653573829964,
-        "net_flow": 36295927.450713,
-        "holders": 94
+        "net_flow": 31951961.214600004,
+        "holders": 95
       },
       {
         "date": "2026-04-03",
         "price": 0.043269102880239135,
-        "net_flow": 38520160.20547199,
-        "holders": 98
+        "net_flow": 12367913.197682995,
+        "holders": 96
       },
       {
         "date": "2026-04-04",
         "price": 0.039416657464482585,
-        "net_flow": -6589120.956651997,
-        "holders": 98
+        "net_flow": -13104786.236698003,
+        "holders": 96
       },
       {
         "date": "2026-04-05",
         "price": 0.044330369305590756,
-        "net_flow": -1205847.1531790048,
-        "holders": 98
+        "net_flow": -20867442.259025007,
+        "holders": 96
       },
       {
         "date": "2026-04-06",
         "price": 0.03997146423162648,
-        "net_flow": 36185772.331107005,
-        "holders": 99
+        "net_flow": 36764783.970669,
+        "holders": 98
       },
       {
         "date": "2026-04-07",
-        "price": 0.042532167501324596,
-        "net_flow": 4280265.672617979,
+        "price": 0.0423563613730643,
+        "net_flow": 10133240.122494986,
+        "holders": 98
+      },
+      {
+        "date": "2026-04-08",
+        "price": 0.0338964908230885,
+        "net_flow": 7275163.854671992,
+        "holders": 99
+      },
+      {
+        "date": "2026-04-09",
+        "price": 0.029002696827737602,
+        "net_flow": 20445534.338527,
+        "holders": 100
+      },
+      {
+        "date": "2026-04-10",
+        "price": 0.028989176608151177,
+        "net_flow": 9649697.953240998,
+        "holders": 100
+      },
+      {
+        "date": "2026-04-11",
+        "price": 0.03330020041988555,
+        "net_flow": -4757559.811066989,
+        "holders": 100
+      },
+      {
+        "date": "2026-04-12",
+        "price": 0.03775021592019593,
+        "net_flow": 15473728.073403997,
         "holders": 100
       }
     ],
     "holders": [
       {
-        "label": "\u200b\u200bDRIFT Custody Vaults [9Wiiyvy8]",
+        "label": "​​DRIFT Custody Vaults [9Wiiyvy8]",
         "tokens": 238724773.000009,
-        "ownership_pct": 23.871496058661034,
-        "change_7d": -30000100,
+        "ownership_pct": 23.871499360147816,
+        "change_7d": 0,
         "is_exchange": false
       },
       {
-        "label": "\ud83c\udfe6 Upbit: Internal Wallet [FH9iLV5Z]",
+        "label": "🏦 Upbit: Internal Wallet [FH9iLV5Z]",
         "tokens": 142136101.37091,
-        "ownership_pct": 14.213025908580484,
-        "change_7d": 1953565.180192,
+        "ownership_pct": 14.213027874277023,
+        "change_7d": 12797.266847,
         "is_exchange": true
+      },
+      {
+        "label": "🏦 Gate: Wallet [u6PJ8DtQ]",
+        "tokens": 45204774.378773,
+        "ownership_pct": 4.520292255795611,
+        "change_7d": 44502839.464541,
+        "is_exchange": false
+      },
+      {
+        "label": "​​🏦 Bybit: Hot Wallet [5LZkATrL]",
+        "tokens": 42138248.730361,
+        "ownership_pct": 4.213652253025806,
+        "change_7d": -13799340.837815,
+        "is_exchange": true
+      },
+      {
+        "label": "​​Drift [7LCwgH3T]",
+        "tokens": 39846001,
+        "ownership_pct": 3.9844368702192186,
+        "change_7d": 0,
+        "is_exchange": false
+      },
+      {
+        "label": "🏦 Drift Protocol: JCNCMF [JCNCMFXo]",
+        "tokens": 27847150.411398,
+        "ownership_pct": 2.784600964842481,
+        "change_7d": 0,
+        "is_exchange": false
+      },
+      {
+        "label": "🏦 Coinbase: Deposit [EPpctwZp]",
+        "tokens": 25846871.809551,
+        "ownership_pct": 2.5845812988310857,
+        "change_7d": 0,
+        "is_exchange": true
+      },
+      {
+        "label": "​​JITOSOL Custody Vaults [DemTRm4s]",
+        "tokens": 22257547.9,
+        "ownership_pct": 2.225663611598823,
+        "change_7d": 0,
+        "is_exchange": false
       },
       {
         "label": "High Balance [Am8MAEor]",
-        "tokens": 42838014.847004,
-        "ownership_pct": 4.283625405651051,
-        "change_7d": 41481623.26457,
+        "tokens": 19260305.693558,
+        "ownership_pct": 1.9259516692052896,
+        "change_7d": -12874249.689918,
         "is_exchange": false
       },
       {
-        "label": "\u200b\u200bDrift [7LCwgH3T]",
-        "tokens": 39846001,
-        "ownership_pct": 3.9844363191618486,
+        "label": "Token Millionaire [3VYKR2SW]",
+        "tokens": 15000000,
+        "ownership_pct": 1.4999385522599438,
         "change_7d": 0,
         "is_exchange": false
-      },
-      {
-        "label": "\u200b\u200b\ud83c\udfe6 Bybit: Hot Wallet [5LZkATrL]",
-        "tokens": 32649453.794217,
-        "ownership_pct": 3.2648111788802803,
-        "change_7d": 21660835.627239,
-        "is_exchange": true
-      },
-      {
-        "label": "\ud83c\udfe6 Drift Protocol: JCNCMF [JCNCMFXo]",
-        "tokens": 27847150.411398,
-        "ownership_pct": 2.7846005797253532,
-        "change_7d": -4213542.32157,
-        "is_exchange": false
-      },
-      {
-        "label": "\ud83c\udfe6 Coinbase: Deposit [EPpctwZp]",
-        "tokens": 25846871.809551,
-        "ownership_pct": 2.5845809413771668,
-        "change_7d": -718661.603553,
-        "is_exchange": true
-      },
-      {
-        "label": "\u200b\u200bWintermute Market Making: FARTCOIN Whale [44P5Ct5J]",
-        "tokens": 23133009.396547,
-        "ownership_pct": 2.3132058549894174,
-        "change_7d": 22911814.146954,
-        "is_exchange": false
-      },
-      {
-        "label": "\u200b\u200bJITOSOL Custody Vaults [DemTRm4s]",
-        "tokens": 22257547.9,
-        "ownership_pct": 2.225663303784099,
-        "change_7d": 0,
-        "is_exchange": false
-      },
-      {
-        "label": "\u200b\u200b\ud83c\udfe6 Kraken: Hot Wallet [6LY1JzAF]",
-        "tokens": 20783436.074701,
-        "ownership_pct": 2.0782581803633753,
-        "change_7d": 18544229.049981,
-        "is_exchange": true
       }
     ],
     "traders": [
       {
-        "label": "High Balance [HnL9dMWV]",
-        "bought_usd": 208202.35080625303,
+        "label": "​​Wintermute [BMnT51N4]",
+        "bought_usd": 427727.35451624624,
+        "sold_usd": 158049.0448230192,
+        "net_usd": 269678.30969322706
+      },
+      {
+        "label": "​​Trading Bot [7ebCZ3KJ]",
+        "bought_usd": 242755.64018311127,
+        "sold_usd": 46559.76888183803,
+        "net_usd": 196195.87130127323
+      },
+      {
+        "label": "​​Trading Bot [GCvHhEUY]",
+        "bought_usd": 208434.77825408225,
+        "sold_usd": 29762.602300476217,
+        "net_usd": 178672.17595360603
+      },
+      {
+        "label": "​​Trading Bot [6b8wNt5C]",
+        "bought_usd": 29486.07586943324,
         "sold_usd": 0,
-        "net_usd": 208202.35080625303
+        "net_usd": 29486.07586943324
       },
       {
-        "label": "\u200b\u200bTrading Bot [7ebCZ3KJ]",
-        "bought_usd": 221517.95562642225,
-        "sold_usd": 37963.43164119184,
-        "net_usd": 183554.52398523042
-      },
-      {
-        "label": "\u200b\u200bWintermute: SOL Millionaire [BMnT51N4]",
-        "bought_usd": 356411.8683312918,
-        "sold_usd": 155548.83664383486,
-        "net_usd": 200863.0316874569
-      },
-      {
-        "label": "\u200b\u200bTrading Bot [GCvHhEUY]",
-        "bought_usd": 200303.65126911981,
-        "sold_usd": 26189.22698278999,
-        "net_usd": 174114.42428632983
-      },
-      {
-        "label": "\u200b\u200bTrading Bot [6b8wNt5C]",
-        "bought_usd": 29818.58481144497,
+        "label": "​​Trading Bot [DcVCufNM]",
+        "bought_usd": 21773.60430208085,
         "sold_usd": 0,
-        "net_usd": 29818.58481144497
+        "net_usd": 21773.60430208085
       },
       {
-        "label": "\u200b\u200bTrading Bot [9Ycg7vSk]",
-        "bought_usd": 21300.831063547063,
+        "label": "​​Trading Bot [9Ycg7vSk]",
+        "bought_usd": 20009.07340169203,
         "sold_usd": 0,
-        "net_usd": 21300.831063547063
+        "net_usd": 20009.07340169203
       },
       {
         "label": "[DS37mUbN]",
@@ -1086,16 +677,16 @@
         "net_usd": 14043.493029434923
       },
       {
-        "label": "[6VeVCG2E]",
-        "bought_usd": 15427.250663438766,
-        "sold_usd": 0,
-        "net_usd": 15427.250663438766
+        "label": "[CdSkvzb4]",
+        "bought_usd": 15239.480399071159,
+        "sold_usd": 147.66635716244508,
+        "net_usd": 15091.814041908714
       },
       {
-        "label": "[CdSkvzb4]",
-        "bought_usd": 15038.721914335132,
-        "sold_usd": 147.30188418485412,
-        "net_usd": 14891.420030150279
+        "label": "[6VeVCG2E]",
+        "bought_usd": 14888.496842890005,
+        "sold_usd": 0,
+        "net_usd": 14888.496842890005
       }
     ],
     "key_findings": [
