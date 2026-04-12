@@ -65,7 +65,7 @@ dashboard/              -- Svelte + Vite
 | `research token screener` | Market-wide token screening | 2+ |
 | `research token dex-trades` | Per-token DEX trade history | 2+ |
 
-**Total: 65+ raw API responses** saved in `data/raw/`. Chains scanned: Solana, Ethereum, Base.
+**Total: 83 raw API responses** saved in `data/raw/`. Chains scanned: Solana, Ethereum, Base.
 
 ## Scoring
 

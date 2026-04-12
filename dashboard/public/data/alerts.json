@@ -1,101 +1,5 @@
 [
   {
-    "token_symbol": "OHM",
-    "chain": "ethereum, hyperliquid",
-    "confidence": "HIGH",
-    "signals": [
-      {
-        "type": "netflow_dump",
-        "token_symbol": "OHM",
-        "chain": "ethereum",
-        "confidence": "HIGH",
-        "value_usd": -77037.88535789188,
-        "description": "SM net outflow: $77,038 (24h), $77,038 (7d)",
-        "timestamp": "2026-04-07T07:17:56.272Z",
-        "raw_data": {
-          "token_address": "0x64aa3364f17a4d01c6f1751fd97c2bd3d7e7f1d5",
-          "token_symbol": "OHM",
-          "net_flow_1h_usd": 0,
-          "net_flow_24h_usd": -77037.88535789188,
-          "net_flow_7d_usd": -77037.88535789188,
-          "net_flow_30d_usd": -409670.92111539654,
-          "chain": "ethereum",
-          "token_sectors": [
-            "Yield Bearing"
-          ],
-          "trader_count": 2,
-          "token_age_days": 1578,
-          "market_cap_usd": 245839712
-        }
-      },
-      {
-        "type": "perp_short",
-        "token_symbol": "OHM",
-        "chain": "hyperliquid",
-        "confidence": "MEDIUM",
-        "value_usd": 3756706.919719849,
-        "description": "SM also shorting ETH on Hyperliquid: SM opening shorts: $3,756,707 across 5 trades by 1 traders",
-        "timestamp": "2026-04-07T07:18:23.587Z",
-        "raw_data": {
-          "total_usd": 3756706.919719849,
-          "trade_count": 5,
-          "unique_traders": 1
-        }
-      }
-    ],
-    "score": 58,
-    "timestamp": "2026-04-07T07:18:23.600Z",
-    "summary": "SM net outflow: $77,038 (24h), $77,038 (7d) | SM also shorting ETH on Hyperliquid: SM opening shorts: $3,756,707 across 5 trades by 1 traders"
-  },
-  {
-    "token_symbol": "REI",
-    "chain": "base, hyperliquid",
-    "confidence": "HIGH",
-    "signals": [
-      {
-        "type": "netflow_dump",
-        "token_symbol": "REI",
-        "chain": "base",
-        "confidence": "MEDIUM",
-        "value_usd": -109298.33093201343,
-        "description": "SM net outflow: $0 (24h), $109,298 (7d)",
-        "timestamp": "2026-04-07T07:18:10.888Z",
-        "raw_data": {
-          "token_address": "0x6b2504a03ca4d43d0d73776f6ad46dab2f2a4cfd",
-          "token_symbol": "REI",
-          "net_flow_1h_usd": 0,
-          "net_flow_24h_usd": 0,
-          "net_flow_7d_usd": -109298.33093201343,
-          "net_flow_30d_usd": -123565.94768594601,
-          "chain": "base",
-          "token_sectors": [
-            "Artificial Intelligence"
-          ],
-          "trader_count": 1,
-          "token_age_days": 502,
-          "market_cap_usd": 16300764
-        }
-      },
-      {
-        "type": "perp_short",
-        "token_symbol": "REI",
-        "chain": "hyperliquid",
-        "confidence": "MEDIUM",
-        "value_usd": 3756706.919719849,
-        "description": "SM also shorting ETH on Hyperliquid: SM opening shorts: $3,756,707 across 5 trades by 1 traders",
-        "timestamp": "2026-04-07T07:18:23.587Z",
-        "raw_data": {
-          "total_usd": 3756706.919719849,
-          "trade_count": 5,
-          "unique_traders": 1
-        }
-      }
-    ],
-    "score": 43,
-    "timestamp": "2026-04-07T07:18:23.600Z",
-    "summary": "SM net outflow: $0 (24h), $109,298 (7d) | SM also shorting ETH on Hyperliquid: SM opening shorts: $3,756,707 across 5 trades by 1 traders"
-  },
-  {
     "token_symbol": "xyz:CL",
     "chain": "hyperliquid",
     "confidence": "MEDIUM",
@@ -105,19 +9,19 @@
         "token_symbol": "xyz:CL",
         "chain": "hyperliquid",
         "confidence": "HIGH",
-        "value_usd": 4390680.285903156,
-        "description": "SM opening shorts: $4,390,680 across 7 trades by 2 traders",
-        "timestamp": "2026-04-07T07:18:23.587Z",
+        "value_usd": 5317366.701616612,
+        "description": "SM opening shorts: $5,317,367 across 9 trades by 3 traders",
+        "timestamp": "2026-04-12T09:35:00.814Z",
         "raw_data": {
-          "total_usd": 4390680.285903156,
-          "trade_count": 7,
-          "unique_traders": 2
+          "total_usd": 5317366.701616612,
+          "trade_count": 9,
+          "unique_traders": 3
         }
       }
     ],
     "score": 30,
-    "timestamp": "2026-04-07T07:18:23.600Z",
-    "summary": "SM opening shorts: $4,390,680 across 7 trades by 2 traders"
+    "timestamp": "2026-04-12T09:35:00.815Z",
+    "summary": "SM opening shorts: $5,317,367 across 9 trades by 3 traders"
   },
   {
     "token_symbol": "SOL",
@@ -129,115 +33,137 @@
         "token_symbol": "SOL",
         "chain": "solana",
         "confidence": "HIGH",
-        "value_usd": 3116.4011883776975,
-        "description": "SM selling on DEX: $3,116 across 15 trades by 7 traders",
-        "timestamp": "2026-04-07T07:18:23.561Z",
+        "value_usd": 5671.872192724638,
+        "description": "SM selling on DEX: $5,672 across 13 trades by 5 traders",
+        "timestamp": "2026-04-12T09:35:00.813Z",
         "raw_data": {
-          "total_usd": 3116.4011883776975,
-          "trade_count": 15,
-          "unique_traders": 7
+          "total_usd": 5671.872192724638,
+          "trade_count": 13,
+          "unique_traders": 5
         }
       }
     ],
     "score": 20,
-    "timestamp": "2026-04-07T07:18:23.600Z",
-    "summary": "SM selling on DEX: $3,116 across 15 trades by 7 traders"
+    "timestamp": "2026-04-12T09:35:00.815Z",
+    "summary": "SM selling on DEX: $5,672 across 13 trades by 5 traders"
   },
   {
-    "token_symbol": "cash:USA500",
+    "token_symbol": "RED",
+    "chain": "ethereum",
+    "confidence": "LOW",
+    "signals": [
+      {
+        "type": "netflow_dump",
+        "token_symbol": "RED",
+        "chain": "ethereum",
+        "confidence": "MEDIUM",
+        "value_usd": -56971.82784557784,
+        "description": "SM net outflow: $0 (24h), $56,972 (7d)",
+        "timestamp": "2026-04-12T09:34:50.449Z",
+        "raw_data": {
+          "token_address": "0xc43c6bfeda065fe2c4c11765bf838789bd0bb5de",
+          "token_symbol": "RED",
+          "net_flow_1h_usd": 0,
+          "net_flow_24h_usd": 0,
+          "net_flow_7d_usd": -56971.82784557784,
+          "net_flow_30d_usd": -56971.82784557784,
+          "chain": "ethereum",
+          "token_sectors": [
+            "Data source and Oracle",
+            "Scaling & Connectivity",
+            "Restaking"
+          ],
+          "trader_count": 1,
+          "token_age_days": 429,
+          "market_cap_usd": 52773004
+        }
+      }
+    ],
+    "score": 18,
+    "timestamp": "2026-04-12T09:35:00.815Z",
+    "summary": "SM net outflow: $0 (24h), $56,972 (7d)"
+  },
+  {
+    "token_symbol": "OHM",
+    "chain": "ethereum",
+    "confidence": "LOW",
+    "signals": [
+      {
+        "type": "netflow_dump",
+        "token_symbol": "OHM",
+        "chain": "ethereum",
+        "confidence": "MEDIUM",
+        "value_usd": -77037.88535789188,
+        "description": "SM net outflow: $0 (24h), $77,038 (7d)",
+        "timestamp": "2026-04-12T09:34:50.450Z",
+        "raw_data": {
+          "token_address": "0x64aa3364f17a4d01c6f1751fd97c2bd3d7e7f1d5",
+          "token_symbol": "OHM",
+          "net_flow_1h_usd": 0,
+          "net_flow_24h_usd": 0,
+          "net_flow_7d_usd": -77037.88535789188,
+          "net_flow_30d_usd": -380177.0007650583,
+          "chain": "ethereum",
+          "token_sectors": [
+            "Yield Bearing"
+          ],
+          "trader_count": 2,
+          "token_age_days": 1583,
+          "market_cap_usd": 249757293
+        }
+      }
+    ],
+    "score": 18,
+    "timestamp": "2026-04-12T09:35:00.815Z",
+    "summary": "SM net outflow: $0 (24h), $77,038 (7d)"
+  },
+  {
+    "token_symbol": "BTC",
     "chain": "hyperliquid",
     "confidence": "LOW",
     "signals": [
       {
         "type": "perp_short",
-        "token_symbol": "cash:USA500",
+        "token_symbol": "BTC",
         "chain": "hyperliquid",
         "confidence": "MEDIUM",
-        "value_usd": 3000568.5115230773,
-        "description": "SM opening shorts: $3,000,569 across 1 trades by 1 traders",
-        "timestamp": "2026-04-07T07:18:23.582Z",
+        "value_usd": 4305743.513513513,
+        "description": "SM opening shorts: $4,305,744 across 6 trades by 1 traders",
+        "timestamp": "2026-04-12T09:35:00.814Z",
         "raw_data": {
-          "total_usd": 3000568.5115230773,
+          "total_usd": 4305743.513513513,
+          "trade_count": 6,
+          "unique_traders": 1
+        }
+      }
+    ],
+    "score": 18,
+    "timestamp": "2026-04-12T09:35:00.815Z",
+    "summary": "SM opening shorts: $4,305,744 across 6 trades by 1 traders"
+  },
+  {
+    "token_symbol": "xyz:BRENTOIL",
+    "chain": "hyperliquid",
+    "confidence": "LOW",
+    "signals": [
+      {
+        "type": "perp_short",
+        "token_symbol": "xyz:BRENTOIL",
+        "chain": "hyperliquid",
+        "confidence": "MEDIUM",
+        "value_usd": 545157.6923076924,
+        "description": "SM opening shorts: $545,158 across 1 trades by 1 traders",
+        "timestamp": "2026-04-12T09:35:00.814Z",
+        "raw_data": {
+          "total_usd": 545157.6923076924,
           "trade_count": 1,
           "unique_traders": 1
         }
       }
     ],
     "score": 18,
-    "timestamp": "2026-04-07T07:18:23.600Z",
-    "summary": "SM opening shorts: $3,000,569 across 1 trades by 1 traders"
-  },
-  {
-    "token_symbol": "cash:NVDA",
-    "chain": "hyperliquid",
-    "confidence": "LOW",
-    "signals": [
-      {
-        "type": "perp_short",
-        "token_symbol": "cash:NVDA",
-        "chain": "hyperliquid",
-        "confidence": "MEDIUM",
-        "value_usd": 1601209.6890225532,
-        "description": "SM opening shorts: $1,601,210 across 1 trades by 1 traders",
-        "timestamp": "2026-04-07T07:18:23.586Z",
-        "raw_data": {
-          "total_usd": 1601209.6890225532,
-          "trade_count": 1,
-          "unique_traders": 1
-        }
-      }
-    ],
-    "score": 18,
-    "timestamp": "2026-04-07T07:18:23.600Z",
-    "summary": "SM opening shorts: $1,601,210 across 1 trades by 1 traders"
-  },
-  {
-    "token_symbol": "ETH",
-    "chain": "hyperliquid",
-    "confidence": "LOW",
-    "signals": [
-      {
-        "type": "perp_short",
-        "token_symbol": "ETH",
-        "chain": "hyperliquid",
-        "confidence": "MEDIUM",
-        "value_usd": 3756706.919719849,
-        "description": "SM opening shorts: $3,756,707 across 5 trades by 1 traders",
-        "timestamp": "2026-04-07T07:18:23.587Z",
-        "raw_data": {
-          "total_usd": 3756706.919719849,
-          "trade_count": 5,
-          "unique_traders": 1
-        }
-      }
-    ],
-    "score": 18,
-    "timestamp": "2026-04-07T07:18:23.600Z",
-    "summary": "SM opening shorts: $3,756,707 across 5 trades by 1 traders"
-  },
-  {
-    "token_symbol": "xyz:SP500",
-    "chain": "hyperliquid",
-    "confidence": "LOW",
-    "signals": [
-      {
-        "type": "perp_short",
-        "token_symbol": "xyz:SP500",
-        "chain": "hyperliquid",
-        "confidence": "MEDIUM",
-        "value_usd": 983550,
-        "description": "SM opening shorts: $983,550 across 1 trades by 1 traders",
-        "timestamp": "2026-04-07T07:18:23.587Z",
-        "raw_data": {
-          "total_usd": 983550,
-          "trade_count": 1,
-          "unique_traders": 1
-        }
-      }
-    ],
-    "score": 18,
-    "timestamp": "2026-04-07T07:18:23.600Z",
-    "summary": "SM opening shorts: $983,550 across 1 trades by 1 traders"
+    "timestamp": "2026-04-12T09:35:00.815Z",
+    "summary": "SM opening shorts: $545,158 across 1 trades by 1 traders"
   },
   {
     "token_symbol": "xyz:XYZ100",
@@ -249,90 +175,138 @@
         "token_symbol": "xyz:XYZ100",
         "chain": "hyperliquid",
         "confidence": "MEDIUM",
-        "value_usd": 1450001.561,
-        "description": "SM opening shorts: $1,450,002 across 3 trades by 1 traders",
-        "timestamp": "2026-04-07T07:18:23.588Z",
+        "value_usd": 1973174.142,
+        "description": "SM opening shorts: $1,973,174 across 4 trades by 1 traders",
+        "timestamp": "2026-04-12T09:35:00.814Z",
         "raw_data": {
-          "total_usd": 1450001.561,
-          "trade_count": 3,
+          "total_usd": 1973174.142,
+          "trade_count": 4,
           "unique_traders": 1
         }
       }
     ],
     "score": 18,
-    "timestamp": "2026-04-07T07:18:23.600Z",
-    "summary": "SM opening shorts: $1,450,002 across 3 trades by 1 traders"
+    "timestamp": "2026-04-12T09:35:00.815Z",
+    "summary": "SM opening shorts: $1,973,174 across 4 trades by 1 traders"
   },
   {
-    "token_symbol": "LOL",
+    "token_symbol": "TAO",
+    "chain": "hyperliquid",
+    "confidence": "LOW",
+    "signals": [
+      {
+        "type": "perp_short",
+        "token_symbol": "TAO",
+        "chain": "hyperliquid",
+        "confidence": "MEDIUM",
+        "value_usd": 998499.0378218184,
+        "description": "SM opening shorts: $998,499 across 2 trades by 1 traders",
+        "timestamp": "2026-04-12T09:35:00.814Z",
+        "raw_data": {
+          "total_usd": 998499.0378218184,
+          "trade_count": 2,
+          "unique_traders": 1
+        }
+      }
+    ],
+    "score": 18,
+    "timestamp": "2026-04-12T09:35:00.815Z",
+    "summary": "SM opening shorts: $998,499 across 2 trades by 1 traders"
+  },
+  {
+    "token_symbol": "QUEST",
     "chain": "solana",
     "confidence": "LOW",
     "signals": [
       {
         "type": "price_anomaly",
-        "token_symbol": "LOL",
+        "token_symbol": "QUEST",
         "chain": "solana",
         "confidence": "MEDIUM",
-        "value_usd": 3155.842193492136,
-        "description": "SM selling on DEX: $3,156 across 2 trades by 1 traders",
-        "timestamp": "2026-04-07T07:18:23.564Z",
+        "value_usd": 1566.5352367637743,
+        "description": "SM selling on DEX: $1,567 across 2 trades by 1 traders",
+        "timestamp": "2026-04-12T09:35:00.813Z",
         "raw_data": {
-          "total_usd": 3155.842193492136,
+          "total_usd": 1566.5352367637743,
           "trade_count": 2,
           "unique_traders": 1
         }
       }
     ],
     "score": 12,
-    "timestamp": "2026-04-07T07:18:23.600Z",
-    "summary": "SM selling on DEX: $3,156 across 2 trades by 1 traders"
+    "timestamp": "2026-04-12T09:35:00.815Z",
+    "summary": "SM selling on DEX: $1,567 across 2 trades by 1 traders"
   },
   {
-    "token_symbol": "我的刀盾",
+    "token_symbol": "NEET",
     "chain": "solana",
     "confidence": "LOW",
     "signals": [
       {
         "type": "price_anomaly",
-        "token_symbol": "我的刀盾",
+        "token_symbol": "NEET",
         "chain": "solana",
         "confidence": "MEDIUM",
-        "value_usd": 4790.520411061738,
-        "description": "SM selling on DEX: $4,791 across 1 trades by 1 traders",
-        "timestamp": "2026-04-07T07:18:23.564Z",
+        "value_usd": 3330.464612853956,
+        "description": "SM selling on DEX: $3,330 across 2 trades by 1 traders",
+        "timestamp": "2026-04-12T09:35:00.813Z",
         "raw_data": {
-          "total_usd": 4790.520411061738,
+          "total_usd": 3330.464612853956,
+          "trade_count": 2,
+          "unique_traders": 1
+        }
+      }
+    ],
+    "score": 12,
+    "timestamp": "2026-04-12T09:35:00.815Z",
+    "summary": "SM selling on DEX: $3,330 across 2 trades by 1 traders"
+  },
+  {
+    "token_symbol": "PUPPY",
+    "chain": "solana",
+    "confidence": "LOW",
+    "signals": [
+      {
+        "type": "price_anomaly",
+        "token_symbol": "PUPPY",
+        "chain": "solana",
+        "confidence": "MEDIUM",
+        "value_usd": 1650.7068132992063,
+        "description": "SM selling on DEX: $1,651 across 2 trades by 1 traders",
+        "timestamp": "2026-04-12T09:35:00.813Z",
+        "raw_data": {
+          "total_usd": 1650.7068132992063,
+          "trade_count": 2,
+          "unique_traders": 1
+        }
+      }
+    ],
+    "score": 12,
+    "timestamp": "2026-04-12T09:35:00.815Z",
+    "summary": "SM selling on DEX: $1,651 across 2 trades by 1 traders"
+  },
+  {
+    "token_symbol": "⚠️ BOTO",
+    "chain": "solana",
+    "confidence": "LOW",
+    "signals": [
+      {
+        "type": "price_anomaly",
+        "token_symbol": "⚠️ BOTO",
+        "chain": "solana",
+        "confidence": "MEDIUM",
+        "value_usd": 1699.4220602009486,
+        "description": "SM selling on DEX: $1,699 across 1 trades by 1 traders",
+        "timestamp": "2026-04-12T09:35:00.814Z",
+        "raw_data": {
+          "total_usd": 1699.4220602009486,
           "trade_count": 1,
           "unique_traders": 1
         }
       }
     ],
     "score": 12,
-    "timestamp": "2026-04-07T07:18:23.600Z",
-    "summary": "SM selling on DEX: $4,791 across 1 trades by 1 traders"
-  },
-  {
-    "token_symbol": "GTA$",
-    "chain": "solana",
-    "confidence": "LOW",
-    "signals": [
-      {
-        "type": "price_anomaly",
-        "token_symbol": "GTA$",
-        "chain": "solana",
-        "confidence": "MEDIUM",
-        "value_usd": 2208.4805259936097,
-        "description": "SM selling on DEX: $2,208 across 4 trades by 1 traders",
-        "timestamp": "2026-04-07T07:18:23.564Z",
-        "raw_data": {
-          "total_usd": 2208.4805259936097,
-          "trade_count": 4,
-          "unique_traders": 1
-        }
-      }
-    ],
-    "score": 12,
-    "timestamp": "2026-04-07T07:18:23.600Z",
-    "summary": "SM selling on DEX: $2,208 across 4 trades by 1 traders"
+    "timestamp": "2026-04-12T09:35:00.815Z",
+    "summary": "SM selling on DEX: $1,699 across 1 trades by 1 traders"
   }
 ]
